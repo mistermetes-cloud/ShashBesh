@@ -8,95 +8,88 @@
       "sha256": "b612031213b55df67ab4bb98fd39f34f66f97d3be4d73b9ad7d8bed7e35578d9",
       "bytes": 168,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": ".gitignore",
       "sha256": "a95e23d0d02bcc187120d079b74e769a1583aa762bd1432113daa1ca17f15187",
       "bytes": 749,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "CHANGELOG.md",
       "sha256": "d46c663fa0e769750142e165f58e70d4e85c07c76b68ca6d9422a6acf64a065f",
       "bytes": 3196,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "PROJECT_RECOVERY_REPORT.md",
       "sha256": "f4116c9405359243ea559a975a4812eae4f6e800c220619f5047bb91cc06fcd9",
       "bytes": 8395,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "PROJECT_STATE.md",
       "sha256": "75d5d3556f9032fc59b47ff8f7c307d2420cfeaadbb895d3fd819e639aeb6766",
       "bytes": 31896,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "README.md",
       "sha256": "ae73526d61993a46443774a92726f19802586766694ea10f9a67f7404c6c0330",
       "bytes": 6756,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "START_HERE_CODEX.md",
       "sha256": "30ab3a118551daf802474ea2040d4d37407c9cc7cf9e0fa0f8dfb6acb4db6bdb",
       "bytes": 5763,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No file-specific grant found",
-      "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Game ideas/mechanics; authorship of every wording in this document not confirmed",
       "ownerStatementIds": [
         "OWN-02"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/.gitignore",
@@ -884,680 +877,625 @@
       "sha256": "fa21f2884d68728a8c41e89015e23195566f80f50982b9a3fdfcfd4dba1cf770",
       "bytes": 315,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/package.json",
       "sha256": "ecb0caea12ae7ef67d1021d94dcf0d787386daeb8f3c294cd2c7bf262fedbe23",
       "bytes": 174,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/Board.tsx",
       "sha256": "743408749b06afadda01a332caee46c7bab4043efb9ab818e27afd8e02fbff43",
       "bytes": 3450,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/HistoryPanel.tsx",
       "sha256": "909758d57647fbc1ba7198de06a9584828b757f6cb3c3f5c6b35fb1ec23af11f",
       "bytes": 1401,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/HomeScreen.tsx",
       "sha256": "f7a126b51ad9faa1f128d34ec676f4705aabc37a882733e052fda5cac0cb876d",
       "bytes": 1932,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/LanPanel.tsx",
       "sha256": "13b92f584bd3aa20c8a9be2c464c7336b4401a23e7817b4d385c8e26a97b8dd9",
       "bytes": 4523,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/PlayerPanel.tsx",
       "sha256": "1cdca171aecab54b039f7bae94da3c36e129cb065ea24593b2ebfc9416b86ed7",
       "bytes": 1871,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/TableDice.tsx",
       "sha256": "b53b31a3b3f93b2d27ff1b8e4bed9e51ac6b7776438cae6e3701ca5bca12a026",
       "bytes": 1507,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/WifiScreen.tsx",
       "sha256": "57b0e99928e51110c5a9a2da08bcb0dbfdc2ff2bcbcdcb157a8771daa309ecbf",
       "bytes": 6768,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/androidHost.ts",
       "sha256": "0f2813b2da9c0773824ee5bcef6f1e46cf85516ea7b4583e07112eda37ba3b4c",
       "bytes": 3003,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/lanDiscovery.ts",
       "sha256": "12e3d69d30ca7a07150ca3ae010194efede8bba2b98e3a69befc94e46caefe54",
       "bytes": 610,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/main.tsx",
       "sha256": "a2a5ce7180c62964ecb2580f658ff293b1bfb01ed63d1ede156574b551749891",
       "bytes": 32908,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/mobile.css",
       "sha256": "9aade9d3506cf79bcf22072e3cddecd90d2549181fae67ea396a68d044585213",
       "bytes": 11080,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/mobile.ts",
       "sha256": "3f7603388e7d9212d4204a94de0a2beac8368c807787da7cf5080a2a1caf27fe",
       "bytes": 796,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/presentation.ts",
       "sha256": "6974a8bd51a6dbfcef0054573f4881af32456035e4b9f78259812b2505a9ded7",
       "bytes": 1591,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/random.ts",
       "sha256": "121f3e8f534169c399dc5ac7cde384b26677550700226a8d02f93e74ebe571f4",
       "bytes": 1525,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/storage.ts",
       "sha256": "f971e2744e97b897b1252787148942ce11f4b2f1916642b717f42f11e8a2c202",
       "bytes": 2276,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/src/style.css",
       "sha256": "346682e4870c4c2b4aebe6a2dc954fbeb7bd880aa6ff02371915176f512858e8",
       "bytes": 8062,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "capacitor.config.ts",
       "sha256": "695fea968d55cb55081f1d805d28ccb4495b71da69a51a70337849449b670881",
       "bytes": 259,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "data/igra_64_koordinaty.csv",
       "sha256": "53e2cfed32bc02f1782592da7b902bd8eceef4a2b38c0a3bb65186ada266d7ff",
       "bytes": 2470,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No file-specific grant found",
-      "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "ownerStatementIds": [
         "OWN-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/AI_TRAINING_REPORT.md",
       "sha256": "4438788ae4bf73fc2d646a7c9abac111d70c0d6b06a35786113dfee66c672bf9",
       "bytes": 18457,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/ANDROID_BUILD_GUIDE.md",
       "sha256": "0abf0472d82bc47ff1ad18e93ce3ed383ded6343a1cc7624622e09b3f61fce38",
       "bytes": 2843,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/ANDROID_DEVICE_TEST_PLAN.md",
       "sha256": "0431b3e760f2cb984250e1b19a521622784be40c32c7ceb94f4c5ce9bb5264c5",
       "bytes": 4063,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/ANDROID_LAN_REPORT.md",
       "sha256": "720422c9a97f74efcb6273c0294e257b356bc8a0cbb69ab39fcc42b5c825e2ae",
       "bytes": 15407,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/ARCHITECTURE.md",
       "sha256": "b30b85a2683556b136307b61eb7271fa2cdd35f1e22afc6a1d545cab5178db83",
       "bytes": 8444,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/DEVELOPER_GUIDE.md",
       "sha256": "4cc8a0b7b6b5c52503cb19d7c4e34af231ddafd783cc5f00b037ef08473b4644",
       "bytes": 14215,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/EDGE_CASES.md",
       "sha256": "0fdfb8e02e58b6becd136bf43121181777af1e7a79f30a796ebd1d7579417e1f",
       "bytes": 7404,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/EVENT_CHAIN.md",
       "sha256": "05686265da0a75387df9d3de3b0101b04209d819ea5384511b1a50ce7ebef3d2",
       "bytes": 6018,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/IMPLEMENTATION_PLAN.md",
       "sha256": "e4b3d2982094aa855b28b83f3a8ec2cb2350c4bb2244d2950c95d6dc0ee5c7e5",
       "bytes": 2979,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/INSTALLATION.md",
       "sha256": "600895fe80ea349778e52b55b6cd9a24b3976a9c8b2567b22509a87d288c6691",
       "bytes": 4133,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/MOBILE_UI_REPORT.md",
       "sha256": "2ef207efc5d4d6bf7a7156190022286eca86b31bdec49a4466506d026363d42a",
       "bytes": 14142,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/OPEN_RULE_QUESTIONS.md",
       "sha256": "9bc98555c66bed0375dc7d3fdf53064a39106a49bc69df204080fec4390d39bc",
       "bytes": 1866,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/PUBLICATION.md",
       "sha256": "18af103859d9bc46fed2dd1e51f0431ee3fb2ed2c9e13ef303d6927dddf1a129",
       "bytes": 3505,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/PUBLIC_RELEASE_REPORT.md",
       "sha256": "2bf43a0f5d10ffb3033ad844aacae3e9413a727bcb291389df02a57a544d1e6d",
       "bytes": 5214,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/RELEASE_NOTES_v0.3.1-alpha.md",
       "sha256": "7b3250a724a07fa7707a765725e2895556c24b3cda640478a177980cb6aa3b90",
       "bytes": 1444,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/ROADMAP.md",
       "sha256": "0f64e08e7012c9c6f62f7fb0d9d520e3c11a86ccdb576e3e7d4199bf0d4c722b",
       "bytes": 3488,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/RULES_V1.md",
       "sha256": "b3e308c2d44780d7f75c528828c4ca71d3130e6aaf9803faad9563f396afbff7",
       "bytes": 9273,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No file-specific grant found",
-      "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Game ideas/mechanics; authorship of every wording in this document not confirmed",
       "ownerStatementIds": [
         "OWN-02"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/SIMULATION_REPORT.md",
       "sha256": "be8f7cbc0fca81a32eccb40c71da9750906fab8ec0c68e167d58afc6af2e4ba0",
       "bytes": 7895,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/TEST_PLAN.md",
       "sha256": "0ef633231ff94a10e9933dde1a7b2ecf55cca3ef7667c23cbf0cb0e7647ddadc",
       "bytes": 4513,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/TEST_REPORT.md",
       "sha256": "5cd81f183edf00717c391d54d7609758e5d6c65a31e970bf12ca54177cc2b649",
       "bytes": 13224,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/TRAINING_DATA.md",
       "sha256": "8e824051027280491a8e7e40e6fc85c970eb4ad9de3e65d4a894c7f89edde993",
       "bytes": 8810,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/home-portrait.png",
       "sha256": "b4e661ec0b13cdf148a34d6365c5a68f0946f3e4412c2f5632b95a4a567eadf8",
       "bytes": 315849,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/mobile-landscape.png",
       "sha256": "f622359df851cd9d1fe33ef201771204078c27122ed5339e99025bd95f556807",
       "bytes": 509298,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/mobile-portrait.png",
       "sha256": "4d9f1af9fe94e8044d5d65ac477f88c181a83af9733edd03b93134fbf4ef3b90",
       "bytes": 511346,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/realme-landscape.png",
       "sha256": "8e3743321b3895e48a50f942d3b096919c00d67827f74c72253e6441fb689c69",
       "bytes": 578371,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/realme-portrait.png",
       "sha256": "50ef5c7d10f7e5f851c0b6cdbb36e02ad9cfb2a956b9d5329b24b1656d6ce70e",
       "bytes": 573459,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "docs/images/safe-areas.png",
       "sha256": "6bc83990e8d76bdce5fdd0dc9271486dc7b934aad30474870fd96807f1451580",
       "bytes": 515055,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-01",
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "package-lock.json",
       "sha256": "366a0046e893a8081308e4cdd007b2c22b202d1da3cb85680b53778c1d20c9cd",
       "bytes": 100856,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "package.json",
       "sha256": "3a91d333a4dafa2a30162360b5b6eb64b81df57531cea7d07ab42a12944cde7b",
       "bytes": 2205,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/agents/models/active-model.json",
@@ -1567,14 +1505,15 @@
       "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
+      "confirmationNeeded": "Owner grant is conditional for weights; confirm condition of legal status/licensing rights and modification-source scope",
       "issues": [
         "B-03"
       ],
       "technicalEvidence": "TRAINING_PROVENANCE.json",
       "ownerStatementIds": [
         "OWN-05"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/agents/models/registry.json",
@@ -1584,14 +1523,15 @@
       "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
+      "confirmationNeeded": "Owner grant is conditional for weights; confirm condition of legal status/licensing rights and modification-source scope",
       "issues": [
         "B-03"
       ],
       "technicalEvidence": "TRAINING_PROVENANCE.json",
       "ownerStatementIds": [
         "OWN-05"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/agents/models/shashbesh-v0.1.json",
@@ -1601,1009 +1541,934 @@
       "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
+      "confirmationNeeded": "Owner grant is conditional for weights; confirm condition of legal status/licensing rights and modification-source scope",
       "issues": [
         "B-03"
       ],
       "technicalEvidence": "TRAINING_PROVENANCE.json",
       "ownerStatementIds": [
         "OWN-05"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/agents/package.json",
       "sha256": "ab038f5a00d98a8153c767f7a981a940b6ab605f2a9a8c82847046cc1ee4e0fe",
       "bytes": 166,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/agents/src/index.ts",
       "sha256": "98596495501b3bb252083748a4903bc4cae50eb1baddc917db8382b68c758be6",
       "bytes": 4946,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/package.json",
       "sha256": "64caf86f0326a587dd241fb4dd423380321b0bdd45e54e4edae54ad4dcb51f09",
       "bytes": 166,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/audit-cli.ts",
       "sha256": "06932af3f7d1a03a2015dc723a864dd04304d9d6d936312697b3ae451cbb3354",
       "bytes": 1269,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/audit.ts",
       "sha256": "8be1b846a2ac10baa5bc385916839cded07dcf199bcc68872f183e8f77dc5d8d",
       "bytes": 5790,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/geometry.ts",
       "sha256": "dacb4b018a63947f3b35aa0cec6f5475d5537d76790a9c078fc3cdf4e3a86bc5",
       "bytes": 2777,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/history.ts",
       "sha256": "f9b96f39836ee830463a9f23bd61f8cd36669e06f1960cfbf0a8b238437c10f8",
       "bytes": 2602,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/index.ts",
       "sha256": "c3ac1910405e52d84fb458bc27442db7e9f4f4edf5da67177e21416b166d524c",
       "bytes": 22751,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/engine/src/rng.ts",
       "sha256": "53db992deec09714f2583c788991fa40ef0064837804139cf4337d5f0069dfd2",
       "bytes": 871,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/package.json",
       "sha256": "20a3fb4b4351c780480f69bb60dd0c8918a7a68de2256275afa5d2fcef6a1939",
       "bytes": 151,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/authority.ts",
       "sha256": "4cdee90fb2e69c63a28a4278585847b7597ece1337fe952dc0f419842ece801a",
       "bytes": 7258,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/cli.ts",
       "sha256": "3aef60e1c3fd2922201b4609bbbe0cb30c970e23bce70fb209b8929c2b75b106",
       "bytes": 652,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/client.ts",
       "sha256": "0010b0947578dcdd68fe2b6b9d0558a3460e27876a8743efb48236f3b7ad24c0",
       "bytes": 7292,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/host.ts",
       "sha256": "b778a7c60b4791f2f8866c451ba99e37b7b8de47a0d3d0df762ab93f2e0b6360",
       "bytes": 3409,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/protocol.ts",
       "sha256": "9a28d3c092570c37f819cd93a04f7c441d724bf73e74fe768260e6e31cb24636",
       "bytes": 1091,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/lan/src/server.ts",
       "sha256": "2f4543dea749e627c0b188bc2b8b0070fb778d51c4b38128986140f6bc8fc0eb",
       "bytes": 8806,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/package.json",
       "sha256": "1b605c7f9906288d434ca0c4acc7ac51664b80b5f2670836fd758bbd79bc0579",
       "bytes": 111,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/python/requirements.txt",
       "sha256": "a23aaf94250a9f53031a592980142245a848e2372b6c6c3093e8260b129265b8",
       "bytes": 13,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/python/test_train.py",
       "sha256": "191bda524da0a45a82c8b2b8d131dabfd1e5bc1ee9fdc4310d605ac35b4e6a34",
       "bytes": 2012,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/python/train.py",
       "sha256": "049d916c1059b5c10e029901b6e1785384ccaae29ffab5af785da596d609e967",
       "bytes": 9643,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/arena.ts",
       "sha256": "1364afed28b7783d3ca61619676acc9031adf48e865d9151474fc3d4791a5f3b",
       "bytes": 2633,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/evaluate-cli.ts",
       "sha256": "aada6749d20c924e04ffadd875f27f8e365cb8d53428d8daa45419aae6d88093",
       "bytes": 5586,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/features.ts",
       "sha256": "8ff45d88b81857b5f7586e26ae14159d6e565faa89f69a111ccf86763f69d031",
       "bytes": 2862,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/index.ts",
       "sha256": "637838757850481b4f4089ced22ddf86617db8309760411ec3805918acefee76",
       "bytes": 3463,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/integrity.ts",
       "sha256": "df0ea5e17b1d53989c9ebbce554882a164fc6f9a4655faca39b0a870890712ce",
       "bytes": 2714,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/lifecycle.ts",
       "sha256": "342f61269272f85eb725148df3db139d47a177f59811388e0ace6f623d08c2fd",
       "bytes": 4784,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/prepare-cli.ts",
       "sha256": "c8c885cb85d70906a6f6082f607438649f6c547f85d51a14de4e6b7c1477f02f",
       "bytes": 7908,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/registry-cli.ts",
       "sha256": "a240e59335e7fc4122070607082f45c83ad44aeaece6acb3111f43d7e2d2b455",
       "bytes": 2395,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/neural/src/selfplay-cli.ts",
       "sha256": "112fadcd1439fcdccfa2611076554c92773609d6d58338159c5cc81e2edac969",
       "bytes": 4709,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/shared/package.json",
       "sha256": "9e2fbd4589ec790ee703afe565ae56d1399427574d01d13959a2a61f831152de",
       "bytes": 166,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/shared/src/index.ts",
       "sha256": "a3fdfbee46186b07765931eecb26bd0d3ce23f17cba2d2e797c2075db91dd8a5",
       "bytes": 2387,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/package.json",
       "sha256": "c9d54a31f26ba8bc0e96d046b1e6a0b29dc55f79113260f9f473df29dd18cdf2",
       "bytes": 170,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/src/cli.ts",
       "sha256": "e86d48bf49cb65a34ecb291d55d71fed808bca1350a52d4657daeeea4cca303f",
       "bytes": 1743,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/src/index.ts",
       "sha256": "ce1faa67577d3df26a1df124cff1c793fa71929b3920b800d2f7422e54fa0e90",
       "bytes": 3498,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/src/reproduce-cli.ts",
       "sha256": "f3e0767dfb13236eb1d2f05c09713c6bf1b499b742b7f706ea4a7eec4054f8da",
       "bytes": 2335,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/src/validation-cli.ts",
       "sha256": "b97feab278f52ca27eddcfb3f50a5d24972b4c735a861e54eee2ebfb3807ebfe",
       "bytes": 3332,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/tournament/src/validation.ts",
       "sha256": "9904880674fbdc3ac3ec3760d219da047b01cb1d9fd835e6e63625ccad8982f2",
       "bytes": 7832,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/training/package.json",
       "sha256": "53fccc4dd797ed24faa30af5ec2c92aed56fb35b5325020b3d3b70fed69c0b3e",
       "bytes": 113,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/training/schema/decision.v1.schema.json",
       "sha256": "f996b7496e8b000555928fd04d02fcab7bb4723752718c3d8bcfabf128c5c2a3",
       "bytes": 8669,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/training/src/cli.ts",
       "sha256": "cb95d384ec499330480540801643f893dbb5f022d8c871dacfb4a1945b6f6597",
       "bytes": 1896,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "packages/training/src/index.ts",
       "sha256": "02a34525dfc31985ff30ad619774b657a8d728ce7aa571be0c2742129f558886",
       "bytes": 10253,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "playwright.config.ts",
       "sha256": "4f4df68045113284c2daf511ee5a44b8142cf3dee41bbe791e3d7330d132c544",
       "bytes": 495,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "reference/igra_64_pole_s_domami.png",
       "sha256": "e3790115452993fe8988cc74aee6acaf3df5e84df24cbb8c448b902ced5a602f",
       "bytes": 44340,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No file-specific grant found",
-      "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "ownerStatementIds": [
         "OWN-01",
         "OWN-03"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "reference/igra_64_pole_s_domami.xlsx",
       "sha256": "4f1cd3cbf43a5edfc4105eb5be0abfb39a245f3c9ed436ad94289bfc459f4fd4",
       "bytes": 7410,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No file-specific grant found",
-      "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
-      "issues": [
-        "B-02"
-      ],
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
       "ownerStatementIds": [
         "OWN-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/android-alpha-build.sh",
       "sha256": "a3eed06a049c23fe94f1150712317cd8a6cf12a2865df0856dde06cebb4529e7",
       "bytes": 458,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/android-build.sh",
       "sha256": "2fcc33cce9592ce8b92569b4503eb0d85aaed2a87c47a0ae8a686cfbf9338c20",
       "bytes": 688,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/android-env.sh",
       "sha256": "7c3f41f9cae4458c481d36c4eb3284e7cf57d9f3424e8118181f8514e2ad6895",
       "bytes": 986,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/android-mobile-build.sh",
       "sha256": "da72d63fbb1dbd7f77c21295d7f9b5576043f4c81b3424ec329802577f3f6710",
       "bytes": 324,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/release-audit.py",
       "sha256": "b862bfe167aa72b105ef9968eccea0cfdb20b197b5d9f04a7d0af231f4eed82e",
       "bytes": 2233,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/test-android-transport.sh",
       "sha256": "a61e621dde79837b430b84de0ce0c82e1f37eb8ef7685e063c4974afc4ccaf98",
       "bytes": 752,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "scripts/test.ts",
       "sha256": "a053570daf4c3a622c1e26aa2eee21f09ba201e6aa7393f6dc9629534df156fc",
       "bytes": 481,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/android/LanTransportHarness.java",
       "sha256": "4223417287076570e3761128a6b9df2fb1a7569e4a687b30a6180c3615712135",
       "bytes": 1736,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/android/transport.test.ts",
       "sha256": "3d4bf6d289149a94c2157e866c91a575df2bb0f97c2f11059c7b66df4d164703",
       "bytes": 5010,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/audit-v2.test.ts",
       "sha256": "58b1bf5b97b23b712adf83f8981437eec43dc92e365de3e26380fe6a18953be0",
       "bytes": 2911,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/game.spec.ts",
       "sha256": "d195cbd9fca3f4e6cac3e2a8f903a71c03d7c8e93e43961a4f7bfe037500e4d2",
       "bytes": 6606,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/lan.spec.ts",
       "sha256": "18e40efd8e2baef59ff06972314721b70b79171b3c7c7a79a237015516770795",
       "bytes": 3447,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/mobile-restore.spec.ts",
       "sha256": "1318fa0a59afaa85cec5ff40ab62791b21410c526c7949c99e7b3de8bb4eb278",
       "bytes": 4079,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/mobile-wifi.spec.ts",
       "sha256": "94b5437ff442f237188d728cf17e3314d711eef04999ce298e3441d108116204",
       "bytes": 3611,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/mobile.spec.ts",
       "sha256": "36bf4a7424ff61434a5449cc4cda119eebe2627dd941e1e87b05465d9db072bb",
       "bytes": 8385,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/support.ts",
       "sha256": "a42345b194189c7dbfc07316688860e66f4fed62d7184c11a84e592b7825277b",
       "bytes": 336,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/browser/v03.spec.ts",
       "sha256": "304c8a36c93fcaf9167210af33fec5ee404929238bb3a10b75a8454e1b7bfa4d",
       "bytes": 3300,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/engine.test.ts",
       "sha256": "28f6b29797a5d5c823005a2a288119586c7ebd549c2431508e3d86ebf32ba2b6",
       "bytes": 12135,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/fixtures/neural-decision.json",
       "sha256": "715e89fceb537aacc9184fdd029da0d0bcc4c183696ea751f36aa6041300e5ce",
       "bytes": 5521,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/fixtures/neural-oracle.json",
       "sha256": "8c972dd60db4c015e38e727b1b01ebc01e5f9e8d7ab80637845008b2225f2be4",
       "bytes": 4197,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/geometry.test.ts",
       "sha256": "787c9b355a02a948a25b7843aef9a0d80ed3a2778edfa6eefce28bb891e4d792",
       "bytes": 1228,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/helpers.ts",
       "sha256": "40d24e1f6f2e65390dd031f13eb7ed2392cbb9e1cdd19c2786a869386f0c76de",
       "bytes": 1006,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/integration.test.ts",
       "sha256": "ecedc2a27c235551eb4acffd1df4505348d618fc5652f5fb1de5e011a0208dff",
       "bytes": 3611,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/lan.test.ts",
       "sha256": "975ed3f0b774a6db15930459adfd9100debab1ad7dad3af67da44bd697072fcb",
       "bytes": 9755,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/mobile.test.ts",
       "sha256": "49891e7f330f3daf6750ff68be2f3689391e4abf77d006e3f358f2108740f600",
       "bytes": 1336,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/neural.test.ts",
       "sha256": "4e3150976c7a5263a8ff94d349a5d6a9bd1d08f85d5c57597f1696c66cd431b1",
       "bytes": 10223,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/presentation.test.ts",
       "sha256": "f3470c7b3edaea0e99f15fc7d38ae99175434098628c4a6a608f6660d96616bb",
       "bytes": 1726,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/restore.test.ts",
       "sha256": "75798a832c4d2f9e1c93d9e97534f3b1d98a1ee8ddb8741b2c61df0781e6b85a",
       "bytes": 1124,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/training.test.ts",
       "sha256": "b9027659b3d9eb02bb2d3fdb965477e62e36bef767653a340698adf8484d6226",
       "bytes": 4822,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/undo.test.ts",
       "sha256": "746c661cea7f4003796f2a836ca02a1343ae5942c3560a86a0f60bb324338893",
       "bytes": 3524,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tests/validation.test.ts",
       "sha256": "5bcdd0e05ec74dff95f2390748a0bed5eaa015585990da2aebb066cbd29430ed",
       "bytes": 3238,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "tsconfig.json",
       "sha256": "1fb754c52a7e9b43ff384e8fde456ef76d84e5223be499779601632a9120add4",
       "bytes": 270,
       "source": "Project worktree/history; actual authorship not established by repository location",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Mister Metes for owner-controlled original portions, per owner declaration",
       "currentLicense": "No project license declared",
-      "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Identify actual rightsholders and confirm authority to grant GPLv3 for original contributions",
-      "issues": [
-        "B-01"
-      ]
+      "gplv3Use": "Owner authorizes GPL-3.0-only for own rights-controlled portions; adoption pending remaining blockers; third-party portions excluded",
+      "confirmationNeeded": "Resolve any specific third-party provenance concern; no repeated request for owner name/year/license decision",
+      "issues": [],
+      "ownerDeclarationId": "OWN-06"
     }
   ],
   "localEvidence": [
@@ -2800,5 +2665,29 @@
       "evidenceClass": "owner assertion, not independent proof",
       "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
     }
-  ]
+  ],
+  "ownerDeclaration": {
+    "id": "OWN-06",
+    "date": "2026-10-11",
+    "source": "Owner instruction: FINAL GPLv3 LICENSING PREPARATION",
+    "copyrightHolderDisplayName": "Mister Metes",
+    "copyrightYear": 2026,
+    "copyrightNotice": "Copyright (C) 2026 Mister Metes",
+    "preferredLicense": "GNU General Public License version 3 only",
+    "spdx": "GPL-3.0-only",
+    "scope": [
+      "Own game source code and engine",
+      "Own documentation",
+      "Original drawings and graphics",
+      "Own tables and data"
+    ],
+    "conditionalScope": [
+      "Neural network weights only if legal status and licensing rights are confirmed"
+    ],
+    "exclusions": [
+      "Third-party components retain original licenses"
+    ],
+    "evidenceClass": "Owner declaration; not independent verification of every contribution or third-party rights",
+    "adoptionStatus": "Pending blockers; no project LICENSE added"
+  }
 }
