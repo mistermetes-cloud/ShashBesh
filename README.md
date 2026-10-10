@@ -71,3 +71,18 @@ Android APKs are distributed separately through [GitHub Releases](https://github
 Rules and engine behavior are unchanged. The approved [rules](docs/RULES_V1.md) and [CSV geometry](data/igra_64_koordinaty.csv) are authoritative. Unresolved rule interpretations are documented. The event log is a local SHA256 chain, not a blockchain. Dice use Web Crypto unless an explicit reproducible seed is selected; drand is not integrated.
 
 Model weights are included. Raw training datasets, experiment logs, credentials, build caches and APKs are excluded from Git. A project license has not yet been selected.
+
+
+## ❤️ Support the Project
+
+ShashBesh is free and open source.
+
+If you enjoy the project and want to support its development, you can make a voluntary cryptocurrency donation.
+
+**Bitcoin (BTC), Bitcoin network:** `bc1qa08g0r7deqpw5d2pt2palu8dt9eguref5l3qu3`
+
+**Litecoin (LTC), Litecoin network:** `ltc1qkc5gmrs49z8ddds7q8s5h84mr2asjssdn6y3kf`
+
+All donations are voluntary and provide no goods, services or special privileges. Любая поддержка добровольна и не даёт игровых преимуществ.
+
+[Support ShashBesh](DONATE.md)
