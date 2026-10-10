@@ -1,0 +1,56 @@
+{
+  "name": "shashbesh-ai",
+  "version": "0.3.1-alpha",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "vite apps/web --host 127.0.0.1",
+    "build": "tsc --noEmit && vite build apps/web",
+    "test": "node --import tsx scripts/test.ts",
+    "tournament": "node --import tsx packages/tournament/src/cli.ts",
+    "test:browser": "playwright test",
+    "preview": "vite preview apps/web --host 127.0.0.1",
+    "validate:simulations": "node --import tsx packages/tournament/src/validation-cli.ts",
+    "dataset": "node --import tsx packages/training/src/cli.ts",
+    "audit": "node --import tsx packages/engine/src/audit-cli.ts",
+    "reproduce": "node --import tsx packages/tournament/src/reproduce-cli.ts",
+    "ai:prepare": "node --import tsx packages/neural/src/prepare-cli.ts",
+    "ai:train": "python3 packages/neural/python/train.py",
+    "ai:evaluate": "node --import tsx packages/neural/src/evaluate-cli.ts",
+    "ai:selfplay": "node --import tsx packages/neural/src/selfplay-cli.ts",
+    "ai:registry": "node --import tsx packages/neural/src/registry-cli.ts",
+    "test:neural-python": "python3 packages/neural/python/test_train.py",
+    "android:sync": "npm run build && cap sync android",
+    "android:build": "bash scripts/android-build.sh",
+    "lan:start": "node --import tsx packages/lan/src/cli.ts",
+    "lan:dev": "npm run build && node --import tsx packages/lan/src/cli.ts",
+    "test:android-transport": "bash scripts/test-android-transport.sh",
+    "android:mobile": "bash scripts/android-mobile-build.sh",
+    "android:alpha": "bash scripts/android-alpha-build.sh"
+  },
+  "dependencies": {
+    "@capacitor/android": "7.6.9",
+    "@capacitor/core": "7.6.9",
+    "@noble/hashes": "^1.8.0",
+    "bonjour-service": "1.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "ws": "8.22.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "7.6.9",
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/ws": "8.18.2",
+    "fast-check": "^3.23.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vite": "^6.0.0"
+  }
+}

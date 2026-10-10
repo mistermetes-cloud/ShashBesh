@@ -1,0 +1,454 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:shashbesh:decision:v1",
+  "title": "ShashBesh decision v1",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "decisionId",
+    "gameId",
+    "eventSeq",
+    "rollId",
+    "mode",
+    "actor",
+    "controller",
+    "before",
+    "dice",
+    "decisionKind",
+    "legalActions",
+    "selectedAction",
+    "after",
+    "captures",
+    "result",
+    "provenance"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "shashbesh-decision-v1"
+    },
+    "decisionId": {
+      "type": "string"
+    },
+    "gameId": {
+      "type": "string"
+    },
+    "eventSeq": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rollId": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "mode": {
+      "enum": [
+        "human-human",
+        "human-ai",
+        "ai-ai",
+        "self-play",
+        "unknown"
+      ]
+    },
+    "actor": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4
+    },
+    "controller": {
+      "$ref": "#/$defs/controller"
+    },
+    "before": {
+      "$ref": "#/$defs/board"
+    },
+    "dice": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 1,
+        "maximum": 6
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "decisionKind": {
+      "enum": [
+        "action",
+        "pass"
+      ]
+    },
+    "legalActions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/action"
+      }
+    },
+    "selectedAction": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/action"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "after": {
+      "$ref": "#/$defs/board"
+    },
+    "captures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "pieceId",
+          "owner",
+          "before",
+          "after"
+        ],
+        "properties": {
+          "pieceId": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "before": {
+            "$ref": "#/$defs/piece"
+          },
+          "after": {
+            "$ref": "#/$defs/piece"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "result": {
+      "type": "object",
+      "required": [
+        "status",
+        "winner",
+        "actorOutcome",
+        "reward"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "completed",
+            "timeout",
+            "error",
+            "unfinished"
+          ]
+        },
+        "winner": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "actorOutcome": {
+          "enum": [
+            "win",
+            "loss",
+            "unknown"
+          ]
+        },
+        "reward": {
+          "enum": [
+            1,
+            -1,
+            null
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "provenance": {
+      "type": "object",
+      "required": [
+        "eventHash",
+        "logHead",
+        "geometryHash",
+        "rulesVersion",
+        "rulePolicy"
+      ],
+      "properties": {
+        "eventHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "logHead": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "geometryHash": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "rulesVersion": {
+          "const": "v1"
+        },
+        "rulePolicy": {
+          "type": "object"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "piece": {
+      "type": "object",
+      "required": [
+        "id",
+        "owner",
+        "status",
+        "position",
+        "outerSteps",
+        "homeIndex",
+        "finishedSlot"
+      ],
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^P[1-4]-[1-5]$"
+        },
+        "owner": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "status": {
+          "enum": [
+            "reserve",
+            "track",
+            "home",
+            "finished"
+          ]
+        },
+        "position": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "outerSteps": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "homeIndex": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "finishedSlot": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "action": {
+      "type": "object",
+      "required": [
+        "pieceId",
+        "kind",
+        "value",
+        "from",
+        "to",
+        "path",
+        "captureIds"
+      ],
+      "properties": {
+        "pieceId": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "deploy",
+            "move",
+            "corner_jump"
+          ]
+        },
+        "value": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "from": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "to": {
+          "type": "string"
+        },
+        "path": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "captureIds": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "board": {
+      "type": "object",
+      "required": [
+        "gameId",
+        "rulesVersion",
+        "rulePolicy",
+        "players",
+        "turnOrder",
+        "activePlayer",
+        "phase",
+        "currentRoll",
+        "rollCount",
+        "rollSeriesCount",
+        "pieces",
+        "winner"
+      ],
+      "properties": {
+        "gameId": {
+          "type": "string"
+        },
+        "rulesVersion": {
+          "const": "v1"
+        },
+        "rulePolicy": {
+          "type": "object"
+        },
+        "players": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 4
+          },
+          "minItems": 2,
+          "maxItems": 4,
+          "uniqueItems": true
+        },
+        "activePlayer": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4
+        },
+        "phase": {
+          "enum": [
+            "initial_roll",
+            "await_roll",
+            "resolving_roll",
+            "game_over"
+          ]
+        },
+        "pieces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/piece"
+          },
+          "minItems": 10,
+          "maxItems": 20
+        },
+        "winner": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 4
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": true
+    },
+    "controller": {
+      "type": "object",
+      "required": [
+        "kind",
+        "id",
+        "version"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "human",
+            "agent",
+            "unknown"
+          ]
+        },
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decisionKind": {
+            "const": "pass"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "selectedAction": {
+            "type": "null"
+          },
+          "legalActions": {
+            "maxItems": 0
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "selectedAction": {
+            "$ref": "#/$defs/action"
+          }
+        }
+      }
+    }
+  ]
+}

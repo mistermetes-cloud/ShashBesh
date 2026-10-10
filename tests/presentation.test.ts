@@ -1,0 +1,35 @@
+import { test } from 'node:test';
+import assert from 'node:assert/strict';
+import { engine, ready } from './helpers';
+import { dicePresentation } from '../apps/web/src/presentation';
+test('v0.3 dice persist across finish, player handoff and failed roll', () => {
+    let s = engine.roll(ready(), [6, 3]);
+    assert.deepEqual(dicePresentation(s).last?.dice, [6, 3]);
+    assert.deepEqual(dicePresentation(s).units, [1, 1]);
+    s = engine.applySequence(s, engine.legalSequencesForRoll(s)[0]);
+    s = engine.finishRoll(s);
+    const p = dicePresentation(s);
+    assert.equal(s.activePlayer, 2);
+    assert.deepEqual(p.last?.dice, [6, 3]);
+    assert.deepEqual(p.units, [0, 0]);
+    assert.deepEqual(p.ledger[1]?.dice, [6, 3]);
+    assert.throws(() => engine.roll(s, [0, 6]));
+    assert.deepEqual(dicePresentation(s).last?.dice, [6, 3]);
+    s = engine.roll(s, [4, 2]);
+    assert.deepEqual(dicePresentation(s).last?.dice, [4, 2]);
+    assert.deepEqual(dicePresentation(s).ledger[1]?.dice, [6, 3]);
+});
+test('v0.3 doubles have four units, per-face consumption and visible extra-roll rights', () => {
+    let s = engine.roll(ready(), [6, 6]);
+    s = engine.applyAction(s, engine.legalActions(s)[0]);
+    assert.deepEqual(dicePresentation(s).units, [1, 2]);
+    assert.equal(dicePresentation(s).extra, true);
+    s = engine.applySequence(s, engine.legalSequencesForRoll(s)[0]);
+    s = engine.finishRoll(s);
+    assert.deepEqual(dicePresentation(s).last?.dice, [6, 6]);
+    assert.deepEqual(dicePresentation(s).units, [0, 0]);
+    assert.equal(dicePresentation(s).extra, true);
+    s = engine.roll(s, [5, 6]);
+    assert.equal(dicePresentation(s).extra, true);
+    assert.deepEqual(dicePresentation(s).last?.dice, [5, 6]);
+});
