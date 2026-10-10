@@ -86,12 +86,16 @@
       "sha256": "30ab3a118551daf802474ea2040d4d37407c9cc7cf9e0fa0f8dfb6acb4db6bdb",
       "bytes": 5763,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No file-specific grant found",
       "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Provide creator, upstream source and license/permission for the PNG/XLSX/CSV/specification; identify copyrightable portions",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-02"
+      ],
+      "statementScope": "Game ideas/mechanics; authorship of every wording in this document not confirmed",
+      "ownerStatementIds": [
+        "OWN-02"
       ]
     },
     {
@@ -1127,12 +1131,15 @@
       "sha256": "53e2cfed32bc02f1782592da7b902bd8eceef4a2b38c0a3bb65186ada266d7ff",
       "bytes": 2470,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No file-specific grant found",
       "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Provide creator, upstream source and license/permission for the PNG/XLSX/CSV/specification; identify copyrightable portions",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-02"
+      ],
+      "ownerStatementIds": [
+        "OWN-04"
       ]
     },
     {
@@ -1348,12 +1355,16 @@
       "sha256": "b3e308c2d44780d7f75c528828c4ca71d3130e6aaf9803faad9563f396afbff7",
       "bytes": 9273,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No file-specific grant found",
       "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Provide creator, upstream source and license/permission for the PNG/XLSX/CSV/specification; identify copyrightable portions",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-02"
+      ],
+      "statementScope": "Game ideas/mechanics; authorship of every wording in this document not confirmed",
+      "ownerStatementIds": [
+        "OWN-02"
       ]
     },
     {
@@ -1413,13 +1424,18 @@
       "sha256": "b4e661ec0b13cdf148a34d6365c5a68f0946f3e4412c2f5632b95a4a567eadf8",
       "bytes": 315849,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1427,13 +1443,18 @@
       "sha256": "f622359df851cd9d1fe33ef201771204078c27122ed5339e99025bd95f556807",
       "bytes": 509298,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1441,13 +1462,18 @@
       "sha256": "4d9f1af9fe94e8044d5d65ac477f88c181a83af9733edd03b93134fbf4ef3b90",
       "bytes": 511346,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1455,13 +1481,18 @@
       "sha256": "8e3743321b3895e48a50f942d3b096919c00d67827f74c72253e6441fb689c69",
       "bytes": 578371,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1469,13 +1500,18 @@
       "sha256": "50ef5c7d10f7e5f851c0b6cdbb36e02ad9cfb2a956b9d5329b24b1656d6ce70e",
       "bytes": 573459,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1483,13 +1519,18 @@
       "sha256": "6bc83990e8d76bdce5fdd0dc9271486dc7b934aad30474870fd96807f1451580",
       "bytes": 515055,
       "source": "Playwright browser captures of project UI; copied from local mobile test artifacts",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No image-specific license grant; depicts project UI and underlying board",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Confirm screenshot rights and clear underlying UI/board materials",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-01",
         "B-02"
+      ],
+      "statementScope": "Underlying board/drawings only; screenshot and all UI contributions not blanket cleared",
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -1522,39 +1563,51 @@
       "path": "packages/agents/models/active-model.json",
       "sha256": "0cdca20fa7485e79c81996b9ac8cc53543065396007a090f739eb6a6cec75cfc",
       "bytes": 83166,
-      "source": "Local Tactical-supervised model artifacts; model registry and training manifests recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "source": "Local supervised training; random initialization in inspected train.py; model/registry/corpus checks match",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm rights to weights and all training sources, including existing journals; record preferred form for modification",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-03"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "ownerStatementIds": [
+        "OWN-05"
       ]
     },
     {
       "path": "packages/agents/models/registry.json",
       "sha256": "52876bc8ad9c1b0cd140bc23128a9705d25706973ef9a24ac0cec7cea2bfeb68",
       "bytes": 449,
-      "source": "Local Tactical-supervised model artifacts; model registry and training manifests recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "source": "Local supervised training; random initialization in inspected train.py; model/registry/corpus checks match",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm rights to weights and all training sources, including existing journals; record preferred form for modification",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-03"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "ownerStatementIds": [
+        "OWN-05"
       ]
     },
     {
       "path": "packages/agents/models/shashbesh-v0.1.json",
       "sha256": "0cdca20fa7485e79c81996b9ac8cc53543065396007a090f739eb6a6cec75cfc",
       "bytes": 83166,
-      "source": "Local Tactical-supervised model artifacts; model registry and training manifests recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "source": "Local supervised training; random initialization in inspected train.py; model/registry/corpus checks match",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Confirm rights to weights and all training sources, including existing journals; record preferred form for modification",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-03"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "ownerStatementIds": [
+        "OWN-05"
       ]
     },
     {
@@ -2108,12 +2161,16 @@
       "sha256": "e3790115452993fe8988cc74aee6acaf3df5e84df24cbb8c448b902ced5a602f",
       "bytes": 44340,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No file-specific grant found",
       "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Provide creator, upstream source and license/permission for the PNG/XLSX/CSV/specification; identify copyrightable portions",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-02"
+      ],
+      "ownerStatementIds": [
+        "OWN-01",
+        "OWN-03"
       ]
     },
     {
@@ -2121,12 +2178,15 @@
       "sha256": "4f1cd3cbf43a5edfc4105eb5be0abfb39a245f3c9ed436ad94289bfc459f4fd4",
       "bytes": 7410,
       "source": "Input technical package provided for this project; upstream creation/source not recorded",
-      "knownRightsholder": "Not independently confirmed",
+      "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No file-specific grant found",
       "gplv3Use": "Pending original-author permission or documented applicable license",
-      "confirmationNeeded": "Provide creator, upstream source and license/permission for the PNG/XLSX/CSV/specification; identify copyrightable portions",
+      "confirmationNeeded": "Confirm copyright holder identity, authority and intended GPLv3 scope; any other contributions or restrictions; statements do not themselves grant a file-wide license",
       "issues": [
         "B-02"
+      ],
+      "ownerStatementIds": [
+        "OWN-04"
       ]
     },
     {
@@ -2550,65 +2610,141 @@
     {
       "path": "artifacts/ai-v01/data/manifest.json",
       "source": "Local teacher generation/training pipeline",
-      "knownRightsholder": "Not recorded as a rights grant",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
       "currentLicense": "No artifact-specific grant recorded",
       "gplv3Use": "Clarify model/data scope; not currently included in public Git tree",
-      "confirmationNeeded": "Confirm source journals are generated/authorized and permitted for training and intended distribution",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
       "issues": [
         "B-03"
-      ]
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
     },
     {
       "path": "artifacts/ai-v01/training-config.json",
       "source": "Local teacher generation/training pipeline",
-      "knownRightsholder": "Not recorded as a rights grant",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
       "currentLicense": "No artifact-specific grant recorded",
       "gplv3Use": "Clarify model/data scope; not currently included in public Git tree",
-      "confirmationNeeded": "Confirm source journals are generated/authorized and permitted for training and intended distribution",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
       "issues": [
         "B-03"
-      ]
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
     },
     {
       "path": "artifacts/ai-v01/training-metrics.json",
       "source": "Local teacher generation/training pipeline",
-      "knownRightsholder": "Not recorded as a rights grant",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
       "currentLicense": "No artifact-specific grant recorded",
       "gplv3Use": "Clarify model/data scope; not currently included in public Git tree",
-      "confirmationNeeded": "Confirm source journals are generated/authorized and permitted for training and intended distribution",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
       "issues": [
         "B-03"
-      ]
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
     },
     {
       "path": "artifacts/training-self-play.jsonl",
       "source": "Existing project journal/export referenced by training preparation",
-      "knownRightsholder": "Not recorded",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
       "currentLicense": "Not recorded",
       "gplv3Use": "Requires provenance confirmation; remains excluded from Git",
-      "confirmationNeeded": "Confirm origin, authorized collection/use and any third-party restrictions",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
       "issues": [
         "B-03"
-      ]
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
     },
     {
       "path": "artifacts/acceptance-first.jsonl",
       "source": "Existing project journal/export referenced by training preparation",
-      "knownRightsholder": "Not recorded",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
       "currentLicense": "Not recorded",
       "gplv3Use": "Requires provenance confirmation; remains excluded from Git",
-      "confirmationNeeded": "Confirm origin, authorized collection/use and any third-party restrictions",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
+      "issues": [
+        "B-03"
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
+    },
+    {
+      "path": "artifacts/smoke.jsonl",
+      "source": "Existing project journal/export referenced by training preparation",
+      "knownRightsholder": "Owner assertion for project data; not independently verified",
+      "currentLicense": "Not recorded",
+      "gplv3Use": "Requires provenance confirmation; remains excluded from Git",
+      "confirmationNeeded": "Confirm authority for intended model licensing and any restrictions; broad project-data statement recorded without assuming a blanket grant",
+      "issues": [
+        "B-03"
+      ],
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json"
+    },
+    {
+      "path": "artifacts/training/self-play.jsonl",
+      "sha256": "d1bb588b1e5a76c419bd5af1b6723fd0606bf197fa27702d9335a26b73056051",
+      "source": "Existing export/features or controller report used to verify three historical sources",
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "currentLicense": "No artifact-specific grant recorded",
       "issues": [
         "B-03"
       ]
     },
     {
-      "path": "artifacts/smoke.jsonl",
-      "source": "Existing project journal/export referenced by training preparation",
-      "knownRightsholder": "Not recorded",
-      "currentLicense": "Not recorded",
-      "gplv3Use": "Requires provenance confirmation; remains excluded from Git",
-      "confirmationNeeded": "Confirm origin, authorized collection/use and any third-party restrictions",
+      "path": "artifacts/training/self-play.jsonl.features.jsonl",
+      "sha256": "950cd6b98cbd6e663ecc383d4b1a35dc87488519f5387a7a606597ca78914936",
+      "source": "Existing export/features or controller report used to verify three historical sources",
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "currentLicense": "No artifact-specific grant recorded",
+      "issues": [
+        "B-03"
+      ]
+    },
+    {
+      "path": "artifacts/acceptance-100.json",
+      "sha256": "17b0d6acd3fda29b9b52476d8eb7097948d37c9379916181a3786cfce0563cf6",
+      "source": "Existing export/features or controller report used to verify three historical sources",
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "currentLicense": "No artifact-specific grant recorded",
+      "issues": [
+        "B-03"
+      ]
+    },
+    {
+      "path": "artifacts/smoke.json",
+      "sha256": "16ac518caa069bd94e9e0e4a8b5bd6804e9399cc6c20cc2b759dd8ecfadebf29",
+      "source": "Existing export/features or controller report used to verify three historical sources",
+      "ownerStatementIds": [
+        "OWN-05"
+      ],
+      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "currentLicense": "No artifact-specific grant recorded",
       "issues": [
         "B-03"
       ]
@@ -2619,5 +2755,50 @@
     "existing-journal:artifacts/acceptance-first.jsonl": 1,
     "existing-journal:artifacts/smoke.jsonl": 1,
     "generated-tactical": 64
-  }
+  },
+  "updatedAt": "2026-10-11",
+  "resumedFromCommit": "1442cfb",
+  "inventoryScope": "191 files in baseline commit; later audit documents and notices are outside this baseline count",
+  "ownerStatements": [
+    {
+      "id": "OWN-01",
+      "date": "2026-10-11",
+      "source": "Owner message in resumed licensing audit session",
+      "statement": "Игровое поле самостоятельно разработано и нарисовано владельцем.",
+      "evidenceClass": "owner assertion, not independent proof",
+      "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
+    },
+    {
+      "id": "OWN-02",
+      "date": "2026-10-11",
+      "source": "Owner message in resumed licensing audit session",
+      "statement": "Правила и механика разработаны владельцем.",
+      "evidenceClass": "owner assertion, not independent proof",
+      "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
+    },
+    {
+      "id": "OWN-03",
+      "date": "2026-10-11",
+      "source": "Owner message in resumed licensing audit session",
+      "statement": "Исходные рисунки подготовлены владельцем.",
+      "evidenceClass": "owner assertion, not independent proof",
+      "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
+    },
+    {
+      "id": "OWN-04",
+      "date": "2026-10-11",
+      "source": "Owner message in resumed licensing audit session",
+      "statement": "XLSX и CSV основаны на собственных материалах владельца.",
+      "evidenceClass": "owner assertion, not independent proof",
+      "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
+    },
+    {
+      "id": "OWN-05",
+      "date": "2026-10-11",
+      "source": "Owner message in resumed licensing audit session",
+      "statement": "Обучающие данные нейросети создавались в рамках проекта на основе данных владельца.",
+      "evidenceClass": "owner assertion, not independent proof",
+      "scopeLimit": "Not a blanket rights grant, contributor clearance or GPLv3 authorization"
+    }
+  ]
 }

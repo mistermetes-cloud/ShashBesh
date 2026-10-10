@@ -1,6 +1,6 @@
 # Сохранение сторонних copyright и license notices
 
-Текущий статус: проект ещё не принят под GPLv3. Этот документ фиксирует комплект уведомлений, который нужно подготовить и проверить, не меняя лицензии компонентов.
+Текущий статус: проект ещё не принят под GPLv3. Этот документ фиксирует частично подготовленный комплект уведомлений, который ещё нужно проверить на полноту, не меняя лицензии компонентов.
 
 | Компонент | Исходные условия / источник уведомления | Необходимые действия |
 |---|---|---|
@@ -15,7 +15,7 @@
 | Gradle wrapper | Apache-2.0 headers и embedded `META-INF/LICENSE` | Существующие уведомления/JAR license не удалять и не заменять GPL header |
 | NumPy и его bundled binary libraries, если будут распространяться | NumPy license содержит BSD/OpenBLAS/LAPACK/GCC runtime/LGPL notices | Комплектовать реальные bundled notices; не переносить их на вычисленные веса и не считать wheel одной только BSD библиотекой |
 | JUnit/EPL, MPL/CDDL/classpath exception build/test инструменты при их отдельной поставке | Точные artifact licenses, альтернативы и исключения | Разрешить R-02 до такой поставки; не выбирать альтернативу без проверки текста |
-| PNG/XLSX/CSV/spec исходники и скриншоты | Правообладатели/условия пока не подтверждены | Записать реальные сведения, разрешения и требуемые credits; не придумывать имена автора/дату или GPL grant |
+| PNG/XLSX/CSV/spec исходники и скриншоты | Происхождение заявлено владельцем OWN-01…04; полные полномочия/scope не подтверждены | Записать реальные сведения, разрешения и требуемые credits; не придумывать имена автора/дату или GPL grant |
 | Capacitor/Android artwork | Отдельная source/brand проверка R-01 | Уточнить условия изображения, включая официальную Android robot attribution при применимости; не считать trademark rights переданными через MIT/GPL |
 
 Полный список пакетов и обнаруженных уведомлений: [NPM_DEPENDENCIES.json](licensing/NPM_DEPENDENCIES.json). Runtime список: [ANDROID_RUNTIME.json](licensing/ANDROID_RUNTIME.json). Original material registry: [MATERIALS.json](licensing/MATERIALS.json).
@@ -23,3 +23,9 @@
 После разрешения прав рекомендуется составить точный `THIRD_PARTY_NOTICES` из оригинальных текстов, сопоставить его с фактическим source/web/APK комплектом и хранить provenance изменений. APK/бандлы сейчас не модифицируются; включение уведомлений в будущую упаковку — отдельная проверяемая работа.
 
 [GNU GPLv3](https://www.gnu.org/licenses/gpl-3.0.html) и её правила сохранения legal notices не отменяют исходные условия MIT/BSD/Apache и не дают права изменять чужие лицензионные файлы. [Совместимость по FSF](https://www.gnu.org/licenses/gpl-faq.html#WhatDoesCompatMean) означает допустимость комбинации при соблюдении обеих систем условий, а не передачу copyright на сторонний компонент владельцу ShashBesh.
+
+## Подготовленный комплект 2026-10-11
+
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) содержит ссылки на сохранённые точные upstream тексты; [NOTICE_INDEX.json](licensing/NOTICE_INDEX.json) — 137 записей, SHA-256, источники и gaps. 86 уникальных текстов хранятся в `docs/licensing/notices/`. Оригинальные тексты сохранены побайтово, README License section bplist-parser извлечён без переписывания. NanoHTTPD LICENSE.txt взят из обоих точных runtime JAR; его copyright отличается от отдельного upstream LICENSE.md, поэтому тексты не подменены друг другом.
+
+B-04 остаётся открытым: четыре platform entries без собственного license file; adapted dd-plist scope bplist-parser; полнота upstream Android copyright/NOTICE вне embedded archive entries; интеграция и сопровождение фактических source/web/APK поставок. 75 отсутствующих optional payloads — R-03. Robot attribution/source — R-01. Ни общий Apache текст, ни этот index не являются доказательством полноты notices каждого Android компонента.
