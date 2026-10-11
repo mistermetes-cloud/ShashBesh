@@ -3,15 +3,19 @@ import { trackId } from './geometry';
 import { append as appendEvent, canonical, verifyChain, logicalTime, activeEvents, stateHash, type AuditOptions } from './audit';
 export * from './geometry';
 export * from './audit';
-export const POLICY: RulePolicy = { jumpEntry: 'skip', victory: 'atomic', homeFreeze: 'contiguous-tail', cornerPriority: 'per-unit' };
+import {POLICY,LEGACY_POLICY,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
+export {POLICY,LEGACY_POLICY,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
 const die = (n: number) => {
     if (!Number.isInteger(n) || n < 1 || n > 6)
         throw Error('Кубик должен быть 1..6');
 };
 const copy = (s: GameState): GameState => ({ ...s, pieces: s.pieces.map(p => ({ ...p })), currentRoll: s.currentRoll ? { ...s.currentRoll, remainingActions: [...s.currentRoll.remainingActions] } : null });
 const key = (a: Action) => canonical(a);
-const searchKey = (s: GameState) => s.activePlayer + '|' + s.phase + '|' + s.winner + '|' + s.pieces.map(p => [p.id, p.owner, p.status, p.position, p.outerSteps, p.homeIndex, p.finishedSlot].join(':')).join(';') + '|' + s.currentRoll?.remainingActions.join(',');
+const searchKey = (s: GameState) => s.activePlayer + '|' + s.phase + '|' + s.winner + '|' + s.pieces.map(p => [p.id, p.owner, p.status, p.position, p.outerSteps, p.homeIndex, p.finishedSlot].join(':')).join(';') + '|' + s.currentRoll?.remainingActions.join(',') + '|' + (s.currentRoll?.forcedPieceId??'');
 export class Engine {
+    private legacyReplay=false;
+    private assertActivePolicy(s:GameState){const recorded=(s.eventLog[0]?.payload as {rulePolicy?:RulePolicy}|undefined)?.rulePolicy;if(!this.legacyReplay&&(canonical(s.rulePolicy)!==canonical(POLICY)||(s.eventLog.length>0&&canonical(recorded)!==canonical(POLICY))))throw new LegacyRulePolicyReadOnly();}
+
     private cache = new WeakMap<GameState, {
         signature: string;
         sequences: Action[][];
@@ -23,7 +27,7 @@ export class Engine {
     create(players: Player[] = [1, 2, 3, 4], gameId = 'local', seedMetadata: string | null = null, rulePolicy = POLICY, participants?: Partial<Record<Player, ControllerIdentity>>): GameState {
         if (players.length < 2 || players.length > 4 || new Set(players).size !== players.length || players.some(p => ![1, 2, 3, 4].includes(p)))
             throw Error('Нужно 2–4 разных игрока');
-        if (canonical(rulePolicy) !== canonical(POLICY))
+        if (canonical(rulePolicy) !== canonical(POLICY) && !(this.legacyReplay&&canonical(rulePolicy)===canonical(LEGACY_POLICY)))
             throw Error('Неизвестная RulePolicy');
         if (participants && (Object.keys(participants).length !== players.length || players.some(p => {
             const c = participants[p];
@@ -35,6 +39,7 @@ export class Engine {
         return this.record(s, 'game_created', { players: order, gameId, seedMetadata, rulePolicy, rulesVersion: 'v1', ...(participants ? { participants: structuredClone(participants) } : {}) });
     }
     initialRoll(s: GameState, values: Record<number, number>): GameState {
+        this.assertActivePolicy(s);
         if (s.phase !== 'initial_roll')
             throw Error('Жребий уже завершён');
         if (Object.keys(values).length !== s.initialContenders.length)
@@ -53,6 +58,7 @@ export class Engine {
         number,
         number
     ]): GameState {
+        this.assertActivePolicy(s);
         if (s.phase !== 'await_roll')
             throw Error('Предыдущий бросок не завершён');
         dice.forEach(die);
@@ -74,8 +80,10 @@ export class Engine {
     }
     /** Raw single-action candidates; UI/agents must use legalActions, which enforces roll maximum. */
     candidates(s: GameState, value: number): Action[] {
+        die(value);
         if (s.winner)
             return [];
+        if(s.rulePolicy.cornerPriority==='absolute')return this.currentCandidates(s,value);
         const own = s.pieces.filter(p => p.owner === s.activePlayer && p.status !== 'finished');
         const occupiedCells = new Map(s.pieces.filter(p => p.position).map(p => [p.position, p]));
         const occupied = (id: string) => occupiedCells.get(id);
@@ -131,6 +139,62 @@ export class Engine {
         }
         return result;
     }
+    /** Otherwise-legal atomic actions. Priority is applied to complete sequences, below. */
+    private currentCandidates(s:GameState,value:number):Action[]{
+        const own=s.pieces.filter(p=>p.owner===s.activePlayer&&p.status!=='finished'),occupied=new Map(s.pieces.filter(p=>p.position).map(p=>[p.position,p]));
+        const blocked=(path:string[])=>path.some(cell=>occupied.get(cell)?.owner===s.activePlayer);
+        const jump=(from:string)=>Array.from({length:12},(_,i)=>trackId((Number(from.slice(1))+i)%48+1));
+        const result:Action[]=[];
+        for(const p of own){
+            if(p.status==='reserve'){if(value===6){const path=[trackId(this.geometry.starts[p.owner])];if(!blocked(path)){const victim=occupied.get(path[0]);result.push({pieceId:p.id,kind:'deploy',value,from:null,to:path[0],path,captureIds:victim?[victim.id]:[]});}}continue;}
+            let pos=p.position!,steps=p.outerSteps,home=p.homeIndex;const path:string[]=[];let valid=true;
+            if(value===1&&p.status==='track'&&this.geometry.corners.includes(Number(pos.slice(1)))){
+                const ray=jump(pos);if(!blocked(ray)){const to=ray.at(-1)!,victim=occupied.get(to);result.push({pieceId:p.id,kind:'corner_jump',value,from:p.position,to,path:[to],captureIds:victim?[victim.id]:[],jump:{from:pos,to,path:ray}});continue;}
+            }
+            for(let i=0;i<value;i++){if(home!==null){home++;if(home>4){valid=false;break;}pos=this.geometry.homes[p.owner][home];}else{pos=trackId(Number(pos.slice(1))%48+1);steps++;if(pos===trackId(this.geometry.starts[p.owner])&&steps>=48)home=0;}path.push(pos);}
+            if(!valid||blocked(path))continue;
+            const victim=occupied.get(pos);result.push({pieceId:p.id,kind:'move',value,from:p.position,to:pos,path,captureIds:victim?[victim.id]:[]});
+        }
+        return result;
+    }
+    private assertContinuationHistory(s:GameState){
+        if(s.rulePolicy.cornerPriority!=='absolute'||!s.currentRoll)return;
+        const active=activeEvents(s.eventLog);let begin=-1;for(let i=active.length-1;i>=0;i--)if(active[i].type==='dice_roll'&&active[i].rollId===s.currentRoll.id){begin=i;break;}
+        const actions=active.slice(begin+1).filter(e=>e.type==='action'),lastJump=actions.map((e,i)=>({e,i})).filter(x=>!!(x.e.payload as Action).jump).at(-1);
+        const jumper=lastJump?(lastJump.e.payload as Action).pieceId:undefined,transferred=lastJump?actions.slice(lastJump.i+1).some(e=>(e.payload as Action).pieceId!==jumper):false;
+        if(s.currentRoll.forcedPieceId!==(jumper&&!transferred?jumper:undefined))throw Error('Corner continuation state does not match the active journal');
+    }
+    private prioritySequences(s:GameState):Action[][]{
+        type Branch={actions:Action[];blocked:RuleClarificationRequired|null};
+        const memo=new Map<string,Branch[]>();
+        const filter=(branches:Branch[]):Branch[]=>{
+            const first=(b:Branch,p:(a:Action)=>boolean)=>{const i=b.actions.findIndex(p);return i<0?Infinity:i;};
+            const corner=Math.min(...branches.map(b=>first(b,a=>!!a.jump)));
+            let chosen=Number.isFinite(corner)?branches.filter(b=>first(b,a=>!!a.jump)===corner):branches;
+            if(!Number.isFinite(corner)){const capture=Math.min(...chosen.map(b=>first(b,a=>a.captureIds.length>0)));if(Number.isFinite(capture))chosen=chosen.filter(b=>first(b,a=>a.captureIds.length>0)===capture);}
+            // If the jumper has no legal continuation, the owner's clarification permits
+            // remaining dice to pass to another piece. A legal jumper continuation stays mandatory.
+            const unresolved=chosen.find(b=>b.blocked);if(unresolved){
+                const forced=unresolved.blocked!.pieceId;
+                const transfer=branches.filter(b=>b.actions.length>0&&b.actions[0].pieceId!==forced&&!b.actions.some(a=>a.jump));
+                if(transfer.length)chosen=transfer;
+                else throw new RuleClarificationRequired(forced,unresolved.blocked!.remaining,unresolved.actions);
+            }
+            const best=Math.max(...chosen.map(b=>b.actions.reduce((n,a)=>n+a.value,0)));return chosen.filter(b=>b.actions.reduce((n,a)=>n+a.value,0)===best);
+        };
+        const search=(state:GameState):Branch[]=>{
+            if(state.winner)return [{actions:[],blocked:null}];
+            const signature=searchKey(state),cached=memo.get(signature);if(cached)return cached;
+            const raw=[...new Set(state.currentRoll!.remainingActions)].sort((a,b)=>a-b).flatMap(v=>this.candidates(state,v));
+            const forced=state.currentRoll!.forcedPieceId;let actions=raw;
+            if(forced){const continuation=raw.filter(a=>a.pieceId===forced);actions=continuation.length?continuation:raw;if(!actions.length&&raw.length)return [{actions:[],blocked:new RuleClarificationRequired(forced,[...state.currentRoll!.remainingActions])}];}
+            if(!actions.length)return [{actions:[],blocked:null}];
+            const branches:Branch[]=[];
+            for(const a of actions){try{for(const child of search(this.execute(state,a)))branches.push({actions:[a,...child.actions],blocked:child.blocked});}catch(e){if(!(e instanceof RuleClarificationRequired))throw e;branches.push({actions:[a,...e.prefix],blocked:e});}}
+            const kept=filter(branches);memo.set(signature,kept);return kept;
+        };
+        return filter(search(s)).map(b=>b.actions);
+    }
     private execute(s: GameState, a: Action): GameState {
         const n = copy(s), p = n.pieces.find(p => p.id === a.pieceId)!;
         for (const id of a.captureIds) {
@@ -142,6 +206,10 @@ export class Engine {
             p.status = 'track';
             p.outerSteps = 0;
             p.homeIndex = null;
+        }
+        else if (a.jump && s.rulePolicy.cornerPriority==='absolute') {
+            p.outerSteps+=12;p.homeIndex=null;p.status='track';
+            n.currentRoll!.forcedPieceId=p.id;
         }
         else if (a.kind === 'corner_jump') {
             p.outerSteps += 12;
@@ -175,6 +243,7 @@ export class Engine {
             n.phase = 'game_over';
         }
         if (n.currentRoll) {
+            if(n.currentRoll.forcedPieceId&&a.pieceId!==n.currentRoll.forcedPieceId)delete n.currentRoll.forcedPieceId;
             const index = n.currentRoll.remainingActions.indexOf(a.value);
             n.currentRoll.remainingActions.splice(index, 1);
             n.currentRoll.usedPoints += a.value;
@@ -185,14 +254,17 @@ export class Engine {
         number,
         number
     ]): Action[][] {
+        this.assertActivePolicy(s);
         if (dice)
             s = this.roll(s, dice);
+        this.assertContinuationHistory(s);
         if (s.phase !== 'resolving_roll' || !s.currentRoll)
             return [];
         const signature = searchKey(s);
         const cachedRoll = this.cache.get(s);
         if (cachedRoll?.signature === signature)
             return cachedRoll.sequences;
+        if(s.rulePolicy.cornerPriority==='absolute'){const seqs=this.prioritySequences(s);for(const seq of seqs){for(const a of seq){Object.freeze(a.path);Object.freeze(a.captureIds);if(a.jump){Object.freeze(a.jump.path);Object.freeze(a.jump);}Object.freeze(a);}Object.freeze(seq);}Object.freeze(seqs);this.cache.set(s,{signature,sequences:seqs});return seqs;}
         const memo = new Map<string, {
             sum: number;
             seqs: Action[][];
@@ -332,6 +404,9 @@ export class Engine {
             throw Error('Нет текущего броска');
         if (s.currentRoll) {
             s.currentRoll.dice.forEach(die);
+            s.currentRoll.remainingActions.forEach(die);
+            if(!Number.isInteger(s.currentRoll.usedPoints)||s.currentRoll.usedPoints<0)throw Error('Invalid spent dice points');
+            if(s.currentRoll.forcedPieceId&&!s.pieces.some(p=>p.id===s.currentRoll!.forcedPieceId&&p.owner===s.activePlayer))throw Error('Invalid corner continuation piece');
             const dice = s.currentRoll.dice;
             const total = dice[0] === dice[1] ? dice[0] * 4 : dice[0] + dice[1];
             if (s.currentRoll.usedPoints + s.currentRoll.remainingActions.reduce((n, v) => n + v, 0) !== total)
@@ -356,7 +431,7 @@ export class Engine {
         if (s.winner && (s.phase !== 'game_over' || s.pieces.filter(p => p.owner === s.winner && p.status === 'finished').length !== 5))
             throw Error('Ложная победа');
     }
-    replay(events: GameEvent[]): GameState {
+    replay(events: GameEvent[], onCommand?:(before:GameState,after:GameState,event:GameEvent)=>void): GameState {
         verifyChain(events);
         if (events[0]?.type !== 'game_created')
             throw Error('Нет начала игры');
@@ -375,9 +450,10 @@ export class Engine {
             timeSource: events[0].timeSource ?? 'logical',
             clock: (gameId, seq) => events[seq]?.timestamp ?? logicalTime(gameId, seq)
         });
+        replayEngine.legacyReplay=canonical(init.rulePolicy)===canonical(LEGACY_POLICY);
         let s = replayEngine.create(init.players, init.gameId, init.seedMetadata, init.rulePolicy, init.participants);
         while (s.eventLog.length < events.length) {
-            const event = events[s.eventLog.length];
+            const event = events[s.eventLog.length], before=s;
             switch (event.type) {
                 case 'initial_roll':
                     s = replayEngine.initialRoll(s, (event.payload as {
@@ -404,6 +480,7 @@ export class Engine {
                 default: throw Error(`Неожиданное событие ${event.type}`);
             }
             replayEngine.assertInvariants(s);
+            onCommand?.(structuredClone(before),structuredClone(s),event);
             for (let i = event.seq; i < s.eventLog.length; i++)
                 if (canonical(s.eventLog[i]) !== canonical(events[i]))
                     throw Error(`Событие ${i} не соответствует правилам`);

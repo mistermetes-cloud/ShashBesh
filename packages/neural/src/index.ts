@@ -1,4 +1,4 @@
-import { hash, POLICY } from '../../engine/src/index';
+import { hash, POLICY, LEGACY_POLICY } from '../../engine/src/index';
 import type { Action, Geometry } from '../../shared/src/index';
 import type { PublicEncodingState } from '../../training/src/index';
 import { actionVectors, FEATURE_VERSION } from './features';
@@ -40,7 +40,7 @@ export function createScorer(inputModel: ModelArtifact): ActionScorer {
     const { inputDim, hiddenDim, kind } = model.architecture;
     if (!Number.isInteger(inputDim) || !Number.isInteger(hiddenDim) || inputDim < 1 || hiddenDim < 1 || hiddenDim > 1024)
         throw Error('Invalid neural architecture');
-    if (model.status !== 'trained' || model.schemaVersion !== 'shashbesh-model-v1' || model.rulesVersion !== 'v1' || model.featureVersion !== FEATURE_VERSION || kind !== 'mlp-tanh-v1' || model.rulePolicyHash !== hash(POLICY))
+    if (model.status !== 'trained' || model.schemaVersion !== 'shashbesh-model-v1' || model.rulesVersion !== 'v1' || model.featureVersion !== FEATURE_VERSION || kind !== 'mlp-tanh-v1' || ![hash(POLICY),hash(LEGACY_POLICY)].includes(model.rulePolicyHash))
         throw Error('Unsupported neural model');
     const { w1, b1, w2, b2 } = model.weights;
     if (w1.length !== inputDim * hiddenDim || b1.length !== hiddenDim || w2.length !== hiddenDim || ![...w1, ...b1, ...w2, b2].every(Number.isFinite))

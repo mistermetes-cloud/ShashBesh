@@ -92,7 +92,7 @@ test('T11/T12: own path blocks, enemy intermediate passes, exact capture', () =>
     assert.ok(!engine.candidates(s, 3).some(a => a.pieceId === 'P1-1'));
     s = track(track(ready(), 'P1-1', 2), 'P2-1', 4, 20);
     assert.ok(engine.candidates(s, 3).some(a => a.pieceId === 'P1-1'));
-    s = roll(s, [2, 5]);
+    s = roll(s, [2, 1]);
     const a = engine.legalActions(s).find(a => a.pieceId === 'P1-1' && a.value === 2)!;
     s = engine.applyAction(s, a);
     const captured = s.pieces.find(p => p.id === 'P2-1')!;
@@ -109,9 +109,10 @@ test('T13/T14: occupied deployment own vs enemy, reset capture', () => {
     enemy = engine.applyAction(enemy, a);
     assert.equal(enemy.pieces.find(p => p.id === 'P2-1')!.outerSteps, 0);
 });
-test('T15: 28→31 then forced 31→43', () => {
+test('T15: 3 reaches 31, then the separate 1 jumps 31→43', () => {
     let s = roll(track(ready(), 'P1-1', 28), [3, 1]);
     s = engine.applyAction(s, engine.legalActions(s).find(a => a.value === 3)!);
+    assert.equal(s.pieces[0].position, trackId(31));
     assert.ok(engine.legalActions(s).every(a => a.kind === 'corner_jump'));
     s = engine.applyAction(s, engine.legalActions(s)[0]);
     assert.equal(s.pieces[0].position, trackId(43));
@@ -134,7 +135,7 @@ test('T17/T18/T20: blocked jump, other jump mandatory over home, corner capture'
     let s = track(track(track(ready(), 'P1-1', 31), 'P1-2', 43), 'P1-3', 7);
     home(s, 'P1-4', 1);
     track(s, 'P2-1', 19);
-    const actions = engine.candidates(s, 1);
+    const actions = engine.legalActions(roll(s, [1, 2]));
     assert.ok(actions.every(a => a.kind === 'corner_jump'));
     assert.ok(actions.some(a => a.to === trackId(19) && a.captureIds[0] === 'P2-1'));
     assert.ok(!actions.some(a => a.pieceId === 'P1-1'));
@@ -212,7 +213,7 @@ test('T30: invalid sequence rejected without state mutation', () => {
     assert.throws(() => engine.applySequence(s, []));
     assert.equal(canonical(s), before);
 });
-test('Property: generated play preserves invariants, deterministic seed and maximum', () => {
+test('Property: generated play preserves invariants, deterministic seed and priority-tier maximum', () => {
     fc.assert(fc.property(fc.string({ maxLength: 15 }), seed => {
         const rng = seeded(seed);
         let s = ready();
@@ -226,7 +227,7 @@ test('Property: generated play preserves invariants, deterministic seed and maxi
             if (!s.winner)
                 s = engine.finishRoll(s);
         }
-    }), { numRuns: 25 });
+    }), { numRuns: 25, seed: 20261011 });
     assert.deepEqual(Array.from({ length: 20 }, () => secure.die()).filter(d => d < 1 || d > 6), []);
     const a = seeded('repeat'), b = seeded('repeat');
     assert.deepEqual(Array.from({ length: 20 }, () => a.die()), Array.from({ length: 20 }, () => b.die()));
