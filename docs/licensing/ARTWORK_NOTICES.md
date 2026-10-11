@@ -9,3 +9,9 @@ For Google Android robot derivatives, the official attribution prescribed by [An
 > The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
 
 [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) remains separate from the proposed GPL scope. This conditional notice does not prove that the particular drawable satisfies every condition or that attribution accompanies the existing APK. Trademark permission is not inferred from MIT, CC or GPL. Artwork files/APK are unchanged; R-01/B-04 remain open for precise provenance and accompaniment.
+
+## Verified remediation at baseline b3d2c2c
+
+The local robot XML byte-matches Capacitor 7.6.9; canonical XML matches the official AOSP SampleLocationAttribution vector (attribute ordering only differs). The complete Google attribution, CC BY 3.0 legal text and white-head/shadow derivative identification are prepared in the r1 companion. Drifty template MIT and supplemental Ionic logo MIT are included. Exact original rasterization history remains uncertified; no contradictory artwork copyright restriction was found in inspected tag/source materials. Copyright source/credits preparation is addressed; delivery to recipients and creatives remains pending. Trademark rights/own-brand usage are not granted by MIT/CC. Owner must assess retaining the upstream logos as launcher branding or authorize a future replacement; no blanket written-permission requirement for every template resource is invented.
+
+See [LICENSING_REMEDIATION.md](../LICENSING_REMEDIATION.md) and [REMEDIATION_EVIDENCE.json](REMEDIATION_EVIDENCE.json). Historical open-source-genealogy statements above describe the earlier audit state.

@@ -1,0 +1,9 @@
+ARTWORK SCOPE AND RESTRICTIONS
+
+Capacitor template resources: unchanged project copies match the official 7.6.9 template. Preserve Drifty Co. MIT copyright/permission/disclaimer. Template bitmap source is verified; Ionic logo-form notice is additionally preserved without certifying the original rasterization workflow.
+
+Android robot derivative: supplied white head/shadow vector is semantically identical to an official AOSP sample and appears in the APK. Preserve the Google attribution and CC BY 3.0 terms; identify modifications. This companion does not prove that credits were delivered with the existing APK or in all creatives where the robot is shown.
+
+MIT/CC copyright licenses do not grant trademark rights or permission to present Google/Ionic/Capacitor marks as ShashBesh's own brand or claim endorsement. No ownership of those marks is asserted. If retaining upstream logos as application branding, the owner must assess the actual use against applicable brand/trademark requirements or separately authorize replacement in a future task. This is not a fabricated requirement for blanket written approval of every template resource.
+
+AndroidX raster resources retain their upstream Apache-2.0 scope, source copyright notices and shared license. Project original work and model rights are outside this third-party companion; no GPL adoption is made here.

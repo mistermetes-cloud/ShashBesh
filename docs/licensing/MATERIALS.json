@@ -389,15 +389,17 @@
       "path": "android/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
       "sha256": "a8514094f754b099d3e55ce1d6e0b2de79db418b2eeacb0fc2a6bb0bfadef221",
       "bytes": 1880,
-      "source": "Capacitor template containing an Android robot-like vector",
-      "knownRightsholder": "Template: Drifty Co.; depicted artwork potentially Google-derived, requires confirmation",
-      "currentLicense": "MIT template plus possible separate Android robot CC BY 3.0 attribution terms",
-      "gplv3Use": "Review component-specific terms; do not relabel the artwork GPL by assumption",
-      "confirmationNeeded": "Retain Drifty MIT notice; verify any external artwork and logo terms",
+      "source": "Exact Capacitor 7.6.9 template bytes; canonical XML equals official AOSP sample robot derivative",
+      "knownRightsholder": "Google for identified Android robot artwork under official attribution; Drifty Co. for template portions; no owner-original artwork claim",
+      "currentLicense": "MIT template portions; CC-BY-3.0 identified robot derivative subject to attribution/terms; no trademark grant",
+      "gplv3Use": "Retain distinct third-party MIT/CC scope; no GPL-only relabeling; prepared credits must be delivered and applicable usage conditions met",
+      "confirmationNeeded": "Deliver prepared credits/terms with relevant recipient/creative use; owner assess upstream marks as application branding; no blanket own-artwork declaration covers this derivative",
       "issues": [
         "B-04",
         "R-01"
-      ]
+      ],
+      "technicalEvidence": "REMEDIATION_EVIDENCE.json",
+      "licenseAssessment": "MIT for template portions; Google robot derivative subject to official CC BY 3.0 attribution/terms; no GPL relabeling or trademark grant"
     },
     {
       "path": "android/app/src/main/res/drawable/ic_launcher_background.xml",
@@ -1515,7 +1517,9 @@
       ],
       "ownerDeclarationId": "OWN-06",
       "permissionAssessment": "No model-specific grant metadata; OWN-06 conditional; redistribution/modification authority and condition not established independently",
-      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision"
+      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision",
+      "ownerDeclarationTemplate": "MODEL_OWNER_DECLARATION_TEMPLATE.md",
+      "sourceDecisionStatus": "PROPOSED_ONLY: native JSON plus training workflow candidate; no owner approval or unconditional model grant"
     },
     {
       "path": "packages/agents/models/registry.json",
@@ -1553,7 +1557,9 @@
       ],
       "ownerDeclarationId": "OWN-06",
       "permissionAssessment": "No model-specific grant metadata; OWN-06 conditional; redistribution/modification authority and condition not established independently",
-      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision"
+      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision",
+      "ownerDeclarationTemplate": "MODEL_OWNER_DECLARATION_TEMPLATE.md",
+      "sourceDecisionStatus": "PROPOSED_ONLY: native JSON plus training workflow candidate; no owner approval or unconditional model grant"
     },
     {
       "path": "packages/agents/package.json",
@@ -2704,5 +2710,7 @@
     "R-03": "REVIEW: availability/integrity verified; nested native license scope pending",
     "R-04": "REVIEW: model preferred modification form"
   },
-  "finalPreparationEvidence": "FINAL_PREPARATION.json"
+  "finalPreparationEvidence": "FINAL_PREPARATION.json",
+  "preparedNoticeCompanion": "bundles/ShashBesh-v0.3.1-alpha-third-party-notices-r1.zip",
+  "remediationEvidence": "REMEDIATION_EVIDENCE.json"
 }
