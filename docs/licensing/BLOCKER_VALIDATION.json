@@ -1,0 +1,31 @@
+{
+  "baseline": "af59666",
+  "unchangedTrackedFiles": 350,
+  "changedBaselineFiles": [
+    "docs/COPYRIGHT_NOTICES.md",
+    "docs/LICENSING_ACTION_PLAN.md",
+    "docs/LICENSING_AUDIT.md",
+    "docs/licensing/MATERIALS.json"
+  ],
+  "changesLimitedTo": "audit docs",
+  "existingNoticeHashesVerified": 336,
+  "generalRegistriesUnchanged": [
+    "NPM_DEPENDENCIES.json",
+    "ANDROID_RUNTIME.json",
+    "NOTICE_INDEX.json"
+  ],
+  "apkMatchesPublishedDigest": true,
+  "webFilesMatchApk": 3,
+  "modelsIdentical": 2,
+  "parametersPerModel": 6505,
+  "rasterResourcesMapped": 192,
+  "definedDexClasses": 5158,
+  "cachedRuntimeClassMatches": 4648,
+  "projectCapacitorNamespaceClasses": 152,
+  "generatedPatternClasses": 358,
+  "unexplainedClassDescriptors": 0,
+  "concreteNestedComponentClasses": 49,
+  "weightsEngineAiRulesApkUnchanged": true,
+  "licenseAdded": false,
+  "blockersClosed": []
+}

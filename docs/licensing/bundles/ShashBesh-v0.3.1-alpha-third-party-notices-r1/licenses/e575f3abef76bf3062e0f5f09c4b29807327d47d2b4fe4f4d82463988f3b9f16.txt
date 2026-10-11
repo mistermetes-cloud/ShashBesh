@@ -1,0 +1,6 @@
+The Android robot is reproduced or modified from work created and shared by Google and used according to terms described in the Creative Commons 3.0 Attribution License.
+
+License: https://creativecommons.org/licenses/by/3.0/
+Source guidance: https://developer.android.com/distribute/marketing-tools/brand-guidelines#android-robot
+
+Identified derivative: white robot-head vector with shadow in ic_launcher_foreground.xml; this attribution identifies the supplied derivative and does not claim Mister Metes authorship. The image/color/composition differs from the original robot.

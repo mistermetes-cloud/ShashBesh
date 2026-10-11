@@ -1,0 +1,19 @@
+{
+  "baselineRegistryHashesVerified": 191,
+  "unchangedBaselineWorktreeFiles": 190,
+  "intentionalBaselineChange": "README licensing preparation status only",
+  "protectedHashesVerified": 122,
+  "originalNoticeEntriesPreserved": 137,
+  "noticeHashesVerified": 336,
+  "uniqueNoticeTexts": 151,
+  "optionalLockIntegrityVerified": 79,
+  "androidSourceArchives": 52,
+  "androidPomOnlyBoms": 2,
+  "sourceCopyrightHeaders": 2414,
+  "uniqueSourceHeaders": 63,
+  "releaseApkSha256": "f24848f0c8572f3392f6be7be13228ae047a9810cb71a1b4f89ae6c45139b8a2",
+  "licenseAdded": false,
+  "gplAdoptionAllowed": false,
+  "changesLimitedTo": "docs and README",
+  "validation": "PASS; upstream notices retain original whitespace; authored-doc whitespace checked separately"
+}

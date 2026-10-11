@@ -1,0 +1,48 @@
+[
+  {
+    "component": "Repackaged FlatBuffers Java runtime and AndroidX emoji metadata classes",
+    "containerCoordinate": "androidx.emoji2/emoji2/1.3.0",
+    "containerPath": ".local-tools/gradle/caches/modules-2/files-2.1/androidx.emoji2/emoji2/1.3.0/37ed42991ddf77924510472dba632314aab1c9d9/emoji2-1.3.0.aar",
+    "nestedEntry": "libs/repackaged.jar",
+    "nestedSha256": "de10d78b35a33c1ade2607b63c29b3b70a856cad821b5bc711a9018eed9a43ab",
+    "nestedClasses": 49,
+    "dexClassMatches": 49,
+    "versionEvidence": "FLATBUFFERS_1_12_0 marker corroborated by normalized signature/constant/instruction/control-flow identity for all 45 runtime classes against exact Maven FlatBuffers Java 1.12.0",
+    "embeddedLegalEntries": [],
+    "existingRegistryGap": "Earlier archive/source notice scan covered classes.jar but omitted libs/repackaged.jar; coordinate was already registered, nested upstream component was not",
+    "licenseAssessment": "Prepared source-mapped Apache-2.0 default runtime notices, BSD-3-Clause Utf8Safe Google 2008 exception, and AOSP 2017 Apache generated metadata header; actual companion delivery still pending",
+    "resolutionEvidence": "REMEDIATION_EVIDENCE.json",
+    "technicalStatus": "Resolved runtime content/source notice preparation; actual delivery remains open",
+    "runtimeBreakdown": {
+      "classes": 45,
+      "version": "Maven FlatBuffers Java 1.12.0 (normalized signatures/constants/instructions/control flow match)",
+      "defaultLicense": "Apache-2.0",
+      "exception": {
+        "sourceFile": "Utf8Safe.java",
+        "shippedClasses": 2,
+        "license": "BSD-3-Clause",
+        "copyright": "Copyright 2008 Google Inc."
+      }
+    },
+    "generatedMetadataBreakdown": {
+      "classes": 4,
+      "schema": "AOSP MetadataItem/MetadataList",
+      "license": "Apache-2.0",
+      "copyright": "Copyright (C) 2017 The Android Open Source Project",
+      "limitation": "Historical exact generator invocation not certified"
+    },
+    "remainingRemediation": [
+      "Deliver verified r1 notice companion with exact APK/web artifact",
+      "Meet actual creative attribution and branding conditions"
+    ],
+    "initialRequiredRemediation": [
+      "Identify exact AndroidX vendored FlatBuffers source revision and modifications",
+      "Preserve applicable FlatBuffers Google copyright/Apache text and any pertinent NOTICE; preserve AndroidX generated metadata notices separately",
+      "Deliver expanded notice package with actual artifact; no APK/Release mutation performed"
+    ],
+    "requiredRemediation": [
+      "Deliver verified r1 notice companion with exact APK/web artifact",
+      "Meet actual creative attribution and branding conditions"
+    ]
+  }
+]

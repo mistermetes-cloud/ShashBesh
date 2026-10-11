@@ -1,0 +1,2733 @@
+{
+  "date": "2026-10-11",
+  "status": "Expanded source notice package; B-04 remains open for actual distribution accompaniment and platform/artwork scope",
+  "entries": [
+    {
+      "component": "@capacitor/android@7.6.9",
+      "source": "node_modules/@capacitor/android/LICENSE",
+      "noticeFile": "notices/9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@capacitor/cli@7.6.9",
+      "source": "node_modules/@capacitor/cli/LICENSE",
+      "noticeFile": "notices/9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@capacitor/core@7.6.9",
+      "source": "node_modules/@capacitor/core/LICENSE",
+      "noticeFile": "notices/9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd.txt",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/cli-framework-output@2.2.8",
+      "source": "node_modules/@ionic/cli-framework-output/LICENSE",
+      "noticeFile": "notices/1200a778976e8bca048d108ffef707ce275ee7922f7b1f9e329ef1c14c283d97.txt",
+      "sha256": "1200a778976e8bca048d108ffef707ce275ee7922f7b1f9e329ef1c14c283d97",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-array@2.1.6",
+      "source": "node_modules/@ionic/utils-array/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-fs@3.1.7",
+      "source": "node_modules/@ionic/utils-fs/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fs-extra@9.1.0",
+      "source": "node_modules/@ionic/utils-fs/node_modules/fs-extra/LICENSE",
+      "noticeFile": "notices/1e76029602ae9b21cc4e612db2496d92febed882ba13ba745f8b3309e85f9d39.txt",
+      "sha256": "1e76029602ae9b21cc4e612db2496d92febed882ba13ba745f8b3309e85f9d39",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-object@2.1.6",
+      "source": "node_modules/@ionic/utils-object/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-process@2.1.12",
+      "source": "node_modules/@ionic/utils-process/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-stream@3.1.7",
+      "source": "node_modules/@ionic/utils-stream/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-subprocess@3.0.1",
+      "source": "node_modules/@ionic/utils-subprocess/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@ionic/utils-terminal@2.3.5",
+      "source": "node_modules/@ionic/utils-terminal/LICENSE",
+      "noticeFile": "notices/28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0.txt",
+      "sha256": "28b5609e1d288da5fda25d2b951bdf829699356f0b9bb411ef40251463f885b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@isaacs/fs-minipass@4.0.1",
+      "source": "node_modules/@isaacs/fs-minipass/LICENSE",
+      "noticeFile": "notices/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@leichtgewicht/ip-codec@2.0.5",
+      "source": "node_modules/@leichtgewicht/ip-codec/LICENSE",
+      "noticeFile": "notices/09fd9784b65e00b09b6366845098a2cb6d6f559e84d292528f1e462c9e4acb62.txt",
+      "sha256": "09fd9784b65e00b09b6366845098a2cb6d6f559e84d292528f1e462c9e4acb62",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@noble/hashes@1.8.0",
+      "source": "node_modules/@noble/hashes/LICENSE",
+      "noticeFile": "notices/4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec.txt",
+      "sha256": "4f221aee6e072336700c408c68ab3b96a3fc09f6aebe6f48f1bd99e5ef13faec",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@playwright/test@1.64.0",
+      "source": "node_modules/@playwright/test/LICENSE",
+      "noticeFile": "notices/45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@playwright/test@1.64.0",
+      "source": "node_modules/@playwright/test/NOTICE",
+      "noticeFile": "notices/6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/estree@1.0.9",
+      "source": "node_modules/@types/estree/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/fs-extra@8.1.5",
+      "source": "node_modules/@types/fs-extra/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/node@22.20.5",
+      "source": "node_modules/@types/node/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/react@19.3.0",
+      "source": "node_modules/@types/react/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/react-dom@19.3.0",
+      "source": "node_modules/@types/react-dom/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/slice-ansi@4.0.0",
+      "source": "node_modules/@types/slice-ansi/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@types/ws@8.18.2",
+      "source": "node_modules/@types/ws/LICENSE",
+      "noticeFile": "notices/c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383.txt",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "@xmldom/xmldom@0.9.12",
+      "source": "node_modules/@xmldom/xmldom/LICENSE",
+      "noticeFile": "notices/4da724fc305d81606b245b324d4d2586916b9d248b23d82183df753ace0fdf71.txt",
+      "sha256": "4da724fc305d81606b245b324d4d2586916b9d248b23d82183df753ace0fdf71",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "ansi-regex@5.0.1",
+      "source": "node_modules/ansi-regex/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "ansi-styles@4.3.0",
+      "source": "node_modules/ansi-styles/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "astral-regex@2.0.0",
+      "source": "node_modules/astral-regex/license",
+      "noticeFile": "notices/69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3.txt",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "at-least-node@1.0.0",
+      "source": "node_modules/at-least-node/LICENSE",
+      "noticeFile": "notices/ecc042b5f1cdc6854fc00486065084bed877daa8a7fadce15ef943a550d1dff0.txt",
+      "sha256": "ecc042b5f1cdc6854fc00486065084bed877daa8a7fadce15ef943a550d1dff0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "balanced-match@4.0.4",
+      "source": "node_modules/balanced-match/LICENSE.md",
+      "noticeFile": "notices/d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5.txt",
+      "sha256": "d408f38ffa3355c5faec517153295338892eb0f1ea43f57874bb23c6075979b5",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "base64-js@1.5.1",
+      "source": "node_modules/base64-js/LICENSE",
+      "noticeFile": "notices/5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1.txt",
+      "sha256": "5b37224c080cdcc97c871ada971c224e9926370fe74f11b539aa1cf9f3b1aca1",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "big-integer@1.6.52",
+      "source": "node_modules/big-integer/LICENSE",
+      "noticeFile": "notices/e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363.txt",
+      "sha256": "e9b0e94f628e00b5ed98046cfa041696ff89eebbbdd54108ee350625bc6d0363",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "bonjour-service@1.4.4",
+      "source": "node_modules/bonjour-service/LICENSE",
+      "noticeFile": "notices/82a4526b2777826043d2ca0e282f7428c2bd1762b13ef70b4fb4a57a48303d73.txt",
+      "sha256": "82a4526b2777826043d2ca0e282f7428c2bd1762b13ef70b4fb4a57a48303d73",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "bplist-parser@0.3.2",
+      "source": "node_modules/bplist-parser/README.md#License",
+      "noticeFile": "notices/89dd9bb5d756ca2df705355d607d8ed498a9de679adc295f82b546c32f350e6e.txt",
+      "sha256": "89dd9bb5d756ca2df705355d607d8ed498a9de679adc295f82b546c32f350e6e",
+      "scope": "Exact README license section"
+    },
+    {
+      "component": "brace-expansion@5.0.12",
+      "source": "node_modules/brace-expansion/LICENSE",
+      "noticeFile": "notices/9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e.txt",
+      "sha256": "9c63a23124d68cd30cd316a94a1a0bca34f032786df6df69fc4b5f136bac8d2e",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "buffer-crc32@0.2.13",
+      "source": "node_modules/buffer-crc32/LICENSE",
+      "noticeFile": "notices/14895b82e3367b66bdb127fe91505f8615491f2a23eb1c0b7d8f7c54be67f57a.txt",
+      "sha256": "14895b82e3367b66bdb127fe91505f8615491f2a23eb1c0b7d8f7c54be67f57a",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "chownr@3.0.0",
+      "source": "node_modules/chownr/LICENSE.md",
+      "noticeFile": "notices/a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09.txt",
+      "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "color-convert@2.0.1",
+      "source": "node_modules/color-convert/LICENSE",
+      "noticeFile": "notices/693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4.txt",
+      "sha256": "693866fc419c6f61c8570438ec00659d156ec2b4d4a4d04091711f5f11a365d4",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "color-name@1.1.4",
+      "source": "node_modules/color-name/LICENSE",
+      "noticeFile": "notices/c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2.txt",
+      "sha256": "c064f7a3e353bc1bc977f3c897941c75ef763f44f41677e0a15370ca0853d6e2",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "commander@12.1.0",
+      "source": "node_modules/commander/LICENSE",
+      "noticeFile": "notices/04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b.txt",
+      "sha256": "04512a63dce4d2d506ad612dc0bd7681ccf6e3655f7b6eaef7dfac8323d1ec0b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "cross-spawn@7.0.6",
+      "source": "node_modules/cross-spawn/LICENSE",
+      "noticeFile": "notices/aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1.txt",
+      "sha256": "aaa78451b6fecd1b9c4594c796c133c0e90cad100372ff8bc6de615e9ef9adf1",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "csstype@3.2.3",
+      "source": "node_modules/csstype/LICENSE",
+      "noticeFile": "notices/11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e.txt",
+      "sha256": "11d55bd4541c75ee7879547ac49089c489163dae49551389713c3d026cab383e",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "debug@4.4.3",
+      "source": "node_modules/debug/LICENSE",
+      "noticeFile": "notices/3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95.txt",
+      "sha256": "3a61c6c96caf5c1d9b623fb9b04c822b783dfcb78aa7e49c76a3f643e6ed7f95",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "define-lazy-prop@2.0.0",
+      "source": "node_modules/define-lazy-prop/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "dns-packet@5.6.1",
+      "source": "node_modules/dns-packet/LICENSE",
+      "noticeFile": "notices/6a134e51aa31496c15a741592fc5d782b2dbf8d8b6b8524e15c8520ae0cd6374.txt",
+      "sha256": "6a134e51aa31496c15a741592fc5d782b2dbf8d8b6b8524e15c8520ae0cd6374",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "elementtree@0.1.7",
+      "source": "node_modules/elementtree/NOTICE",
+      "noticeFile": "notices/3d2e5b589958db56315f5b6e6faec58e4a07453a940739a9bb60365b904975e1.txt",
+      "sha256": "3d2e5b589958db56315f5b6e6faec58e4a07453a940739a9bb60365b904975e1",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "elementtree@0.1.7",
+      "source": "node_modules/elementtree/LICENSE.txt",
+      "noticeFile": "notices/8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac.txt",
+      "sha256": "8c6db340475136df3c1201d458fa5755698eace76e510471ecc9d857d6083dac",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "emoji-regex@8.0.0",
+      "source": "node_modules/emoji-regex/LICENSE-MIT.txt",
+      "noticeFile": "notices/483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a.txt",
+      "sha256": "483acb265f182907d1caf6cff9c16c96f31325ed23792832cc5d8b12d5f88c8a",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "env-paths@2.2.1",
+      "source": "node_modules/env-paths/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "esbuild@0.28.2",
+      "source": "node_modules/esbuild/LICENSE.md",
+      "noticeFile": "notices/b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681.txt",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fast-check@3.23.2",
+      "source": "node_modules/fast-check/LICENSE",
+      "noticeFile": "notices/b2bd24f5c975f659433271170b17e0a769b12ef8065bbca6dcd5511d57e94ce0.txt",
+      "sha256": "b2bd24f5c975f659433271170b17e0a769b12ef8065bbca6dcd5511d57e94ce0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fast-deep-equal@3.1.3",
+      "source": "node_modules/fast-deep-equal/LICENSE",
+      "noticeFile": "notices/7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a.txt",
+      "sha256": "7bf9b2de73a6b356761c948d0e9eeb4be6c1270bd04c79cd489c1e400ffdfc1a",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fd-slicer@1.1.0",
+      "source": "node_modules/fd-slicer/LICENSE",
+      "noticeFile": "notices/176d95320d565cb034d8323797b6cd6160238f625453687f98aad2085c46c3b3.txt",
+      "sha256": "176d95320d565cb034d8323797b6cd6160238f625453687f98aad2085c46c3b3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fdir@6.5.0",
+      "source": "node_modules/fdir/LICENSE",
+      "noticeFile": "notices/9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86.txt",
+      "sha256": "9a39f2aadab11a3697edd668ff2d8ad885b649737b7ab4d3bf12b34e5ada0c86",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "fs-extra@11.4.1",
+      "source": "node_modules/fs-extra/LICENSE",
+      "noticeFile": "notices/c6a7de1428955aa5a692f4d3a3d3ede658d959616944713337cda296736442e1.txt",
+      "sha256": "c6a7de1428955aa5a692f4d3a3d3ede658d959616944713337cda296736442e1",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "glob@13.0.6",
+      "source": "node_modules/glob/LICENSE.md",
+      "noticeFile": "notices/a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09.txt",
+      "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "graceful-fs@4.2.11",
+      "source": "node_modules/graceful-fs/LICENSE",
+      "noticeFile": "notices/f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c.txt",
+      "sha256": "f65c5d9f22a317b2a10803bd1868461ce6499c2ed7217bc80c0cc772a748789c",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "inherits@2.0.4",
+      "source": "node_modules/inherits/LICENSE",
+      "noticeFile": "notices/5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b.txt",
+      "sha256": "5ffe28e7ade7d8f10d85d5337a73fd793dac5c462fb9a28fbf8c5046c7fbca3b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "ini@4.1.3",
+      "source": "node_modules/ini/LICENSE",
+      "noticeFile": "notices/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "is-docker@2.2.1",
+      "source": "node_modules/is-docker/license",
+      "noticeFile": "notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "is-fullwidth-code-point@3.0.0",
+      "source": "node_modules/is-fullwidth-code-point/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "is-wsl@2.2.0",
+      "source": "node_modules/is-wsl/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "isexe@2.0.0",
+      "source": "node_modules/isexe/LICENSE",
+      "noticeFile": "notices/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "jsonfile@6.2.1",
+      "source": "node_modules/jsonfile/LICENSE",
+      "noticeFile": "notices/a9801fb52ba22ef808682a094da8a7a480584b7ed0dfd0d888ab543616335031.txt",
+      "sha256": "a9801fb52ba22ef808682a094da8a7a480584b7ed0dfd0d888ab543616335031",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "kleur@4.1.5",
+      "source": "node_modules/kleur/license",
+      "noticeFile": "notices/306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae.txt",
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "lru-cache@11.5.3",
+      "source": "node_modules/lru-cache/LICENSE.md",
+      "noticeFile": "notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "minimatch@10.2.6",
+      "source": "node_modules/minimatch/LICENSE.md",
+      "noticeFile": "notices/2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901.txt",
+      "sha256": "2c7c5d22ed5a8ee968c64757710979afcd77438c48b4a265b94e615babd8a901",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "minipass@7.1.3",
+      "source": "node_modules/minipass/LICENSE.md",
+      "noticeFile": "notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "minizlib@3.1.0",
+      "source": "node_modules/minizlib/LICENSE",
+      "noticeFile": "notices/df05697a04b8997c79d423930534e59cc18828f6e22d0c8c2d62fcbea1c4f50b.txt",
+      "sha256": "df05697a04b8997c79d423930534e59cc18828f6e22d0c8c2d62fcbea1c4f50b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "ms@2.1.3",
+      "source": "node_modules/ms/license.md",
+      "noticeFile": "notices/1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801.txt",
+      "sha256": "1662fae9b5314d11cf51284e2dcd1f006a354f7343f08712a730fcff9a359801",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "multicast-dns@7.2.5",
+      "source": "node_modules/multicast-dns/LICENSE",
+      "noticeFile": "notices/0aa9add6a9158efad3e6649e3affd607c7e2629f6677af19f9988c8fbb0757b0.txt",
+      "sha256": "0aa9add6a9158efad3e6649e3affd607c7e2629f6677af19f9988c8fbb0757b0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "nanoid@3.3.20",
+      "source": "node_modules/nanoid/LICENSE",
+      "noticeFile": "notices/da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987.txt",
+      "sha256": "da4db1480d9beea3483a2eda5c53b22238d0827d57da162b48f122e04d2d9987",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "native-run@2.0.3",
+      "source": "node_modules/native-run/LICENSE",
+      "noticeFile": "notices/377f1a9763b9dd9dad730c1534fe2f215496eda131553a16f3f9251f559e3a59.txt",
+      "sha256": "377f1a9763b9dd9dad730c1534fe2f215496eda131553a16f3f9251f559e3a59",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "open@8.4.2",
+      "source": "node_modules/open/license",
+      "noticeFile": "notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "package-json-from-dist@1.0.1",
+      "source": "node_modules/package-json-from-dist/LICENSE.md",
+      "noticeFile": "notices/a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09.txt",
+      "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "path-key@3.1.1",
+      "source": "node_modules/path-key/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "path-scurry@2.0.2",
+      "source": "node_modules/path-scurry/LICENSE.md",
+      "noticeFile": "notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "pend@1.2.0",
+      "source": "node_modules/pend/LICENSE",
+      "noticeFile": "notices/7e64acffcb0d20d33f5a86949ffd4a99ae045b10c7332a9c3a58635876c16880.txt",
+      "sha256": "7e64acffcb0d20d33f5a86949ffd4a99ae045b10c7332a9c3a58635876c16880",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "picocolors@1.1.1",
+      "source": "node_modules/picocolors/LICENSE",
+      "noticeFile": "notices/6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750.txt",
+      "sha256": "6582629e2979466878f6014313dcc2f3756c9616148682227ce3063dde310750",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "picomatch@4.0.7",
+      "source": "node_modules/picomatch/LICENSE",
+      "noticeFile": "notices/d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9.txt",
+      "sha256": "d0cd141b0c322fded5dfad1d4645bb2fedfc05b7321fe1009469638190d59ef9",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "playwright@1.64.0",
+      "source": "node_modules/playwright/LICENSE",
+      "noticeFile": "notices/45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "playwright@1.64.0",
+      "source": "node_modules/playwright/NOTICE",
+      "noticeFile": "notices/6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "playwright-core@1.64.0",
+      "source": "node_modules/playwright-core/LICENSE",
+      "noticeFile": "notices/45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb.txt",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "playwright-core@1.64.0",
+      "source": "node_modules/playwright-core/NOTICE",
+      "noticeFile": "notices/6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d.txt",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "plist@3.1.1",
+      "source": "node_modules/plist/LICENSE",
+      "noticeFile": "notices/3677dc86e6e5f119b500c308cc24cf533e2eb44c41050ea64584e049e5b70161.txt",
+      "sha256": "3677dc86e6e5f119b500c308cc24cf533e2eb44c41050ea64584e049e5b70161",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "postcss@8.5.29",
+      "source": "node_modules/postcss/LICENSE",
+      "noticeFile": "notices/5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8.txt",
+      "sha256": "5be1f3465bba68a626777f984878814aaf35e7ef8e9fd314d469bcf887050fb8",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "prompts@2.4.2",
+      "source": "node_modules/prompts/license",
+      "noticeFile": "notices/ade66f698fd417addc4d948a85ef33e8abb302daff6453feda18b191d250e54d.txt",
+      "sha256": "ade66f698fd417addc4d948a85ef33e8abb302daff6453feda18b191d250e54d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "kleur@3.0.3",
+      "source": "node_modules/prompts/node_modules/kleur/license",
+      "noticeFile": "notices/306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae.txt",
+      "sha256": "306fa513e39b23a6e8747520de761809d206b99800ef41907b530226574c59ae",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "pure-rand@6.1.0",
+      "source": "node_modules/pure-rand/LICENSE",
+      "noticeFile": "notices/e9d6a94ab01c6c9ab68c099d3ba8dd9f8aca60f2e2250c2302275405fca9e806.txt",
+      "sha256": "e9d6a94ab01c6c9ab68c099d3ba8dd9f8aca60f2e2250c2302275405fca9e806",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "react@19.3.0",
+      "source": "node_modules/react/LICENSE",
+      "noticeFile": "notices/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "react-dom@19.3.0",
+      "source": "node_modules/react-dom/LICENSE",
+      "noticeFile": "notices/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "readable-stream@3.6.2",
+      "source": "node_modules/readable-stream/LICENSE",
+      "noticeFile": "notices/ec62dc96da0099b87f4511736c87309335527fb7031639493e06c95728dc8c54.txt",
+      "sha256": "ec62dc96da0099b87f4511736c87309335527fb7031639493e06c95728dc8c54",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "rimraf@6.1.3",
+      "source": "node_modules/rimraf/LICENSE.md",
+      "noticeFile": "notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "rollup@4.64.3",
+      "source": "node_modules/rollup/LICENSE.md",
+      "noticeFile": "notices/fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8.txt",
+      "sha256": "fa1bd040c5bdeefe65b3821cebf474f2733ce65df13089bd151dda1778e62fe8",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "safe-buffer@5.2.1",
+      "source": "node_modules/safe-buffer/LICENSE",
+      "noticeFile": "notices/c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac.txt",
+      "sha256": "c7cc929b57080f4b9d0c6cf57669f0463fc5b39906344dfc8d3bc43426b30eac",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "sax@1.1.4",
+      "source": "node_modules/sax/LICENSE-W3C.html",
+      "noticeFile": "notices/066b84cfd245e2ba8c6940aba7d63465c027550906301d8104be07cbb8398c46.txt",
+      "sha256": "066b84cfd245e2ba8c6940aba7d63465c027550906301d8104be07cbb8398c46",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "sax@1.1.4",
+      "source": "node_modules/sax/LICENSE",
+      "noticeFile": "notices/3098be2717081cfe2b88a0faa221cb4f2326720cb8ce869199a9d6234f219319.txt",
+      "sha256": "3098be2717081cfe2b88a0faa221cb4f2326720cb8ce869199a9d6234f219319",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "scheduler@0.28.0",
+      "source": "node_modules/scheduler/LICENSE",
+      "noticeFile": "notices/da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93.txt",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "semver@7.8.5",
+      "source": "node_modules/semver/LICENSE",
+      "noticeFile": "notices/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "shebang-command@2.0.0",
+      "source": "node_modules/shebang-command/license",
+      "noticeFile": "notices/69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3.txt",
+      "sha256": "69dee148a2cc470554dfa7142e830662062394d0fe67cddd379aba90dc60d6b3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "shebang-regex@3.0.0",
+      "source": "node_modules/shebang-regex/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "signal-exit@3.0.7",
+      "source": "node_modules/signal-exit/LICENSE.txt",
+      "noticeFile": "notices/e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e.txt",
+      "sha256": "e05b1eaf5b5f99b7ad75cd1f38858ff9a311780b97715ead67936d60bf96aa7e",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "sisteransi@1.0.5",
+      "source": "node_modules/sisteransi/license",
+      "noticeFile": "notices/ade66f698fd417addc4d948a85ef33e8abb302daff6453feda18b191d250e54d.txt",
+      "sha256": "ade66f698fd417addc4d948a85ef33e8abb302daff6453feda18b191d250e54d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "slice-ansi@4.0.0",
+      "source": "node_modules/slice-ansi/license",
+      "noticeFile": "notices/c91d87c3bca16ab6d96d82da08edc54377d14b679547a331eecc4adef3c353c8.txt",
+      "sha256": "c91d87c3bca16ab6d96d82da08edc54377d14b679547a331eecc4adef3c353c8",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "source-map-js@1.2.2",
+      "source": "node_modules/source-map-js/LICENSE",
+      "noticeFile": "notices/6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd.txt",
+      "sha256": "6cb0631f71c7749763fd3dd1d5bee52dd1070ec17f2edc1710079ad070bd2fbd",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "split2@4.2.0",
+      "source": "node_modules/split2/LICENSE",
+      "noticeFile": "notices/c372ef2fa1dfcb124ed807609751e75e3a009f108c5724916b489288fcb88a0c.txt",
+      "sha256": "c372ef2fa1dfcb124ed807609751e75e3a009f108c5724916b489288fcb88a0c",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "string_decoder@1.3.0",
+      "source": "node_modules/string_decoder/LICENSE",
+      "noticeFile": "notices/11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b.txt",
+      "sha256": "11f2aafb37d06b3ee5bdaf06e9811141d0da05263c316f3d627f45c20d43261b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "string-width@4.2.3",
+      "source": "node_modules/string-width/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "strip-ansi@6.0.1",
+      "source": "node_modules/strip-ansi/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "tar@7.5.22",
+      "source": "node_modules/tar/LICENSE.md",
+      "noticeFile": "notices/8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004.txt",
+      "sha256": "8a1af140fdfbf5afd3df27f7e662f989c5b963a300020dfafce42033cae9e004",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "through2@4.0.2",
+      "source": "node_modules/through2/LICENSE.md",
+      "noticeFile": "notices/faae57631e1c7d641c3b6f9b110c2a7a28c8b383d08d7796ac472c509f075850.txt",
+      "sha256": "faae57631e1c7d641c3b6f9b110c2a7a28c8b383d08d7796ac472c509f075850",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "thunky@1.1.0",
+      "source": "node_modules/thunky/LICENSE",
+      "noticeFile": "notices/2281f2db407bdbb54f069eec38128b2dee2c0c952f52b786ef1faecb81767b3c.txt",
+      "sha256": "2281f2db407bdbb54f069eec38128b2dee2c0c952f52b786ef1faecb81767b3c",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "tinyglobby@0.2.17",
+      "source": "node_modules/tinyglobby/LICENSE",
+      "noticeFile": "notices/22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f.txt",
+      "sha256": "22c68811e174cbbfb3813d4135918df4f540959c14d872e601d9abe83d3cde8f",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "tree-kill@1.2.2",
+      "source": "node_modules/tree-kill/LICENSE",
+      "noticeFile": "notices/33eba3cb810ee4b03426ec7fecf22e7529e2fe95f8163e7213016459bee7a276.txt",
+      "sha256": "33eba3cb810ee4b03426ec7fecf22e7529e2fe95f8163e7213016459bee7a276",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "tslib@2.8.1",
+      "source": "node_modules/tslib/LICENSE.txt",
+      "noticeFile": "notices/210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751.txt",
+      "sha256": "210b19e543130388c68654b7497e967119ce17145f66ab7d85688fbd70f08751",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "tsx@4.23.15",
+      "source": "node_modules/tsx/LICENSE",
+      "noticeFile": "notices/8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581.txt",
+      "sha256": "8dded67841a9261a622c739fb61c81785e93765de852828ceeb9403d20a74581",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "typescript@5.9.3",
+      "source": "node_modules/typescript/LICENSE.txt",
+      "noticeFile": "notices/a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47.txt",
+      "sha256": "a7d00bfd54525bc694b6e32f64c7ebcf5e6b7ae3657be5cc12767bce74654a47",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "undici-types@6.21.0",
+      "source": "node_modules/undici-types/LICENSE",
+      "noticeFile": "notices/a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27.txt",
+      "sha256": "a6db8096b2707bc0102d256917d4d33f298ba36d8c3f25de067a2b5bb379db27",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "universalify@2.0.1",
+      "source": "node_modules/universalify/LICENSE",
+      "noticeFile": "notices/3fda5977c0904e226190b4e21d64340c1731e2142d6fe5f3dee0090a216b8b63.txt",
+      "sha256": "3fda5977c0904e226190b4e21d64340c1731e2142d6fe5f3dee0090a216b8b63",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "untildify@4.0.0",
+      "source": "node_modules/untildify/license",
+      "noticeFile": "notices/48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0.txt",
+      "sha256": "48da2f39e100d4085767e94966b43f4fa95ff6a0698fba57ed460914e35f94a0",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "util-deprecate@1.0.2",
+      "source": "node_modules/util-deprecate/LICENSE",
+      "noticeFile": "notices/0154425673db15cdfa80ecba2c9b1f1a867f7197a006764712849bfc3a93cbb7.txt",
+      "sha256": "0154425673db15cdfa80ecba2c9b1f1a867f7197a006764712849bfc3a93cbb7",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "vite@6.4.4",
+      "source": "node_modules/vite/LICENSE.md",
+      "noticeFile": "notices/008938a3441801ca3960f8e3ccb4c0738e7996442a53063141d57d3769a7344d.txt",
+      "sha256": "008938a3441801ca3960f8e3ccb4c0738e7996442a53063141d57d3769a7344d",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "esbuild@0.25.12",
+      "source": "node_modules/vite/node_modules/esbuild/LICENSE.md",
+      "noticeFile": "notices/b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681.txt",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "which@2.0.2",
+      "source": "node_modules/which/LICENSE",
+      "noticeFile": "notices/4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b.txt",
+      "sha256": "4ec3d4c66cd87f5c8d8ad911b10f99bf27cb00cdfcff82621956e379186b016b",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "wrap-ansi@7.0.0",
+      "source": "node_modules/wrap-ansi/license",
+      "noticeFile": "notices/5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3.txt",
+      "sha256": "5c932d88256b4ab958f64a856fa48e8bd1f55bc1d96b8149c65689e0c61789d3",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "ws@8.22.0",
+      "source": "node_modules/ws/LICENSE",
+      "noticeFile": "notices/2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef.txt",
+      "sha256": "2b29dcfe0d6471f7e8c92c5fb38c9f93edee10330937055440192f1832b1ecef",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "xml2js@0.6.2",
+      "source": "node_modules/xml2js/LICENSE",
+      "noticeFile": "notices/c51452ef1dfd5606c9fe266930fa6bf7e8a534d52973b6475df5bf212cad5b0a.txt",
+      "sha256": "c51452ef1dfd5606c9fe266930fa6bf7e8a534d52973b6475df5bf212cad5b0a",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "xmlbuilder@11.0.1",
+      "source": "node_modules/xml2js/node_modules/xmlbuilder/LICENSE",
+      "noticeFile": "notices/e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8.txt",
+      "sha256": "e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "xmlbuilder@15.1.1",
+      "source": "node_modules/xmlbuilder/LICENSE",
+      "noticeFile": "notices/e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8.txt",
+      "sha256": "e368bc4263b466cf98c225af15e300549e00da8859416a4536109e9654d434a8",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "yallist@5.0.0",
+      "source": "node_modules/yallist/LICENSE.md",
+      "noticeFile": "notices/a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09.txt",
+      "sha256": "a49c9ba464796f65b59fca3f1e6ca40912df1e859f575383223f7ec6c5baae09",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "yauzl@2.10.0",
+      "source": "node_modules/yauzl/LICENSE",
+      "noticeFile": "notices/b303783d5eb7ca50b853ffa5f145e4e7998fab339831d848f507ca6cd970577a.txt",
+      "sha256": "b303783d5eb7ca50b853ffa5f145e4e7998fab339831d848f507ca6cd970577a",
+      "scope": "Installed npm package; build/runtime scope per dependency inventory"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": ".local-tools/gradle/caches/modules-2/files-2.1/androidx.core/core/1.15.0/e8d4c7eeed12403fdd2d5ef29a00ebe946d530d6/core-1.15.0.aar!/META-INF/androidx/core/core/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact cached Android runtime archive notice"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": ".local-tools/gradle/caches/modules-2/files-2.1/androidx.core/core-ktx/1.15.0/b45c3596eb3875fcb756552706aed117caf90208/core-ktx-1.15.0.aar!/META-INF/androidx/core/core-ktx/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact cached Android runtime archive notice"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": ".local-tools/gradle/caches/modules-2/files-2.1/androidx.webkit/webkit/1.12.1/952ea5c16ab05a40f3b95c68e38c56cdc1ef2e97/webkit-1.12.1.aar!/META-INF/androidx/webkit/webkit/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact cached Android runtime archive notice"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": ".local-tools/gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd/2.3.1/a8d54d1ca554a77f377eff6bf9e16ca8383c8f6c/nanohttpd-2.3.1.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact cached Android runtime archive notice"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "source": ".local-tools/gradle/caches/modules-2/files-2.1/org.nanohttpd/nanohttpd-websocket/2.3.1/f2cfb09cee12469ff64f0d698b13de19903bb4f7/nanohttpd-websocket-2.3.1.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact cached Android runtime archive notice"
+    },
+    {
+      "component": "Gradle wrapper",
+      "source": "android/gradle/wrapper/gradle-wrapper.jar!/META-INF/LICENSE",
+      "noticeFile": "notices/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594.txt",
+      "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "scope": "Existing source wrapper"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/ActivityViewModelLazy.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/BackEventCompat.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/Cancellable.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/ComponentDialog.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/FullyDrawnReporter.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/PipHintTracker.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/result/ActivityResultCallback.kt",
+      "noticeFile": "notices/fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c.txt",
+      "sha256": "fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/AnyThread.kt",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/CallSuper.kt",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/ColorLong.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/Discouraged.kt",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/EmptySuper.kt",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/IntDef.kt",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresApi.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresFeature.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-experimental/1.4.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1-sources.jar!/androidx/annotation/OptIn.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-experimental/1.4.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1-sources.jar!/androidx/annotation/RequiresOptIn.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/AnimRes.jvm.kt",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/BinderThread.jvm.kt",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ChecksSdkIntAtLeast.jvm.kt",
+      "noticeFile": "notices/fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c.txt",
+      "sha256": "fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ContentView.jvm.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/DeprecatedSinceApi.jvm.kt",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/Dimension.jvm.kt",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/DisplayContext.jvm.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/FontRes.jvm.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/NonNull.jvm.kt",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ReplaceWith.jvm.kt",
+      "noticeFile": "notices/85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5.txt",
+      "sha256": "85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/Discouraged.kt",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresApi.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresFeature.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ActionBar.java",
+      "noticeFile": "notices/a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c.txt",
+      "sha256": "a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ActionBarDrawerToggle.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AlertController.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AppCompatDelegateImpl.java",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AppLocalesMetadataHolderService.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/LayoutIncludeDetector.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/LocaleOverlayHelper.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ResourcesFlusher.java",
+      "noticeFile": "notices/b05f0debea4dd3bb41e6c7c5f44711651e05ef1139c8da349e2094bc2796a44a.txt",
+      "sha256": "b05f0debea4dd3bb41e6c7c5f44711651e05ef1139c8da349e2094bc2796a44a",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/ActionMode.java",
+      "noticeFile": "notices/41845febcd9458cc67174fa6c5de8d6070fdab00f336f834d22135c0e7e29ecd.txt",
+      "sha256": "41845febcd9458cc67174fa6c5de8d6070fdab00f336f834d22135c0e7e29ecd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/CollapsibleActionView.java",
+      "noticeFile": "notices/b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209.txt",
+      "sha256": "b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/menu/CascadingMenuPopup.java",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/menu/ListMenuItemView.java",
+      "noticeFile": "notices/df2436a6f58c1a53985d26b2293d48e74ab788ca813cc8b2adb76e8f85a96677.txt",
+      "sha256": "df2436a6f58c1a53985d26b2293d48e74ab788ca813cc8b2adb76e8f85a96677",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatHintHelper.java",
+      "noticeFile": "notices/0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305.txt",
+      "sha256": "0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatTextClassifierHelper.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/DialogTitle.java",
+      "noticeFile": "notices/fb79fe20425ea16f8e38ec9537ed90ac86e904fac0883f31cc5d22850b1e8280.txt",
+      "sha256": "fb79fe20425ea16f8e38ec9537ed90ac86e904fac0883f31cc5d22850b1e8280",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/content/res/AppCompatResources.java",
+      "noticeFile": "notices/53082e800843aed238b7aade7fd4d9927b641988d2db1e66c112c4f5f6074781.txt",
+      "sha256": "53082e800843aed238b7aade7fd4d9927b641988d2db1e66c112c4f5f6074781",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/graphics/drawable/DrawableWrapperCompat.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/resources/Compatibility.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/widget/ResourceManagerInternal.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/widget/ResourcesWrapper.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.arch.core/core-common/2.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0-sources.jar!/androidx/arch/core/internal/FastSafeIterableMap.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.arch.core/core-runtime/2.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0-sources.jar!/androidx/arch/core/executor/ArchTaskExecutor.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/ArraySet.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/CircularArray.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/FloatFloatMap.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/IndexBasedArrayIterator.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/ArrayMap.kt",
+      "noticeFile": "notices/7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415.txt",
+      "sha256": "7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/ArraySet.jvm.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/LongSparseArray.jvm.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/package-info.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/internal/PackingHelpers.jvm.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/commonMain/androidx/collection/IndexBasedArrayIterator.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.concurrent/concurrent-futures/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0-sources.jar!/androidx/concurrent/futures/AbstractResolvableFuture.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.coordinatorlayout/coordinatorlayout/1.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/1.2.0/coordinatorlayout-1.2.0-sources.jar!/androidx/coordinatorlayout/widget/CoordinatorLayout.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/android/support/v4/os/ResultReceiver.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/accessibilityservice/AccessibilityServiceInfoCompat.java",
+      "noticeFile": "notices/b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209.txt",
+      "sha256": "b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityManagerCompat.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityOptionsCompat.java",
+      "noticeFile": "notices/a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c.txt",
+      "sha256": "a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityRecreator.java",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AlarmManagerCompat.java",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AppLocalesStorageHelper.java",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AppOpsManagerCompat.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/DialogCompat.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/FrameMetricsAggregator.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/LocaleManagerCompat.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/NotificationChannelCompat.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/OnMultiWindowModeChangedProvider.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/PendingIntentCompat.java",
+      "noticeFile": "notices/cc72f0c458dab99b2021d05c8bf272eb917dda654c3baf737db83ba3cf57aeb4.txt",
+      "sha256": "cc72f0c458dab99b2021d05c8bf272eb917dda654c3baf737db83ba3cf57aeb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/ContentResolverCompat.java",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/SharedPreferencesCompat.java",
+      "noticeFile": "notices/85304b741dae82536140550f0ee7054d122ebdf816c852c92bbbe86686501ae6.txt",
+      "sha256": "85304b741dae82536140550f0ee7054d122ebdf816c852c92bbbe86686501ae6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/pm/ShortcutInfoCompat.java",
+      "noticeFile": "notices/627eb9ffdae7f73ea2a685b2bed602684547109928c6bf4afa08a88f7f96af32.txt",
+      "sha256": "627eb9ffdae7f73ea2a685b2bed602684547109928c6bf4afa08a88f7f96af32",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/BlendModeCompat.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/ColorUtils.java",
+      "noticeFile": "notices/1a6d45f82689dd204ca86c5a6dc8b06244cd1ddd46fb9bdbbc82f0b62fdcdd97.txt",
+      "sha256": "1a6d45f82689dd204ca86c5a6dc8b06244cd1ddd46fb9bdbbc82f0b62fdcdd97",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/TypefaceCompatApi28Impl.java",
+      "noticeFile": "notices/0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305.txt",
+      "sha256": "0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/os/Profiling.kt",
+      "noticeFile": "notices/85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5.txt",
+      "sha256": "85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/os/TraceCompat.java",
+      "noticeFile": "notices/7d6bc44faadcfc207a6e1e5ba86e8a3d3df5ab796a1fbfa779bdd42ffbb8cc5c.txt",
+      "sha256": "7d6bc44faadcfc207a6e1e5ba86e8a3d3df5ab796a1fbfa779bdd42ffbb8cc5c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/text/method/LinkMovementMethodCompat.java",
+      "noticeFile": "notices/d6cfc574bd8e3ac4a60037317c60b273556b72fa04fa4e32bb8b3581f949c76e.txt",
+      "sha256": "d6cfc574bd8e3ac4a60037317c60b273556b72fa04fa4e32bb8b3581f949c76e",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/text/util/LocalePreferences.java",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/util/AtomicFile.java",
+      "noticeFile": "notices/623d3727872cbcb7ff339b9a151f6f1a6eeb5bdf9f0afe2d7d51b2804fb6591c.txt",
+      "sha256": "623d3727872cbcb7ff339b9a151f6f1a6eeb5bdf9f0afe2d7d51b2804fb6591c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/view/animation/PathInterpolatorCompat.java",
+      "noticeFile": "notices/916ad05d2ddb5952efa00a8eacd18ecca04b6fab9c55adf238e4847ac255c35f.txt",
+      "sha256": "916ad05d2ddb5952efa00a8eacd18ecca04b6fab9c55adf238e4847ac255c35f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/widget/CheckedTextViewCompat.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/META-INF/androidx/core/core/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/animation/Animator.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/content/ContentValues.kt",
+      "noticeFile": "notices/dc12336bbf298546ef57c053e433668b61d9e2d5bf142d29b0f017a37a0eb151.txt",
+      "sha256": "dc12336bbf298546ef57c053e433668b61d9e2d5bf142d29b0f017a37a0eb151",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/content/Context.kt",
+      "noticeFile": "notices/7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415.txt",
+      "sha256": "7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/graphics/Paint.kt",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/graphics/Picture.kt",
+      "noticeFile": "notices/60fdc91f1d77dab4e4d2ef9b97fb850b500698c4514f859602e1fbc692de2974.txt",
+      "sha256": "60fdc91f1d77dab4e4d2ef9b97fb850b500698c4514f859602e1fbc692de2974",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/os/OutcomeReceiver.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/text/Locale.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/util/LruCache.kt",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/META-INF/androidx/core/core-ktx/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "androidx.core/core-splashscreen/1.0.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-splashscreen/1.0.1/core-splashscreen-1.0.1-sources.jar!/androidx/core/splashscreen/MaskedDrawable.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.cursoradapter/cursoradapter/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0-sources.jar!/androidx/cursoradapter/widget/SimpleCursorAdapter.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.customview/customview/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0/customview-1.0.0-sources.jar!/androidx/customview/view/AbsSavedState.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.drawerlayout/drawerlayout/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0-sources.jar!/androidx/emoji2/text/ConcurrencyHelpers.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0-sources.jar!/androidx/emoji2/text/DefaultGlyphChecker.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2-views-helper/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2-views-helper/1.3.0/emoji2-views-helper-1.3.0-sources.jar!/androidx/emoji2/viewsintegration/EmojiEditTextHelper.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/BackStackRecord.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/BackStackState.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/DefaultSpecialEffectsController.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/FragmentOnAttachListener.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/PredictiveBackControl.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/strictmode/WrongNestedHierarchyViolation.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.interpolator/interpolator/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0-sources.jar!/androidx/interpolator/view/animation/FastOutLinearInInterpolator.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/ClassesInfoCache.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/DispatchQueue.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/LifecycleEventObserver.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-livedata/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.6.2/lifecycle-livedata-2.6.2-sources.jar!/androidx/lifecycle/ComputableLiveData.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-livedata-core/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.6.2/lifecycle-livedata-core-2.6.2-sources.jar!/androidx/lifecycle/LiveData.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-process/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.6.2/lifecycle-process-2.6.2-sources.jar!/androidx/lifecycle/EmptyActivityLifecycleCallbacks.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-process/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.6.2/lifecycle-process-2.6.2-sources.jar!/androidx/lifecycle/ProcessLifecycleInitializer.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2-sources.jar!/androidx/lifecycle/LifecycleRegistry.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeLifecycleOwner.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/AndroidViewModel.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/HasDefaultViewModelProviderFactory.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewModelLazy.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeViewModel.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeViewModelStoreOwner.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/viewmodel/InitializerViewModelFactory.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/AbstractSavedStateViewModelFactory.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/LegacySavedStateHandleController.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/SavedStateHandleController.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.loader/loader/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0/loader-1.0.0-sources.jar!/androidx/loader/content/Loader.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/BenchmarkOperation.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/DeviceProfileWriter.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/package-info.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.resourceinspection/resourceinspection-annotation/1.0.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/resourceinspection/resourceinspection-annotation/1.0.1/resourceinspection-annotation-1.0.1-sources.jar!/androidx/resourceinspection/package-info.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/Recreator.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/SavedStateRegistryController.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/ViewTreeSavedStateRegistryOwner.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.startup/startup-runtime/1.1.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1-sources.jar!/androidx/startup/AppInitializer.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.tracing/tracing/1.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0-sources.jar!/androidx/tracing/Trace.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/AndroidResources.java",
+      "noticeFile": "notices/2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38.txt",
+      "sha256": "2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/Animatable2Compat.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat.java",
+      "noticeFile": "notices/2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38.txt",
+      "sha256": "2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.versionedparcelable/versionedparcelable/1.1.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1-sources.jar!/androidx/versionedparcelable/CustomVersionedParcelable.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.viewpager/viewpager/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerTitleStrip.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/CookieManagerCompat.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/JavaScriptReplyProxy.java",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/Profile.java",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/ProxyConfig.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/ScriptHandler.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/internal/package-info.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/META-INF/androidx/webkit/webkit/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "com.google.guava/listenablefuture/1.0",
+      "source": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0-sources.jar!/com/google/common/util/concurrent/ListenableFuture.java",
+      "noticeFile": "notices/3401916a213ab1d1518c336719bf249bdf4d6554f681f0f8653dc576550c00f8.txt",
+      "sha256": "3401916a213ab1d1518c336719bf249bdf4d6554f681f0f8653dc576550c00f8",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/CordovaPlugin.java",
+      "noticeFile": "notices/29494df6f00d2aaf74d78d32db2ed9fa65ecfc96074dff47ea937a020cbfd81c.txt",
+      "sha256": "29494df6f00d2aaf74d78d32db2ed9fa65ecfc96074dff47ea937a020cbfd81c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/PluginManager.java",
+      "noticeFile": "notices/43dfaf9ecd2da6f5cb4a032dc45e188921165114435866038651680630a8b4dd.txt",
+      "sha256": "43dfaf9ecd2da6f5cb4a032dc45e188921165114435866038651680630a8b4dd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/CordovaWebView.java",
+      "noticeFile": "notices/a9d09f49fbf2046914657de5d6f4a17eea941f133da0f1fd1122d39dc2e4c86f.txt",
+      "sha256": "a9d09f49fbf2046914657de5d6f4a17eea941f133da0f1fd1122d39dc2e4c86f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/Flow.java",
+      "noticeFile": "notices/cd14ea844553a1b68fe4f38e9985563215191e30ffb8839e1f8884572ab53800.txt",
+      "sha256": "cd14ea844553a1b68fe4f38e9985563215191e30ffb8839e1f8884572ab53800",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/Identifier.java",
+      "noticeFile": "notices/66a7ebb57fb18ce77b56a7dd5e1722160be3a3ff0eedbeb77596e5920116b7b2.txt",
+      "sha256": "66a7ebb57fb18ce77b56a7dd5e1722160be3a3ff0eedbeb77596e5920116b7b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/JdkConstants.java",
+      "noticeFile": "notices/cd45fb5a7bc9736f9ca93a4d6559d39448f91ba77460f7d386a8219b16eafcca.txt",
+      "sha256": "cd45fb5a7bc9736f9ca93a4d6559d39448f91ba77460f7d386a8219b16eafcca",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/jetbrains/annotations/Nls.java",
+      "noticeFile": "notices/8f001aa9db4116b5bb12d408d48ecc37e1e6bf76d852d50c9052491a0d60f9aa.txt",
+      "sha256": "8f001aa9db4116b5bb12d408d48ecc37e1e6bf76d852d50c9052491a0d60f9aa",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Annotation.kt",
+      "noticeFile": "notices/f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f.txt",
+      "sha256": "f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Any.kt",
+      "noticeFile": "notices/3af858fc83088f11647ba3e0aa03e03edd30b3d6f3c4e7342764a5b739dceefe.txt",
+      "sha256": "3af858fc83088f11647ba3e0aa03e03edd30b3d6f3c4e7342764a5b739dceefe",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Array.kt",
+      "noticeFile": "notices/417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df.txt",
+      "sha256": "417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Arrays.kt",
+      "noticeFile": "notices/97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5.txt",
+      "sha256": "97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Char.kt",
+      "noticeFile": "notices/d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5.txt",
+      "sha256": "d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Collections.kt",
+      "noticeFile": "notices/b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de.txt",
+      "sha256": "b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Library.kt",
+      "noticeFile": "notices/92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67.txt",
+      "sha256": "92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/jdk7/kotlin/io/path/PathReadWrite.kt",
+      "noticeFile": "notices/b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2.txt",
+      "sha256": "b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/jdk8/kotlin/collections/Collections.kt",
+      "noticeFile": "notices/bf07db813d204a4f09e1738e9d2c4755ca6c6e00dcf8fe6df35166d6d12e02da.txt",
+      "sha256": "bf07db813d204a4f09e1738e9d2c4755ca6c6e00dcf8fe6df35166d6d12e02da",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/commonMain/kotlin/experimental/ExperimentalNativeApi.kt",
+      "noticeFile": "notices/cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea.txt",
+      "sha256": "cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/generated/_Arrays.kt",
+      "noticeFile": "notices/97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5.txt",
+      "sha256": "97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/Comparator.kt",
+      "noticeFile": "notices/b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de.txt",
+      "sha256": "b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/JsAnnotationsH.kt",
+      "noticeFile": "notices/f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f.txt",
+      "sha256": "f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/JvmAnnotationsH.kt",
+      "noticeFile": "notices/b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2.txt",
+      "sha256": "b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/MathH.kt",
+      "noticeFile": "notices/d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5.txt",
+      "sha256": "d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/collections/ArrayDeque.kt",
+      "noticeFile": "notices/417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df.txt",
+      "sha256": "417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/experimental/ExperimentalNativeApi.kt",
+      "noticeFile": "notices/cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea.txt",
+      "sha256": "cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/InternalAnnotations.kt",
+      "noticeFile": "notices/92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67.txt",
+      "sha256": "92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4-sources.jar!/AndroidExceptionPreHandler.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonMain/AbstractCoroutine.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonMain/channels/Deprecated.kt",
+      "noticeFile": "notices/7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683.txt",
+      "sha256": "7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/LimitedParallelismSharedTest.kt",
+      "noticeFile": "notices/248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041.txt",
+      "sha256": "248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/LaunchLazyTest.kt",
+      "noticeFile": "notices/7f57ded57d15fa107e0009cebb872c92a0666274762f42ffda2183a2358fb1ad.txt",
+      "sha256": "7f57ded57d15fa107e0009cebb872c92a0666274762f42ffda2183a2358fb1ad",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/flow/FlowInvariantsTest.kt",
+      "noticeFile": "notices/3c690334796c8331e05278a2a22cc9250a3d69b8c1015b5602977163850c18d3.txt",
+      "sha256": "3c690334796c8331e05278a2a22cc9250a3d69b8c1015b5602977163850c18d3",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/jvmMain/Builders.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/jvmMain/internal/ResizableAtomicArray.kt",
+      "noticeFile": "notices/248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041.txt",
+      "sha256": "248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/commonMain/channels/Deprecated.kt",
+      "noticeFile": "notices/7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683.txt",
+      "sha256": "7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/fi/iki/elonen/util/ServerRunner.java",
+      "noticeFile": "notices/e2349dc118835a1379c7068847c2adcdceb04c454e0302a19b4054db8b424dd8.txt",
+      "sha256": "e2349dc118835a1379c7068847c2adcdceb04c454e0302a19b4054db8b424dd8",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/fi/iki/elonen/NanoHTTPD.java",
+      "noticeFile": "notices/dddd04ad4ca27fbc30f10d8561ba4a6f887464050ebfd69d541f77b3b4f593d7.txt",
+      "sha256": "dddd04ad4ca27fbc30f10d8561ba4a6f887464050ebfd69d541f77b3b4f593d7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-websocket/2.3.1/nanohttpd-websocket-2.3.1-sources.jar!/fi/iki/elonen/samples/echo/DebugWebSocketServer.java",
+      "noticeFile": "notices/13123847f5162747e7cc97d02d4f737b50d4631d54974fa3bd04ca86d406c3da.txt",
+      "sha256": "13123847f5162747e7cc97d02d4f737b50d4631d54974fa3bd04ca86d406c3da",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-websocket/2.3.1/nanohttpd-websocket-2.3.1-sources.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "dd-plist adapted portions in bplist-parser@0.3.2",
+      "source": "https://github.com/3breadt/dd-plist/blob/8c7db0168866aaf37b20d57ae083068e3560eb5d/src/main/java/com/dd/plist/BinaryPropertyListParser.java",
+      "noticeFile": "notices/a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8.txt",
+      "sha256": "a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8",
+      "scope": "MIT; Copyright (C) 2011 Daniel Dreibrodt; conservative notice for acknowledged adaptation; exact copied revision unknown"
+    },
+    {
+      "component": "node_modules/fsevents@2.3.3",
+      "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz!/package/LICENSE",
+      "noticeFile": "notices/2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1.txt",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "scope": "Exact integrity-verified optional tarball license"
+    }
+  ],
+  "npmGaps": [
+    {
+      "component": "@esbuild/linux-x64@0.28.2",
+      "reason": "No license file in installed platform payload; parent tool license is not independent payload clearance"
+    },
+    {
+      "component": "@rollup/rollup-linux-x64-gnu@4.64.3",
+      "reason": "No license file in installed platform payload; parent tool license is not independent payload clearance"
+    },
+    {
+      "component": "@rollup/rollup-linux-x64-musl@4.64.3",
+      "reason": "No license file in installed platform payload; parent tool license is not independent payload clearance"
+    },
+    {
+      "component": "bplist-parser@0.3.2",
+      "reason": "Acknowledged dd-plist adaptation conservatively credited under historical MIT; exact copied lines/revision not independently established",
+      "status": "Resolved notice source: historical upstream MIT header retained in notices/a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8.txt"
+    },
+    {
+      "component": "@esbuild/linux-x64@0.25.12",
+      "reason": "No license file in installed platform payload; parent tool license is not independent payload clearance"
+    }
+  ],
+  "androidRuntimeReview": [
+    {
+      "coordinate": "androidx.activity/activity/1.9.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.annotation/annotation/1.8.1",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.annotation/annotation-experimental/1.4.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.annotation/annotation-jvm/1.8.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.appcompat/appcompat/1.7.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.appcompat/appcompat-resources/1.7.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.arch.core/core-common/2.2.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.arch.core/core-runtime/2.2.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.collection/collection/1.4.2",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.collection/collection-jvm/1.4.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.concurrent/concurrent-futures/1.1.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.coordinatorlayout/coordinatorlayout/1.2.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.core/core/1.15.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [
+        "META-INF/androidx/core/core/LICENSE.txt"
+      ],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.core/core-ktx/1.15.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [
+        "META-INF/androidx/core/core-ktx/LICENSE.txt"
+      ],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.core/core-splashscreen/1.0.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.cursoradapter/cursoradapter/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.customview/customview/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.drawerlayout/drawerlayout/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.emoji2/emoji2/1.3.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.emoji2/emoji2-views-helper/1.3.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.fragment/fragment/1.8.4",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.interpolator/interpolator/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-livedata/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-livedata-core/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-process/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.loader/loader/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.resourceinspection/resourceinspection-annotation/1.0.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.savedstate/savedstate/1.2.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.startup/startup-runtime/1.1.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.tracing/tracing/1.2.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.vectordrawable/vectordrawable/1.1.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.versionedparcelable/versionedparcelable/1.1.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.viewpager/viewpager/1.0.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "androidx.webkit/webkit/1.12.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [
+        "META-INF/androidx/webkit/webkit/LICENSE.txt"
+      ],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "com.google.guava/listenablefuture/1.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.apache.cordova/framework/10.1.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains/annotations/13.0",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin/kotlin-bom/1.9.25",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.25",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.25",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.6.4",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "archivesChecked": 0,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "archivesChecked": 1,
+      "embeddedNotices": [],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.nanohttpd/nanohttpd/2.3.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [
+        "LICENSE.txt"
+      ],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    },
+    {
+      "coordinate": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "archivesChecked": 1,
+      "embeddedNotices": [
+        "LICENSE.txt"
+      ],
+      "status": "Embedded texts preserved; upstream source notices/completeness still pending"
+    }
+  ],
+  "limitations": [
+    "75 absent optional payloads remain outside full-text review",
+    "APK/web packaging unchanged",
+    "Android artwork R-01 unresolved",
+    "Archive scans do not replace upstream source/header NOTICE review"
+  ],
+  "continuation": {
+    "baseEntries": 137,
+    "baseUniqueTexts": 86,
+    "newEntries": 199,
+    "sourceHeaderOccurrences": 2414,
+    "uniqueSourceHeaders": 63,
+    "optionalArchiveEntries": 79,
+    "optionalIntegrityPassed": 79,
+    "optionalWithEmbeddedLicense": 1
+  }
+}

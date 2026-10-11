@@ -70,4 +70,4 @@ Android APKs are distributed separately through [GitHub Releases](https://github
 
 Rules and engine behavior are unchanged. The approved [rules](docs/RULES_V1.md) and [CSV geometry](data/igra_64_koordinaty.csv) are authoritative. Unresolved rule interpretations are documented. The event log is a local SHA256 chain, not a blockchain. Dice use Web Crypto unless an explicit reproducible seed is selected; drand is not integrated.
 
-Model weights are included. Raw training datasets, experiment logs, credentials, build caches and APKs are excluded from Git. A project license has not yet been selected.
+Model weights are included. Raw training datasets, experiment logs, credentials, build caches and APKs are excluded from Git. The owner has selected GPL-3.0-only for owner-controlled original materials, but adoption remains pending model-scope and third-party distribution checks. No project LICENSE has been added. See the [licensing action plan](docs/LICENSING_ACTION_PLAN.md) and [third-party notices](docs/THIRD_PARTY_NOTICES.md); third-party components retain their original licenses.

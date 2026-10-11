@@ -1,0 +1,7 @@
+{
+  "method": "javap -p -c -s -constants: normalize relocated namespaces and constant-pool index display; canonicalize instruction offsets/branch and exception targets to instruction ordinals; ldc_w/ldc encoding width; preserve symbolic references and string constants",
+  "runtimeClassCount": 45,
+  "allNormalizedDisassemblyEqual": true,
+  "normalizedSha256": "edac5795926c8e536894a76962197f1f6e30f48e27397c6255fa89f86cd5d410",
+  "limitation": "Semantic bytecode comparison, not original artifact-byte identity; debug attributes/signatures outside javap output and historical build commit not certified"
+}

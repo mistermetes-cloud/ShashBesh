@@ -1,0 +1,738 @@
+{
+  "baseline": "b3d2c2c",
+  "apkSha256": "f24848f0c8572f3392f6be7be13228ae047a9810cb71a1b4f89ae6c45139b8a2",
+  "bundlePath": "docs/licensing/bundles/ShashBesh-v0.3.1-alpha-third-party-notices-r1.zip",
+  "bundleSha256": "5b1d4c680de0af533a079e017987924e0ba122cebb89bf0809579f9d327dd998",
+  "bundleEntries": 217,
+  "uniqueLicenseTexts": 80,
+  "componentContexts": 59,
+  "androidClassMatchedCoordinates": 46,
+  "flatbuffersRuntime": {
+    "method": "javap -p -c -s -constants: normalize relocated namespaces and constant-pool index display; canonicalize instruction offsets/branch and exception targets to instruction ordinals; ldc_w/ldc encoding width; preserve symbolic references and string constants",
+    "runtimeClassCount": 45,
+    "allNormalizedDisassemblyEqual": true,
+    "normalizedSha256": "edac5795926c8e536894a76962197f1f6e30f48e27397c6255fa89f86cd5d410",
+    "limitation": "Semantic bytecode comparison, not original artifact-byte identity; debug attributes/signatures outside javap output and historical build commit not certified",
+    "upstreamVersion": "1.12.0",
+    "upstreamJarSha256": "3f8c088b4dd04a9858721f2e162508c94db0dd86f961e306ee63ef2eda871bf7",
+    "upstreamSourcesSha256": "6522155eaadf630f60c05154c4f79505f14675e408d10e0f40c7fbfebf0a21ab",
+    "sourceHeaders": [
+      {
+        "sourceFile": "com/google/flatbuffers/ByteBufferReadWriteBuf.java",
+        "noticeFile": "licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+        "license": "Apache-2.0 project default; no per-file header",
+        "copyrightHolder": "No per-file name invented"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Utf8Safe.java",
+        "noticeFile": "licenses/d59d7aff67aef9fc8fff6352d93bac1d96d5f621c1de350a64c706dd17be181e.txt",
+        "license": "BSD-3-Clause"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/FlatBufferBuilder.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Table.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ByteVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/StringVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/FlexBuffersBuilder.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ByteBufferUtil.java",
+        "noticeFile": "licenses/d56f6944d2e895e2e23408490a546dd466453a4729f98da805ce182a89052c50.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/BooleanVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ArrayReadWriteBuf.java",
+        "noticeFile": "licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+        "license": "Apache-2.0 project default; no per-file header",
+        "copyrightHolder": "No per-file name invented"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/FlexBuffers.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/FloatVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ReadBuf.java",
+        "noticeFile": "licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+        "license": "Apache-2.0 project default; no per-file header",
+        "copyrightHolder": "No per-file name invented"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Utf8.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/LongVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Utf8Old.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/UnionVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/DoubleVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ReadWriteBuf.java",
+        "noticeFile": "licenses/cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30.txt",
+        "license": "Apache-2.0 project default; no per-file header",
+        "copyrightHolder": "No per-file name invented"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Constants.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/IntVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/BaseVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/ShortVector.java",
+        "noticeFile": "licenses/fff2715a53677ee35af27df00420ea6798cff06348f1b1e40ac60eeea488a7ba.txt",
+        "license": "Apache-2.0"
+      },
+      {
+        "sourceFile": "com/google/flatbuffers/Struct.java",
+        "noticeFile": "licenses/1aad8a2134bc841b9c705b859b797ae554ac67bd6c79f0c1926547de1575c26b.txt",
+        "license": "Apache-2.0"
+      }
+    ],
+    "licensingScope": "Apache-2.0 default with Google 2014/2017/2019 source headers; BSD-3-Clause for Utf8Safe protobuf-derived code, Google 2008; namespaces relocated",
+    "technicalStatus": "RESOLVED_CONTENT_AND_NOTICE_SCOPE; raw class bytes differ due relocation/constant-pool regeneration",
+    "classEvidence": [
+      {
+        "upstreamClass": "com/google/flatbuffers/ArrayReadWriteBuf.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ArrayReadWriteBuf.class",
+        "relocatedSha256": "cb02f7502081d52b2d1ef903bd41f4a2aefbe284da85288c0120150734422a23",
+        "upstreamSha256": "14162571f472d29ef6dc831d37f55739dbd35a3e0c7941939d3d8eec8c4ef160",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/BaseVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/BaseVector.class",
+        "relocatedSha256": "b091e848e97578df13031195f2edd30d6e5a24411325dd21661d634be06a52c5",
+        "upstreamSha256": "718de53677dbb9103b8bda4356a592976c47d62c17b3449420c02a001597cf4d",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/BooleanVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/BooleanVector.class",
+        "relocatedSha256": "c96a67dd176995ec0f0a8e95176f06ad303ed46b399ab74c30924c60caa87f9e",
+        "upstreamSha256": "89ae5c404351568c598ad71ea941c3fbdb07bbfbd9b1a412d3793886582b2c22",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ByteBufferReadWriteBuf.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ByteBufferReadWriteBuf.class",
+        "relocatedSha256": "0bd9d4bd638c0ad5179d33138aa5c4cb057a3ab7ae30ddad199244a04bc5850b",
+        "upstreamSha256": "d952e7a2b8ce148316d0270db1392358a280ae8ee4adf66ea58feed0094e8563",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ByteBufferUtil.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ByteBufferUtil.class",
+        "relocatedSha256": "937215019d4ca47c2c287ac28e913bec226c967ca69e9071df1e916fb80a5b39",
+        "upstreamSha256": "73730ae03378ef21b4dd40ae6fc290b1dc702f1fc866ad97024c0143c472dabe",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ByteVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ByteVector.class",
+        "relocatedSha256": "d23394430fcf6fd9ee0207f641d33128c4e7d27a921820522a1b3cf9ed6de3fa",
+        "upstreamSha256": "e115de58f28a189cec187e16761290cba260166d3720dcf4e56783dd1d8a2c0b",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Constants.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Constants.class",
+        "relocatedSha256": "342458bb53c520a0b48255c9c8332f8ceb6fa53a68befeff62306318032e0fc7",
+        "upstreamSha256": "f4e55bb63228063de3830089b3e20aeeb9ac35f136c280b62a8b46a9b6a9195c",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/DoubleVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/DoubleVector.class",
+        "relocatedSha256": "b2a62ccacf6dd80203dbb735bff460677498ca260d9b7f3dde2dc09fe12d9920",
+        "upstreamSha256": "c35ce8d47ae1e053e83547ceedc74aa81951f261c9ca98532a0e0363056d53d9",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlatBufferBuilder$ByteBufferBackedInputStream.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferBackedInputStream.class",
+        "relocatedSha256": "e4066d4250f3367865396ad8263a5ccae95da046ec5c1b018f78a2629502bd3d",
+        "upstreamSha256": "2a6d31d404f9c1b11af6734e1ed43d882242a8403357a729e3ceb8f0cebdd47e",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlatBufferBuilder$ByteBufferFactory.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlatBufferBuilder$ByteBufferFactory.class",
+        "relocatedSha256": "8d58fcea925f4e1aae8d0cff42874d3f843b45cb5f7cba19361b488cf0b562fa",
+        "upstreamSha256": "ddc271a6914aa81851bd83af2b3c87c2c1790b133bcb5d3b62ee44814909004a",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlatBufferBuilder$HeapByteBufferFactory.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlatBufferBuilder$HeapByteBufferFactory.class",
+        "relocatedSha256": "91c09b9f963e907c18097ec9741d1b9a861d10004f2dda0f439b23b3031ac8c3",
+        "upstreamSha256": "fcc4ea1562c7db81ece1a0c1f18711a03c6d77299735d57254ea66a23911bfe0",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlatBufferBuilder.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlatBufferBuilder.class",
+        "relocatedSha256": "36b69b77d21e920d0739364682ea545415cd78f791307d946252c72d9abdc243",
+        "upstreamSha256": "c74f440b3fe9bab3085447ac9dabcaaa6581fcd7e0e13506f0ef6112e87db63f",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Blob.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Blob.class",
+        "relocatedSha256": "eff00e765e8e80469c043a7805f864caf5ab6a4d3362b666fb60ad81241532b0",
+        "upstreamSha256": "7b0d016c5dbfaa6d22ae7b200258a23e9a18c1343569f066495ecda493e00623",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$FlexBufferException.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$FlexBufferException.class",
+        "relocatedSha256": "69ef8144a5b82f278c25f651fa720eda14ea0460cdc1571e03f21205a46fffa9",
+        "upstreamSha256": "4bec59fd087efe7553231a7f15b8f5a4324e3db152b50a73a7b104ae3b5885de",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Key.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Key.class",
+        "relocatedSha256": "0770695555df0d1befb290864c5d09b48498c12dd8c2dec558e32644eda7122a",
+        "upstreamSha256": "9944e2d2edb317871c50cc4e97b2fc3adb3e07f88719ac6304f035d6596aae15",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$KeyVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$KeyVector.class",
+        "relocatedSha256": "f2a5fa0d433518537590927a23ad725eb49f1a54c06f91f24f8fb606201a1d0e",
+        "upstreamSha256": "2b24483947a60edeb877e94c6b2e8641722760b3a6d0b57f8bb922eea41b1180",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Map.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Map.class",
+        "relocatedSha256": "ce40510305c6cc4dd6e0782002f236c2f64f8d7d952a5c709c64d0cd9e6936e9",
+        "upstreamSha256": "554b7b1902a00d5051c45c1e9178d94fd437686f82a3c2e8ce9603e6056a597e",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Object.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Object.class",
+        "relocatedSha256": "86f13401f928847609cfafe77f2c7cc8ae6b8208ee9f00b2d054bc738b3ae6df",
+        "upstreamSha256": "e144c6e8ebe258f0a2edf378dd01c83e5cba692aa37b4c8222e20449070ac648",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Reference.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Reference.class",
+        "relocatedSha256": "f36c49a68a41fbebdae65a0e5fbdeffa152210f52cd37188b39f0d9ae07e6997",
+        "upstreamSha256": "70e3891cde729cd2011c4b6bb25fe580e565313229962082849ec2f3a3a77144",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Sized.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Sized.class",
+        "relocatedSha256": "96ce2cfaf678bcb117ba59787eb701fe0c4d8c404b19a3071b7f5eef2729a31c",
+        "upstreamSha256": "3c7faf0e8ff693b1f98c01afe45bd36974bb3b69532ec0643b05001ccd71f6a5",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$TypedVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$TypedVector.class",
+        "relocatedSha256": "7e884983b3b020d9512227fb8d705da41d2a01f9a361726c63bafc1ac59fefc0",
+        "upstreamSha256": "ddd5dda9a3a07aa3cccf6df4b1f3b1044b95fb48e7a48b4814a3fee21473e1d8",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Unsigned.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Unsigned.class",
+        "relocatedSha256": "8e8c406f2c0c9e3ee486b7936e1a809fb99d87fc3b595a50fbcc88270817f90f",
+        "upstreamSha256": "0b426db96f7d6a83097bfe86fcfa9c1d91da153e3f4e021cf2d76c621a891ab3",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers$Vector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers$Vector.class",
+        "relocatedSha256": "8dbe3bed597424fc82e9ee0b46d29ccfbc6d1f3b67ce5b463cba53f8abbe1719",
+        "upstreamSha256": "405b72722ef5c4dc6e65ba2c062aaa59c1f7edddea83ed3c7e573c86e641535c",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffers.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffers.class",
+        "relocatedSha256": "6acc31d12a7f89ec6476ac706b4e9c31b7ef83515107c1835abc628e3eb7aa38",
+        "upstreamSha256": "5f4b3f52b7c50c8d7021d77d72e19b07b7bb9e79dbfb5e8da7c45195676ff4d5",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffersBuilder$1.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffersBuilder$1.class",
+        "relocatedSha256": "78da887a6476af2011231504d351928a49cce5608f4342b05b9388dae5b1fc77",
+        "upstreamSha256": "55fb9908cc828d8f55badb3b719c1d075fbb2818ac54087f591e130d919ee6dc",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffersBuilder$Value.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffersBuilder$Value.class",
+        "relocatedSha256": "a2eaf3605a1d5351f78d967867d4990d38770ebc35c0e3ad9d297f40be75061f",
+        "upstreamSha256": "5f53301974a606de8658578f0195c89d46ac6b94262a64e164636dd8a447b2bf",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FlexBuffersBuilder.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FlexBuffersBuilder.class",
+        "relocatedSha256": "2012a3695da41a237c70e1baef87ddf4ed2762220329f5024b032b2037815ccb",
+        "upstreamSha256": "29ddda25851da01a2517be31a1cd289bf28a27551cdd4827fcb9ea0936ee33da",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/FloatVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/FloatVector.class",
+        "relocatedSha256": "83f7758549f93054502f9ff16bcd06ecf610644e87ba57858deeeca335b4c585",
+        "upstreamSha256": "9647c73c6d4d34566e26c2a16987253db701d15b0e159f967fc2395cf9d2dbe2",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/IntVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/IntVector.class",
+        "relocatedSha256": "c2d18967b700528ac608bdaadff071a34986ef07386c3bdd86e5c08b31a4f1ed",
+        "upstreamSha256": "29316c1a20b5b2d7dc2bf61f5f3bb85cb00aecd01e6b7f301d86a560f32828ba",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/LongVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/LongVector.class",
+        "relocatedSha256": "4c92c3fed79bfdba82af65c5e50a3d7145ccfca9cbd9b2e936924cc6f356c56e",
+        "upstreamSha256": "723dcd0d2c452b746a7ab3f83878040424788339ca835c21aeb974ed6a226898",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ReadBuf.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ReadBuf.class",
+        "relocatedSha256": "2bdd84c7c685130f1eb0a05403d69e96079e11f0cd3773e3558d5f54e0f6a47b",
+        "upstreamSha256": "6a7e02fc9d0c90f45d3325de438251e28ec23c05d0b51b04015a7023d957282f",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ReadWriteBuf.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ReadWriteBuf.class",
+        "relocatedSha256": "c19ba47e5de12f69f0aa9a7ed06c2e7b80b6c0355bd9cea4b2a8a31993dfc70d",
+        "upstreamSha256": "c2142997761a09095ef72b75d319691d5b4a1514996573ad233d59b6ed3547a9",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/ShortVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/ShortVector.class",
+        "relocatedSha256": "c96045c1834707b27e5d8a39f9b164bc29ab4e5e7ca6024b3c0300b3b612e250",
+        "upstreamSha256": "2b84543e010806e3917220241911b61273a8f11067461bbe69058d28ba83dce2",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/StringVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/StringVector.class",
+        "relocatedSha256": "af54a656952509cc61a1a2d44fab93b2b5759c6331f962fc303ac94430286df1",
+        "upstreamSha256": "ef0f3f999bed06d13e85325a3800e681b5886f0adad72dc660c0d0e6427d98cd",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Struct.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Struct.class",
+        "relocatedSha256": "990e112356403634b41e5996ba504e991644110d381586737c6c5cce633c7540",
+        "upstreamSha256": "22c4d7088c26a40f04f07c98c18bf9d966866c55ffb4c7e775a8bae35f1dde52",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Table$1.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Table$1.class",
+        "relocatedSha256": "e3629fa3f38dd08060c0aa99db7e4b81146465e701041c0f8d8df7331ef74297",
+        "upstreamSha256": "48de0ac31e30ed6935cee9c43ca813eb7b2a1d45579f8f6fc2bdae227a9bce04",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Table.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Table.class",
+        "relocatedSha256": "7d4bb69862ab57c4fd86d0fa0623e77b3868ff7398b5347e15118a8c876f00bc",
+        "upstreamSha256": "b2b70cd50eb7597d3f9fd92e5efea5c0fb1149174a31acc45583c0c94a60abad",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/UnionVector.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/UnionVector.class",
+        "relocatedSha256": "263b23e1b3a61442bbfa1c2c65fb1a119fba0372bfda9954c727d7cec4854973",
+        "upstreamSha256": "cadd06317f1dbd4b6e74c89e423dd7bf36f7028bc345f349dc91b8b16e7a47d2",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8$DecodeUtil.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8$DecodeUtil.class",
+        "relocatedSha256": "c0422289ac46eaa2d50f92d7dedb70ac59e4a11effc1dc6440eeb56c7052cfbc",
+        "upstreamSha256": "98c44724645645f772e43690da2d032b94cfc99898a5b862bea88545fc219995",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8$UnpairedSurrogateException.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8$UnpairedSurrogateException.class",
+        "relocatedSha256": "e699614a6981f8b90f89e99b3853d32819d806645e87ab8f64f1077378ab5033",
+        "upstreamSha256": "6a36203101b831ec4736d8da0293e0f1afb248cc7356c218d9e3e9d1023d8fbd",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8.class",
+        "relocatedSha256": "53f2ed2d5d54070293d2481968cd49013ddc628b1469e15e8df61c0f5108d893",
+        "upstreamSha256": "5840c865534cf2c16955537af4e9d1249bba239c165d688915134a5bd541d2fa",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8Old$Cache.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8Old$Cache.class",
+        "relocatedSha256": "7f7486d076f4f9af8d55b95bbc4bfa4943b083f385fd567c58231d4faf2744c7",
+        "upstreamSha256": "71facc1cd55b1f1b63c16a239451716e108ef74abd6f1cad801fc915c366391f",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8Old.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8Old.class",
+        "relocatedSha256": "2616e644d8068c21ac32cbb1fff8afe4e35fdec3c55d039767081a9b647059a0",
+        "upstreamSha256": "a14a228fb4366188b1164c2b1ed4e0b0d677a9540bd421cd3449034dbc616c37",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8Safe$UnpairedSurrogateException.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8Safe$UnpairedSurrogateException.class",
+        "relocatedSha256": "60031523ad4c496ced7c4deef4c7c67943d3c0d9a942ff3516acd8bc2aa5d542",
+        "upstreamSha256": "1af56e334b9ae51ff733563fcef6b005c9e360e8ccccf48c0e6522c4fb98b535",
+        "normalizedSemanticMatch": true
+      },
+      {
+        "upstreamClass": "com/google/flatbuffers/Utf8Safe.class",
+        "relocatedClass": "androidx/emoji2/text/flatbuffer/Utf8Safe.class",
+        "relocatedSha256": "27642090e9f8937286c39fe5cf09e74569248fe7297a1fab53d18f593b94f344",
+        "upstreamSha256": "c37c6a60b0a50d5a77508c9cbfc073dc395789b4e49db5ab72509af7885f8e4b",
+        "normalizedSemanticMatch": true
+      }
+    ],
+    "bsdException": {
+      "sourceFile": "com/google/flatbuffers/Utf8Safe.java",
+      "classes": [
+        "androidx/emoji2/text/flatbuffer/Utf8Safe$UnpairedSurrogateException.class",
+        "androidx/emoji2/text/flatbuffer/Utf8Safe.class"
+      ],
+      "copyright": "Copyright 2008 Google Inc. All rights reserved.",
+      "license": "BSD-3-Clause",
+      "noticeFile": "licenses/d59d7aff67aef9fc8fff6352d93bac1d96d5f621c1de350a64c706dd17be181e.txt"
+    }
+  },
+  "generatedMetadata": {
+    "classes": [
+      "androidx/emoji2/text/flatbuffer/MetadataList.class",
+      "androidx/emoji2/text/flatbuffer/MetadataItem.class",
+      "androidx/emoji2/text/flatbuffer/MetadataItem$Vector.class",
+      "androidx/emoji2/text/flatbuffer/MetadataList$Vector.class"
+    ],
+    "schemaSourceCommit": "aa96a71129acdb7ad8005ab5de269cb506d29655",
+    "schemaSha256": "04365978889b87675e766f74ce5cb6d7c7bfad34c610f1a1b5b2b1c99d6f4de8",
+    "headerNoticeFile": "licenses/c6d3096ce6b14a73ec7371dbbaf9ffab5d772b9ac264c4fe58763f4ab2a2b505.txt",
+    "license": "Apache-2.0; Copyright (C) 2017 The Android Open Source Project",
+    "evidence": "Shipped class fields/getters/builders match MetadataList/MetadataItem schema; createfont.py invokes flatc and inserts flatbuffer_header.txt; both namespaces relocated by AndroidX build recipe",
+    "limitation": "Exact historical generator/build commit not independently certified; content/attribution scope identified"
+  },
+  "artwork": {
+    "canonicalAospVectorMatchesCapacitor": true,
+    "localVectorByteMatchesOfficialTemplate": true,
+    "templateMITFile": "licenses/9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd.txt",
+    "robotAttributionFile": "licenses/e575f3abef76bf3062e0f5f09c4b29807327d47d2b4fe4f4d82463988f3b9f16.txt",
+    "robotFullCcFile": "licenses/e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76.txt",
+    "ionicSupplementalMITFile": "licenses/c89dabc60b2e4e1a04b33bd7010b5a56bb4725ffe8c00d793a5ae009fbbfebd8.txt",
+    "exactRasterMatches": 192,
+    "remainingRestriction": "Preserve MIT/CC conditions; trademark/branding not granted; companion/in-creative delivery not verified"
+  },
+  "upstreamEvidence": [
+    {
+      "name": "flatbuffers-java-1.12.0.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0.jar",
+      "sha256": "3f8c088b4dd04a9858721f2e162508c94db0dd86f961e306ee63ef2eda871bf7",
+      "bytes": 64873
+    },
+    {
+      "name": "flatbuffers-java-1.12.0-sources.jar",
+      "url": "https://repo.maven.apache.org/maven2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0-sources.jar",
+      "sha256": "6522155eaadf630f60c05154c4f79505f14675e408d10e0f40c7fbfebf0a21ab",
+      "bytes": 52724
+    },
+    {
+      "name": "flatbuffers-java-1.12.0.pom",
+      "url": "https://repo.maven.apache.org/maven2/com/google/flatbuffers/flatbuffers-java/1.12.0/flatbuffers-java-1.12.0.pom",
+      "sha256": "cb226baf546260770f21e8152a6aa88ba15230d739f750df480f2a668d43e0eb",
+      "bytes": 4568
+    },
+    {
+      "name": "emoji2-build.gradle",
+      "url": "https://android.googlesource.com/platform/frameworks/support/+/31202f8c825424691d5f9919c63703232d390b28/emoji2/emoji2/build.gradle?format=TEXT",
+      "sha256": "3b4371f8d6f53d9beda56c775fa369ccb1b884c1a04e681a04efabc0d6cc6c7a",
+      "bytes": 1831
+    },
+    {
+      "name": "noto-root.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main/?format=JSON",
+      "sha256": "5714dedd31206adf903aa33f9552b5070c19b0d09fc99a3580b18de7d7070b3f",
+      "bytes": 25100
+    },
+    {
+      "name": "android-robot-guidelines.html",
+      "url": "https://developer.android.com/distribute/marketing-tools/brand-guidelines",
+      "sha256": "70735685e68231f9704832190931016705d6684e8876625716f5907429239498",
+      "bytes": 268236
+    },
+    {
+      "name": "android-sample-vector.xml",
+      "url": "https://android.googlesource.com/platform/packages/apps/SampleLocationAttribution/+/refs/tags/android-security-10.0.0_r68/res/drawable-v24/ic_launcher_foreground.xml?format=TEXT",
+      "sha256": "48bea10489c27df6d828ba016e061e1cf9bb9f08a0c0aba9f0446bd5f93cd57d",
+      "bytes": 1880
+    },
+    {
+      "name": "android-sample-notice",
+      "url": "https://android.googlesource.com/platform/packages/apps/SampleLocationAttribution/+/refs/tags/android-security-10.0.0_r68/NOTICE?format=TEXT",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "capacitor-template-vector.xml",
+      "url": "https://raw.githubusercontent.com/ionic-team/capacitor/7.6.9/android-template/app/src/main/res/drawable-v24/ic_launcher_foreground.xml",
+      "sha256": "a8514094f754b099d3e55ce1d6e0b2de79db418b2eeacb0fc2a6bb0bfadef221",
+      "bytes": 1880
+    },
+    {
+      "name": "capacitor-tag-license",
+      "url": "https://raw.githubusercontent.com/ionic-team/capacitor/7.6.9/LICENSE",
+      "sha256": "9c6ebf3e5ab832ba4d5af38f340978e1fedbfee6e3d23662dfdb8917a9d864dd",
+      "bytes": 1075
+    },
+    {
+      "name": "flatbuffers-tag-license",
+      "url": "https://raw.githubusercontent.com/google/flatbuffers/v1.12.0/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "name": "cc-by-3.0-legalcode.txt",
+      "url": "https://creativecommons.org/licenses/by/3.0/legalcode.txt",
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76",
+      "bytes": 19467
+    },
+    {
+      "name": "noto-flatbuffers-tree.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main/emoji-compat-flatbuffers/?format=JSON",
+      "sha256": "778b924baa75b1b891b6250bd1a3c8f497493b7201b100d7d62ece47601a520e",
+      "bytes": 781
+    },
+    {
+      "name": "cordova-10.1.1-LICENSE",
+      "url": "https://raw.githubusercontent.com/apache/cordova-android/10.1.1/LICENSE",
+      "sha256": "1ac158e9a3b9f2d200d4d3bbb1d4b4cc33dadd118fbd6694f244a3266bcd3dff",
+      "bytes": 11350
+    },
+    {
+      "name": "cordova-10.1.1-NOTICE",
+      "url": "https://raw.githubusercontent.com/apache/cordova-android/10.1.1/NOTICE",
+      "sha256": "e94707080ab2781d5ba4ceac999f31db2539d2477783287969c52580b9fa84b0",
+      "bytes": 168
+    },
+    {
+      "name": "kotlin-1.9.25-LICENSE",
+      "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v1.9.25/license/LICENSE.txt",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "bytes": 11358
+    },
+    {
+      "name": "kotlin-1.9.25-NOTICE",
+      "url": "https://raw.githubusercontent.com/JetBrains/kotlin/v1.9.25/license/NOTICE.txt",
+      "sha256": "ea7099352103ade6a6918bc7efb00f8bcd43db0e76b2da2e83237c0bc0ff1b19",
+      "bytes": 482
+    },
+    {
+      "name": "coroutines-1.6.4-LICENSE",
+      "url": "https://raw.githubusercontent.com/Kotlin/kotlinx.coroutines/1.6.4/LICENSE.txt",
+      "sha256": "b1febe6399dffb10d19d35e7663ab16300c93cb0476a94115df1cc0097a8ffd8",
+      "bytes": 11398
+    },
+    {
+      "name": "coroutines-1.6.4-NOTICE",
+      "url": "https://raw.githubusercontent.com/Kotlin/kotlinx.coroutines/1.6.4/NOTICE.txt",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "ionicons-logo-capacitor.svg",
+      "url": "https://raw.githubusercontent.com/ionic-team/ionicons/v7.4.0/src/svg/logo-capacitor.svg",
+      "sha256": "d50aaaca1896640daf01e6fd05182c268f0d203cdf0592fbf989ede1ea0ad6d0",
+      "bytes": 309
+    },
+    {
+      "name": "ionicons-7.4.0-LICENSE",
+      "url": "https://raw.githubusercontent.com/ionic-team/ionicons/v7.4.0/LICENSE",
+      "sha256": "c89dabc60b2e4e1a04b33bd7010b5a56bb4725ffe8c00d793a5ae009fbbfebd8",
+      "bytes": 1099
+    },
+    {
+      "name": "androidx-icon-template",
+      "url": "https://android.googlesource.com/platform/tools/base/+/refs/heads/studio-master-dev/templates/activities/common/root/res/drawable/ic_launcher_foreground.xml.ftl?format=TEXT",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "noto-data-tree.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main/emoji-compat-flatbuffers/data/?format=JSON",
+      "sha256": "190a0078f732c03976eac479e49cfa761c35487db5d425921b7723b1b4898ca6",
+      "bytes": 376
+    },
+    {
+      "name": "noto-flatbuffers-build.gradle",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main/emoji-compat-flatbuffers/build.gradle?format=TEXT",
+      "sha256": "ebab412eb557c382bb355571bef25772345b51ff5a5b650c171b7ca616b5de77",
+      "bytes": 1080
+    },
+    {
+      "name": "noto-flatbuffers-jarjar-rules.txt",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main/emoji-compat-flatbuffers/jarjar-rules.txt?format=TEXT",
+      "sha256": "004ef17c6b96c7aef7f01e75bb9f2ab0f5de38a06f938ac952ff1f7b6dd204bb",
+      "bytes": 64
+    },
+    {
+      "name": "noto-main-commit.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/refs/heads/main?format=JSON",
+      "sha256": "b84d3ff69cd32b54e2c19f1d9380256498489fe89194ddba2aac7c9c93dc614a",
+      "bytes": 607
+    },
+    {
+      "name": "capacitor-docs-brand.html",
+      "url": "https://capacitorjs.com/docs/resources",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "ionicons-license-main",
+      "url": "https://raw.githubusercontent.com/ionic-team/ionicons/main/LICENSE",
+      "sha256": "c89dabc60b2e4e1a04b33bd7010b5a56bb4725ffe8c00d793a5ae009fbbfebd8",
+      "bytes": 1099
+    },
+    {
+      "name": "noto-emoji-metadata.fbs",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat-flatbuffers/data/emoji_metadata.fbs?format=TEXT",
+      "sha256": "04365978889b87675e766f74ce5cb6d7c7bfad34c610f1a1b5b2b1c99d6f4de8",
+      "bytes": 972
+    },
+    {
+      "name": "noto-flatbuffer-header.txt",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat-flatbuffers/data/flatbuffer_header.txt?format=TEXT",
+      "sha256": "c6d3096ce6b14a73ec7371dbbaf9ffab5d772b9ac264c4fe58763f4ab2a2b505",
+      "bytes": 653
+    },
+    {
+      "name": "noto-flatbuffers-history.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+log/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat-flatbuffers/build.gradle?format=JSON",
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    {
+      "name": "noto-emoji-builder-tree.json",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat/?format=JSON",
+      "sha256": "0c99bd73c6982ef6f318f636dd15f39037cc221b31527b391be21e801869b66a",
+      "bytes": 1914
+    },
+    {
+      "name": "android-studio-template-vector",
+      "url": "https://raw.githubusercontent.com/JetBrains/android/master/android/resources/icons/ic_launcher_foreground.xml",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "name": "noto-createfont.py",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat/createfont.py?format=TEXT",
+      "sha256": "39239d589647de82876d0a3e4e8afe972baf4be488eae99c5b156e373a7f2f0f",
+      "bytes": 34265
+    },
+    {
+      "name": "noto-README.android",
+      "url": "https://android.googlesource.com/platform/external/noto-fonts/+/aa96a71129acdb7ad8005ab5de269cb506d29655/emoji-compat/README.android?format=TEXT",
+      "sha256": "fc0387630d6232cc470268897474010eead6bfbf8406c2498294049205ee0fcb",
+      "bytes": 750
+    },
+    {
+      "name": "emoji2-old-build.gradle",
+      "url": "https://android.googlesource.com/platform/frameworks/support/+/a73015604033f5d0487bb757bddef11b110f0faa/emoji2/emoji2/build.gradle?format=TEXT",
+      "sha256": "fb0757b5f36ce5271649a11ce822fd35d84fa919447d1b444c7c2411436784a7",
+      "bytes": 1754
+    },
+    {
+      "name": "flatbuffers-v1.12-tree.json",
+      "url": "https://api.github.com/repos/google/flatbuffers/git/trees/v1.12.0",
+      "sha256": "027ca50590eecb28f170ef231965b0967728ae5e9ffb39dffff26664aca09e79",
+      "bytes": 9226
+    },
+    {
+      "name": "cordova-10.1.1-tree.json",
+      "url": "https://api.github.com/repos/apache/cordova-android/git/trees/10.1.1",
+      "sha256": "a3b0a798238040129d064e8bf425803ce7274ccd383773aa4353626b515f4927",
+      "bytes": 5031
+    },
+    {
+      "name": "coroutines-1.6.4-tree.json",
+      "url": "https://api.github.com/repos/Kotlin/kotlinx.coroutines/git/trees/1.6.4",
+      "sha256": "c9df90924c9052b7958997528a3e7f293cf61d1dbe0236029f2e024ee90d8d82",
+      "bytes": 7099
+    },
+    {
+      "name": "capacitor-7.6.9-tree.json",
+      "url": "https://api.github.com/repos/ionic-team/capacitor/git/trees/7.6.9",
+      "sha256": "18595d8b1078ed640d309eece745769a7a0b3221695b7dac082aa7ad629304ee",
+      "bytes": 5638
+    }
+  ],
+  "packageScope": "All identified actual payload components and pertinent notices; no blanket independent proof of every historical right",
+  "B-03": "OPEN owner decisions; template prepared separately",
+  "B-04": "OPEN actual delivery/creative attribution and owner branding assessment; technical notice preparation addressed"
+}

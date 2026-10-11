@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-11",
+  "sources": [
+    {
+      "path": "artifacts/training-self-play.jsonl",
+      "sha256": "708999235f5be9608a5b3ec172e7f9f44db17343d902878a0c5b17701d781690",
+      "gameId": "sim-training-example-0",
+      "seed": "training-example-0",
+      "logHead": "8176fb15f95883010bb024812e64bcd99eea6bff06fd436577d050552e3dfbbb",
+      "decisions": 201,
+      "tacticalDecisions": 0,
+      "checks": [
+        "hash chain",
+        "engine decision validation",
+        "manifest identity/count/head",
+        "exact exported-record equality",
+        "201 numeric features matched"
+      ]
+    },
+    {
+      "path": "artifacts/acceptance-first.jsonl",
+      "sha256": "1e4d8b5dfc9332b0c4310c4e1bd471e0dfc9768a8edc455d3ab3c7511e0c5fd4",
+      "gameId": "sim-acceptance-v1-0",
+      "seed": "acceptance-v1-0",
+      "logHead": "46f1f2cf066d3838039b7b533be36d010e85c037607b7e81574cfcbd073bbeae",
+      "decisions": 290,
+      "tacticalDecisions": 99,
+      "checks": [
+        "hash chain",
+        "engine decision validation",
+        "manifest identity/count/head",
+        "report controller mapping"
+      ]
+    },
+    {
+      "path": "artifacts/smoke.jsonl",
+      "sha256": "f2078befb64508d4de263d3f448ed0b8e7fdd13178d3108659ed1bbea0b5d5d3",
+      "gameId": "sim-smoke-0",
+      "seed": "smoke-0",
+      "logHead": "5ecc16d5ec89b72ed601c38ccd6e5bb7d2257332344b45f65fa25847913e55d0",
+      "decisions": 231,
+      "tacticalDecisions": 84,
+      "checks": [
+        "hash chain",
+        "engine decision validation",
+        "manifest identity/count/head",
+        "report controller mapping"
+      ]
+    }
+  ],
+  "model": {
+    "fileSha256": "0cdca20fa7485e79c81996b9ac8cc53543065396007a090f739eb6a6cec75cfc",
+    "canonicalChecksum": "35606b395852c14756e2d1828e31857fe24a652c2d64f5bbf717e6a495f1387e",
+    "datasetHash": "186b004c25b083abd31a848ac0a40d41292355031b6fbe41c93ca2ea7e1152f6",
+    "seed": 20261009,
+    "activeEqualsVersion": true,
+    "initialization": "Random normal weights and zero biases in train.py; no pretrained-weight loader in inspected path",
+    "limitation": "Technical consistency, not independent proof of rights or historical execution; no retraining performed"
+  }
+}

@@ -1,0 +1,761 @@
+[
+  {
+    "coordinate": "androidx.activity/activity/1.9.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.activity/activity/1.9.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.annotation/annotation/1.8.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.annotation/annotation/1.8.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.annotation/annotation-experimental/1.4.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.annotation/annotation-experimental/1.4.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.annotation/annotation-jvm/1.8.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.annotation/annotation-jvm/1.8.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.appcompat/appcompat/1.7.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.appcompat/appcompat/1.7.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.appcompat/appcompat-resources/1.7.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.appcompat/appcompat-resources/1.7.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.arch.core/core-common/2.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.arch.core/core-common/2.2.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.arch.core/core-runtime/2.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.arch.core/core-runtime/2.2.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.collection/collection/1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.collection/collection/1.4.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.collection/collection-jvm/1.4.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.collection/collection-jvm/1.4.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.concurrent/concurrent-futures/1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.concurrent/concurrent-futures/1.1.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.coordinatorlayout/coordinatorlayout/1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.coordinatorlayout/coordinatorlayout/1.2.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.core/core/1.15.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.core/core/1.15.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.core/core-ktx/1.15.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.core/core-ktx/1.15.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.core/core-splashscreen/1.0.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.core/core-splashscreen/1.0.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.cursoradapter/cursoradapter/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.cursoradapter/cursoradapter/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.customview/customview/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.customview/customview/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.drawerlayout/drawerlayout/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.drawerlayout/drawerlayout/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.emoji2/emoji2/1.3.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.emoji2/emoji2/1.3.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.emoji2/emoji2-views-helper/1.3.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.emoji2/emoji2-views-helper/1.3.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.fragment/fragment/1.8.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.fragment/fragment/1.8.4",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.interpolator/interpolator/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.interpolator/interpolator/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-common/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-common/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-livedata/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-livedata/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-livedata-core/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-livedata-core/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-process/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-process/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-runtime/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.loader/loader/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.loader/loader/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.profileinstaller/profileinstaller/1.3.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.profileinstaller/profileinstaller/1.3.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.resourceinspection/resourceinspection-annotation/1.0.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.resourceinspection/resourceinspection-annotation/1.0.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.savedstate/savedstate/1.2.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.savedstate/savedstate/1.2.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.startup/startup-runtime/1.1.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.startup/startup-runtime/1.1.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.tracing/tracing/1.2.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.tracing/tracing/1.2.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.vectordrawable/vectordrawable/1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.vectordrawable/vectordrawable/1.1.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.vectordrawable/vectordrawable-animated/1.1.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.versionedparcelable/versionedparcelable/1.1.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.versionedparcelable/versionedparcelable/1.1.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.viewpager/viewpager/1.0.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.viewpager/viewpager/1.0.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "androidx.webkit/webkit/1.12.1",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate androidx.webkit/webkit/1.12.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "com.google.guava/listenablefuture/1.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "licenseFromParent": true,
+    "path": "Gradle runtime coordinate com.google.guava/listenablefuture/1.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.apache.cordova/framework/10.1.1",
+    "licenses": [
+      {
+        "name": "Apache License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.apache.cordova/framework/10.1.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains/annotations/13.0",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains/annotations/13.0",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin/kotlin-bom/1.9.25",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlin/kotlin-bom/1.9.25",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.25",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.9.25",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.25",
+    "licenses": [
+      {
+        "name": "The Apache License, Version 2.0",
+        "url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.9.25",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.6.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlinx/kotlinx-coroutines-bom/1.6.4",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+    "licenses": [
+      {
+        "name": "The Apache Software License, Version 2.0",
+        "url": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+      }
+    ],
+    "path": "Gradle runtime coordinate org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.nanohttpd/nanohttpd/2.3.1",
+    "licenses": [
+      {
+        "name": "The BSD 3-Clause License",
+        "url": "http://opensource.org/licenses/BSD-3-Clause"
+      }
+    ],
+    "licenseFromParent": true,
+    "path": "Gradle runtime coordinate org.nanohttpd/nanohttpd/2.3.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  },
+  {
+    "coordinate": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+    "licenses": [
+      {
+        "name": "The BSD 3-Clause License",
+        "url": "http://opensource.org/licenses/BSD-3-Clause"
+      }
+    ],
+    "licenseFromParent": true,
+    "path": "Gradle runtime coordinate org.nanohttpd/nanohttpd-websocket/2.3.1",
+    "source": "Resolved debugRuntimeClasspath; cached Maven POM and parent licensing",
+    "knownRightsholder": "Upstream contributors; individual names must be retained from original artifact notices, not inferred from coordinates",
+    "gplv3Use": "Apache-2.0 or BSD-3-Clause: no apparent GPLv3 incompatibility with notices preserved",
+    "confirmationNeeded": "Verify exact artifact notices and their inclusion in distribution; this inventory does not relabel the component GPL"
+  }
+]
