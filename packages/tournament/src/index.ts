@@ -1,4 +1,4 @@
-import { Engine, stateHash, POLICY } from '../../engine/src/index';
+import { Engine, stateHash, POLICY, RuleClarificationRequired } from '../../engine/src/index';
 import { seeded } from '../../engine/src/rng';
 import { resolveAgentRoll, agentIdentity, baselineStrategies, type Strategy } from '../../agents/src/index';
 import type { GameState, Player } from '../../shared/src/index';
@@ -7,7 +7,7 @@ export interface Simulation {
     strategies: Strategy[];
     rolls: number;
     winner: Player | null;
-    outcome: 'win' | 'timeout' | 'error';
+    outcome: 'win' | 'timeout' | 'error' | 'blocked';
     diagnostic: string | null;
     captures: number;
     jumps: number;
@@ -23,7 +23,7 @@ export function simulate(engine: Engine, seed: string, bots: Strategy[] = baseli
     let s = engine.create(players, `sim-${seed}`, seed, POLICY, Object.fromEntries(players.map(p => [p, agentIdentity(bots[p - 1])])));
     while (s.phase === 'initial_roll')
         s = engine.initialRoll(s, Object.fromEntries(s.initialContenders.map(p => [p, diceRng.die()])));
-    let diagnostic: string | null = null;
+    let diagnostic: string | null = null, blocked=false;
     try {
         while (!s.winner && s.rollCount < maxRolls) {
             s = engine.roll(s, [diceRng.die(), diceRng.die()]);
@@ -34,9 +34,9 @@ export function simulate(engine: Engine, seed: string, bots: Strategy[] = baseli
         }
     }
     catch (error) {
-        diagnostic = (error as Error).message;
+        diagnostic = (error as Error).message;blocked=error instanceof RuleClarificationRequired;
     }
-    return { diagnostic: diagnostic ?? (s.winner ? null : 'roll_limit'), seed, strategies: bots, rolls: s.rollCount, winner: s.winner, outcome: diagnostic ? 'error' : s.winner ? 'win' : 'timeout', captures: s.eventLog.filter(e => e.type === 'capture').length, jumps: s.eventLog.filter(e => e.type === 'action' && (e.payload as {
+    return { diagnostic: diagnostic ?? (s.winner ? null : 'roll_limit'), seed, strategies: bots, rolls: s.rollCount, winner: s.winner, outcome: blocked?'blocked':diagnostic ? 'error' : s.winner ? 'win' : 'timeout', captures: s.eventLog.filter(e => e.type === 'capture').length, jumps: s.eventLog.filter(e => e.type === 'action' && (e.payload as {
             kind: string;
         }).kind === 'corner_jump').length, usedPoints: s.eventLog.filter(e => e.type === 'action').reduce((sum, e) => sum + (e.payload as {
             value: number;
@@ -56,5 +56,5 @@ export function tournament(engine: Engine, count: number, seed: string, bots: St
             wins[name] = (wins[name] ?? 0) + 1;
         }
     }
-    return { rulesVersion: 'v1', rulePolicy: engine.create().rulePolicy, seed, games: count, wins, timeouts: results.filter(r => r.outcome === 'timeout').length, errors: results.filter(r => r.outcome === 'error').length, averageRolls: results.reduce((n, r) => n + r.rolls, 0) / count, captures: results.reduce((n, r) => n + r.captures, 0), jumps: results.reduce((n, r) => n + r.jumps, 0), usedPoints: results.reduce((n, r) => n + r.usedPoints, 0), results };
+    return { rulesVersion: 'v1', rulePolicy: engine.create().rulePolicy, seed, games: count, wins, timeouts: results.filter(r => r.outcome === 'timeout').length, errors: results.filter(r => r.outcome === 'error').length, blocked:results.filter(r=>r.outcome==='blocked').length, averageRolls: results.reduce((n, r) => n + r.rolls, 0) / count, captures: results.reduce((n, r) => n + r.captures, 0), jumps: results.reduce((n, r) => n + r.jumps, 0), usedPoints: results.reduce((n, r) => n + r.usedPoints, 0), results };
 }

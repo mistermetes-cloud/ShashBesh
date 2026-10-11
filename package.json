@@ -30,7 +30,9 @@
     "lan:dev": "npm run build && node --import tsx packages/lan/src/cli.ts",
     "test:android-transport": "bash scripts/test-android-transport.sh",
     "android:mobile": "bash scripts/android-mobile-build.sh",
-    "android:alpha": "bash scripts/android-alpha-build.sh"
+    "android:alpha": "bash scripts/android-alpha-build.sh",
+    "test:gameplay:stress": "node --import tsx scripts/gameplay-stress.ts",
+    "test:gameplay:situations": "node --import tsx scripts/gameplay-situations.ts"
   },
   "dependencies": {
     "@capacitor/android": "7.6.9",

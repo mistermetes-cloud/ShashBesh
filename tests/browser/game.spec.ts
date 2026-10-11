@@ -72,20 +72,25 @@ test('manual game, mobile board, AI controls, export and imported victory replay
     await page.getByLabel('Игрок P4', { exact: true }).selectOption('tactical');
     await page.getByLabel('Игроков', { exact: true }).selectOption('2');
     await page.getByRole('button', { name: 'Начать новую партию' }).click();
-    await page.getByLabel('Скорость ботов').selectOption('80');
+    await page.getByLabel('Скорость ботов').selectOption('175');
     await page.getByRole('button', { name: 'Запустить ботов' }).click();
     await expect(page.locator('.piece')).not.toHaveCount(0, { timeout: 15000 });
     await page.getByRole('button', { name: 'Пауза', exact: true }).click();
     await expect(page.getByRole('button', { name: 'Запустить ботов' })).toBeVisible();
     await page.getByRole('button', { name: 'Запустить ботов' }).click();
-    await expect(page.locator('h2')).toContainText('Победа', { timeout: 120000 });
+    await page.clock.install({time:new Date('2026-10-11T13:00:00Z')});
+    await page.clock.pauseAt(new Date('2026-10-11T13:01:00Z'));
+    // Execute every real animated command with controlled timers; do not wait several minutes for FAST's deliberate delays.
+    for(let i=0;i<20&&!(await page.locator('h2').innerText()).includes('Победа');i++)await page.clock.runFor(20000);
+    await expect(page.locator('h2')).toContainText('Победа');
     const neuralExport = page.waitForEvent('download');
     await page.getByRole('button', { name: 'Экспорт данных ИИ' }).click();
     const neuralData = await neuralExport;
     const learned = readFileSync((await neuralData.path())!, 'utf8').trim().split('\n').map(line => JSON.parse(line));
     expect(learned.some(r => r.controller.id === 'ai-v0.1' && r.controller.version === 'ShashBesh AI v0.1')).toBe(true);
     await page.getByRole('button', { name: 'Наблюдать AI vs AI' }).click();
-    await expect(page.getByText('НАБЛЮДЕНИЕ · AI ПРОТИВ AI', { exact: true })).toBeVisible();
+    await page.clock.runFor(1);
+    await expect(page.getByRole('region',{name:'Режим наблюдения'})).toBeVisible();
     await page.getByRole('button', { name: 'Пауза', exact: true }).click();
     expect(errors).toEqual([]);
 });

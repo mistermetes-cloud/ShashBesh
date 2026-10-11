@@ -1,0 +1,13 @@
+.ai-animation-slot{z-index:20;pointer-events:none;display:grid;place-items:center;min-width:0;min-height:0;outline:2px solid #ffe3a8;border-radius:50%}
+.ai-animation-slot .piece{width:70%;height:auto;aspect-ratio:1;box-shadow:0 0 0 2px #fff5bd,0 3px 6px #0006}
+.ai-animation-slot.is-moving{animation:ai-cell-step var(--step-duration) linear both}
+@keyframes ai-cell-step{from{transform:translate(calc(var(--dx) * (100% + 2px)),calc(var(--dy) * (100% + 2px)))}to{transform:translate(0,0)}}
+.capture-victim{animation:ai-capture var(--capture-duration) ease-in both}
+@keyframes ai-capture{to{transform:scale(.2) rotate(20deg);opacity:0}}
+.ai-destination{box-shadow:inset 0 0 0 2px #d2a849!important}.selected-die{outline:3px solid #b57a28;outline-offset:2px}.ai-controls{display:flex;flex-wrap:wrap;gap:6px;align-items:center;padding:4px 0}.ai-controls label{display:flex;gap:4px;margin:0}.ai-controls button,.ai-controls select{font-size:12px!important;min-height:36px!important;padding:5px 8px!important}
+.ai-status{min-height:24px;font-size:13px;color:#846034}.technical-view .ai-status{color:#f5dfab}
+@media(prefers-reduced-motion:reduce){.ai-animation-slot.is-moving,.capture-victim{animation:none}}
+.physical-board .ai-animation-slot .piece{width:82%}
+.observer-mode .physical-board{width:min(100%,calc(100dvh - 180px - var(--safe-top) - var(--safe-bottom)))}
+.ai-animation-slot[data-corner-jump=true] .piece{outline:2px dashed #ffe5ac;outline-offset:2px;filter:drop-shadow(0 4px 3px #53381366)}
+.dispute-backdrop{position:fixed;inset:0;z-index:1000;background:#09131dcc;display:grid;place-items:center;padding:16px}.dispute-dialog{width:min(100%,560px);max-height:min(90dvh,800px);overflow:auto;background:#1a2d39;border:1px solid #71848c;border-radius:14px;padding:20px;box-shadow:0 16px 50px #0008}.dispute-dialog h2{margin-bottom:10px}.dispute-dialog p{font-size:12px;line-height:1.6;color:#adc3cc}.dispute-dialog label{display:grid;align-items:start;justify-content:stretch;gap:6px}.dispute-dialog select,.dispute-dialog textarea{width:100%;max-width:none;background:#122733;color:#dce8ec;border:1px solid #405966;border-radius:6px;padding:9px;font:inherit;font-size:13px}.dispute-dialog textarea{resize:vertical;min-height:64px}.dispute-dialog .controls{margin-top:14px}.dispute-dialog button{min-height:44px}

@@ -12,7 +12,7 @@ import { validateRecord, assertDisjoint } from '../packages/neural/src/integrity
 import { promotionDecision, promote, monitor, rollback, modelFingerprint, validateSelfPlayBudget, type ModelRegistry, type PromotionEvidence } from '../packages/neural/src/lifecycle';
 import { resolveAgentRoll, neuralScorer } from '../packages/agents/src/index';
 import { seeded } from '../packages/engine/src/rng';
-import { canonical } from '../packages/engine/src/index';
+import { canonical, POLICY } from '../packages/engine/src/index';
 const model = checkpoint as ModelArtifact;
 test('Public numerical features match existing encoder; future outcomes/after-state cannot enter model input', () => {
     let s = engine.roll(ready(), [6, 3]);
@@ -32,6 +32,9 @@ test('Public numerical features match existing encoder; future outcomes/after-st
 test('Corpus rejects incomplete outcomes, illegal masks and false after-states', () => {
     const raw = readFileSync('tests/fixtures/neural-decision.json', 'utf8');
     const r = JSON.parse(raw);
+    // The checked-in example predates the corner-priority change. Its position has no corner opportunity,
+    // so refresh only the policy metadata before testing this current-policy corpus validator.
+    r.before.rulePolicy = structuredClone(POLICY);r.after.rulePolicy = structuredClone(POLICY);r.provenance.rulePolicy = structuredClone(POLICY);
     validateRecord(engine, r);
     const noOutcome = structuredClone(r);
     noOutcome.result.status = 'unfinished';

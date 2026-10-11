@@ -11,3 +11,8 @@ import '../tests/undo.test';
 import '../tests/restore.test';
 import '../tests/lan.test';
 import '../tests/mobile.test';
+
+import '../tests/gameplay-rules.test';
+import '../tests/corner-priority.test';
+import '../tests/ai-playback.test';
+import '../tests/disputed-move.test';

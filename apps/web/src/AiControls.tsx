@@ -1,0 +1,4 @@
+import {SPEED_VALUE,speedName,type AiSpeed} from './aiPlayback';
+export function AiControls({running,busy,paused,speed,disabled,onToggle,onStep,onRestart,onSpeed}:{running:boolean;busy:boolean;paused:boolean;speed:number;disabled:boolean;onToggle:()=>void;onStep:()=>void;onRestart:()=>void;onSpeed:(value:number)=>void}){
+ return <section className="ai-controls" aria-label="Режим наблюдения"><button disabled={disabled} onClick={onToggle}>{running||(busy&&!paused)?'Пауза':'Продолжить'}</button><button disabled={disabled||running||(busy&&!paused)} onClick={onStep}>Следующий ход</button><label>Скорость<select aria-label="Скорость ИИ" value={speedName(speed)} onChange={e=>onSpeed(SPEED_VALUE[e.target.value as AiSpeed])}>{(['FAST','NORMAL','SLOW'] as const).map(name=><option key={name} value={name}>{name}</option>)}</select></label><button onClick={onRestart}>Перезапустить партию</button></section>;
+}

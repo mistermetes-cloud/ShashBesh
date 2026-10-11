@@ -4,7 +4,12 @@ export interface RulePolicy {
     jumpEntry: 'skip';
     victory: 'atomic';
     homeFreeze: 'contiguous-tail';
-    cornerPriority: 'per-unit';
+    cornerPriority: 'per-unit' | 'absolute';
+    capturePriority?: 'mandatory';
+    cornerLanding?: 'automatic' | 'ordinary';
+    cornerContinuation?: 'same-piece-if-legal-otherwise-transfer';
+    cornerObstruction?: 'whole-path';
+    cornerJumpConsumes?: 'one-die';
 }
 export interface Piece {
     id: string;
@@ -23,6 +28,7 @@ export interface Action {
     to: string;
     path: string[];
     captureIds: string[];
+    jump?: {from:string;to:string;path:string[]};
 }
 export interface Roll {
     id: number;
@@ -34,6 +40,7 @@ export interface Roll {
     extraRoll: boolean;
     rollSequenceNumber: number;
     usedPoints: number;
+    forcedPieceId?:string;
 }
 export interface ControllerIdentity {
     kind: 'human' | 'agent' | 'unknown';
