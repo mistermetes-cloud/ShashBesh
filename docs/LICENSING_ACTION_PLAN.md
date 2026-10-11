@@ -5,7 +5,7 @@
 | Категория / ID | Статус и критерий |
 |---|---|
 | BLOCKER B-03 | Условие разрешения на веса не закрыто: подтвердить применимые права/полномочия и model scope. Согласовать предпочитаемую форму модификации: веса, training code/config, feature/geometry/policy definitions и роль необходимых данных. Техническая provenance-проверка завершена; её повторять не требуется |
-| BLOCKER B-04 | В web/APK/release не установлен полный сопровождающий notice комплект. Source notices расширены, но остаются artwork scope и вложенные native payload условия. Нужна проверяемая комплектация реальной поставки; документы в PR не доказывают сопровождение старого Release |
+| BLOCKER B-04 | В web/APK/release не установлен полный сопровождающий notice комплект. Source notices расширены, но остаются artwork scope и конкретные notices вложенного Emoji2 FlatBuffers JAR. Native build tools не найдены в этих web/APK payloads. Нужна проверяемая комплектация реальной поставки; документы в PR не доказывают сопровождение старого Release |
 | REVIEW R-01 | 34 Capacitor template resources имеют проверенный источник/MIT notice; точная genealogy robot drawable и artwork/trademark scope остаются. Условная robot attribution подготовлена в ARTWORK_NOTICES.md, не встроена в APK |
 | REVIEW R-02 | Проверять MPL/EPL/CDDL/LGPL build/test инструменты только при их поставке. Runtime inventory не превращать в полный cache inventory |
 | REVIEW R-03 | 79 optional/platform lock entries (75 прежних отсутствующих + 4 установленных без license file) получены, integrity совпала у всех. 78 архивов без embedded legal text; parent MIT/rollup notices сохранены, но вложенные native зависимости требуют отдельного scope review при поставке |
@@ -29,3 +29,7 @@
 4. Только после закрытия существенных blockers добавить неизменённый полный официальный GNU GPLv3 в LICENSE, объявить GPL-3.0-only scope и исключения. Не merge PR без отдельного подтверждения.
 
 Подробное evidence: [FINAL_PREPARATION.json](licensing/FINAL_PREPARATION.json), [NOTICE_INDEX.json](licensing/NOTICE_INDEX.json), [MATERIALS.json](licensing/MATERIALS.json), [ARTWORK_NOTICES.md](licensing/ARTWORK_NOTICES.md).
+
+## Focused B-03/B-04 resolution at baseline af59666
+
+Current evidence and exact remediation: [LICENSING_BLOCKER_RESOLUTION.md](LICENSING_BLOCKER_RESOLUTION.md), [BLOCKER_EVIDENCE.json](licensing/BLOCKER_EVIDENCE.json). Both blockers remain open. B-03 is now tied to two identical JSON weight files and the identical embedded 6,505-parameter arrays; no invented grant. B-04 is narrowed to actual companion notices, shipped robot/template scope and a concrete missing nested FlatBuffers component inside Emoji2 (`libs/repackaged.jar`, 49 shipped classes). All 192 raster assets map to known resource containers; no packaged fonts/native SO/WASM were found. Optional native build-tool notices are not an APK shipment blocker here. No general inventory expansion: only [SHIPPED_COMPONENT_GAPS.json](licensing/SHIPPED_COMPONENT_GAPS.json) adds the proven nested component; the 54 Maven coordinates and 336 notices remain unchanged.

@@ -1505,15 +1505,17 @@
       "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Owner grant is conditional for weights; confirm condition of legal status/licensing rights and modification-source scope",
+      "confirmationNeeded": "Explicit weight-specific redistribution/modification authority/permission and external restrictions, if any; select preferred editable/source representation and required data delivery scope; no GPL adoption in this task",
       "issues": [
         "B-03"
       ],
-      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "technicalEvidence": "BLOCKER_EVIDENCE.json and TRAINING_PROVENANCE.json",
       "ownerStatementIds": [
         "OWN-05"
       ],
-      "ownerDeclarationId": "OWN-06"
+      "ownerDeclarationId": "OWN-06",
+      "permissionAssessment": "No model-specific grant metadata; OWN-06 conditional; redistribution/modification authority and condition not established independently",
+      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision"
     },
     {
       "path": "packages/agents/models/registry.json",
@@ -1541,15 +1543,17 @@
       "knownRightsholder": "Owner asserted for described source material; no independent verification; legal name not supplied",
       "currentLicense": "No model-specific license or rightsholder metadata",
       "gplv3Use": "Pending model/data rights and explicit scope confirmation",
-      "confirmationNeeded": "Owner grant is conditional for weights; confirm condition of legal status/licensing rights and modification-source scope",
+      "confirmationNeeded": "Explicit weight-specific redistribution/modification authority/permission and external restrictions, if any; select preferred editable/source representation and required data delivery scope; no GPL adoption in this task",
       "issues": [
         "B-03"
       ],
-      "technicalEvidence": "TRAINING_PROVENANCE.json",
+      "technicalEvidence": "BLOCKER_EVIDENCE.json and TRAINING_PROVENANCE.json",
       "ownerStatementIds": [
         "OWN-05"
       ],
-      "ownerDeclarationId": "OWN-06"
+      "ownerDeclarationId": "OWN-06",
+      "permissionAssessment": "No model-specific grant metadata; OWN-06 conditional; redistribution/modification authority and condition not established independently",
+      "editableRepresentation": "Native JSON w1,b1,w2,b2 and architecture; training workflow candidate includes code/config/corpus or sufficient generation recipe, subject to owner preferred-form decision"
     },
     {
       "path": "packages/agents/package.json",
