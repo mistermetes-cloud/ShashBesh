@@ -1,6 +1,6 @@
 {
   "date": "2026-10-11",
-  "status": "PARTIAL: source notice package prepared; distribution integration and upstream completeness not verified",
+  "status": "Expanded source notice package; B-04 remains open for actual distribution accompaniment and platform/artwork scope",
   "entries": [
     {
       "component": "@capacitor/android@7.6.9",
@@ -960,6 +960,1399 @@
       "noticeFile": "notices/0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594.txt",
       "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
       "scope": "Existing source wrapper"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/ActivityViewModelLazy.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/BackEventCompat.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/Cancellable.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/ComponentDialog.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/FullyDrawnReporter.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/PipHintTracker.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.activity/activity/1.9.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/activity/activity/1.9.2/activity-1.9.2-sources.jar!/androidx/activity/result/ActivityResultCallback.kt",
+      "noticeFile": "notices/fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c.txt",
+      "sha256": "fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/AnyThread.kt",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/CallSuper.kt",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/ColorLong.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/Discouraged.kt",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/EmptySuper.kt",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/IntDef.kt",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresApi.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation/1.8.1/annotation-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresFeature.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-experimental/1.4.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1-sources.jar!/androidx/annotation/OptIn.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-experimental/1.4.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-experimental/1.4.1/annotation-experimental-1.4.1-sources.jar!/androidx/annotation/RequiresOptIn.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/AnimRes.jvm.kt",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/BinderThread.jvm.kt",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ChecksSdkIntAtLeast.jvm.kt",
+      "noticeFile": "notices/fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c.txt",
+      "sha256": "fd14cf2373f18c32e45014401759f2d03327d918729be380314118647b82784c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ContentView.jvm.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/DeprecatedSinceApi.jvm.kt",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/Dimension.jvm.kt",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/DisplayContext.jvm.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/FontRes.jvm.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/NonNull.jvm.kt",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/jvmMain/androidx/annotation/ReplaceWith.jvm.kt",
+      "noticeFile": "notices/85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5.txt",
+      "sha256": "85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/Discouraged.kt",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresApi.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.annotation/annotation-jvm/1.8.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/annotation/annotation-jvm/1.8.1/annotation-jvm-1.8.1-sources.jar!/commonMain/androidx/annotation/RequiresFeature.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ActionBar.java",
+      "noticeFile": "notices/a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c.txt",
+      "sha256": "a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ActionBarDrawerToggle.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AlertController.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AppCompatDelegateImpl.java",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/AppLocalesMetadataHolderService.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/LayoutIncludeDetector.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/LocaleOverlayHelper.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/app/ResourcesFlusher.java",
+      "noticeFile": "notices/b05f0debea4dd3bb41e6c7c5f44711651e05ef1139c8da349e2094bc2796a44a.txt",
+      "sha256": "b05f0debea4dd3bb41e6c7c5f44711651e05ef1139c8da349e2094bc2796a44a",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/ActionMode.java",
+      "noticeFile": "notices/41845febcd9458cc67174fa6c5de8d6070fdab00f336f834d22135c0e7e29ecd.txt",
+      "sha256": "41845febcd9458cc67174fa6c5de8d6070fdab00f336f834d22135c0e7e29ecd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/CollapsibleActionView.java",
+      "noticeFile": "notices/b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209.txt",
+      "sha256": "b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/menu/CascadingMenuPopup.java",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/view/menu/ListMenuItemView.java",
+      "noticeFile": "notices/df2436a6f58c1a53985d26b2293d48e74ab788ca813cc8b2adb76e8f85a96677.txt",
+      "sha256": "df2436a6f58c1a53985d26b2293d48e74ab788ca813cc8b2adb76e8f85a96677",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatHintHelper.java",
+      "noticeFile": "notices/0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305.txt",
+      "sha256": "0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatTextClassifierHelper.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/AppCompatTextViewAutoSizeHelper.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat/1.7.0/appcompat-1.7.0-sources.jar!/androidx/appcompat/widget/DialogTitle.java",
+      "noticeFile": "notices/fb79fe20425ea16f8e38ec9537ed90ac86e904fac0883f31cc5d22850b1e8280.txt",
+      "sha256": "fb79fe20425ea16f8e38ec9537ed90ac86e904fac0883f31cc5d22850b1e8280",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/content/res/AppCompatResources.java",
+      "noticeFile": "notices/53082e800843aed238b7aade7fd4d9927b641988d2db1e66c112c4f5f6074781.txt",
+      "sha256": "53082e800843aed238b7aade7fd4d9927b641988d2db1e66c112c4f5f6074781",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/graphics/drawable/AnimatedStateListDrawableCompat.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/graphics/drawable/DrawableWrapperCompat.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/resources/Compatibility.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/widget/ResourceManagerInternal.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.appcompat/appcompat-resources/1.7.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/appcompat/appcompat-resources/1.7.0/appcompat-resources-1.7.0-sources.jar!/androidx/appcompat/widget/ResourcesWrapper.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.arch.core/core-common/2.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-common/2.2.0/core-common-2.2.0-sources.jar!/androidx/arch/core/internal/FastSafeIterableMap.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.arch.core/core-runtime/2.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/arch/core/core-runtime/2.2.0/core-runtime-2.2.0-sources.jar!/androidx/arch/core/executor/ArchTaskExecutor.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/ArraySet.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/CircularArray.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/FloatFloatMap.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection/1.4.2/collection-1.4.2-sources.jar!/commonMain/androidx/collection/IndexBasedArrayIterator.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/ArrayMap.kt",
+      "noticeFile": "notices/7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415.txt",
+      "sha256": "7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/ArraySet.jvm.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/LongSparseArray.jvm.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/package-info.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/jvmMain/androidx/collection/internal/PackingHelpers.jvm.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.collection/collection-jvm/1.4.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/collection/collection-jvm/1.4.2/collection-jvm-1.4.2-sources.jar!/commonMain/androidx/collection/IndexBasedArrayIterator.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.concurrent/concurrent-futures/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/concurrent/concurrent-futures/1.1.0/concurrent-futures-1.1.0-sources.jar!/androidx/concurrent/futures/AbstractResolvableFuture.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.coordinatorlayout/coordinatorlayout/1.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/coordinatorlayout/coordinatorlayout/1.2.0/coordinatorlayout-1.2.0-sources.jar!/androidx/coordinatorlayout/widget/CoordinatorLayout.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/android/support/v4/os/ResultReceiver.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/accessibilityservice/AccessibilityServiceInfoCompat.java",
+      "noticeFile": "notices/b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209.txt",
+      "sha256": "b9fc24a6ca136cc571f5237f1b82536034946353b635870a7640a1443eb2e209",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityManagerCompat.java",
+      "noticeFile": "notices/112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613.txt",
+      "sha256": "112331fa20ed11a2311644f2b9cef74da0274eac198f18ec6b16bac4e6f82613",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityOptionsCompat.java",
+      "noticeFile": "notices/a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c.txt",
+      "sha256": "a1dfc2b88d1a51e2574ccf5b123ffb2c7c518a5ed10f4c57dfc43faec195907c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/ActivityRecreator.java",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AlarmManagerCompat.java",
+      "noticeFile": "notices/bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65.txt",
+      "sha256": "bd681efb8799978450f2abfdb13bf66aa8e2050c974625bf6ab8e184d4500b65",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AppLocalesStorageHelper.java",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/AppOpsManagerCompat.java",
+      "noticeFile": "notices/3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd.txt",
+      "sha256": "3eef9d928917c18427704cbdf31a57e9548a88a918cbb3924a2cfbff04a86ffd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/DialogCompat.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/FrameMetricsAggregator.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/LocaleManagerCompat.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/NotificationChannelCompat.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/OnMultiWindowModeChangedProvider.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/app/PendingIntentCompat.java",
+      "noticeFile": "notices/cc72f0c458dab99b2021d05c8bf272eb917dda654c3baf737db83ba3cf57aeb4.txt",
+      "sha256": "cc72f0c458dab99b2021d05c8bf272eb917dda654c3baf737db83ba3cf57aeb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/ContentResolverCompat.java",
+      "noticeFile": "notices/324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f.txt",
+      "sha256": "324242fc42ca1fe5892a57220c8a8720f68f1d5923bd69f0fc4e63f2b032656f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/SharedPreferencesCompat.java",
+      "noticeFile": "notices/85304b741dae82536140550f0ee7054d122ebdf816c852c92bbbe86686501ae6.txt",
+      "sha256": "85304b741dae82536140550f0ee7054d122ebdf816c852c92bbbe86686501ae6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/content/pm/ShortcutInfoCompat.java",
+      "noticeFile": "notices/627eb9ffdae7f73ea2a685b2bed602684547109928c6bf4afa08a88f7f96af32.txt",
+      "sha256": "627eb9ffdae7f73ea2a685b2bed602684547109928c6bf4afa08a88f7f96af32",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/BlendModeCompat.java",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/ColorUtils.java",
+      "noticeFile": "notices/1a6d45f82689dd204ca86c5a6dc8b06244cd1ddd46fb9bdbbc82f0b62fdcdd97.txt",
+      "sha256": "1a6d45f82689dd204ca86c5a6dc8b06244cd1ddd46fb9bdbbc82f0b62fdcdd97",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/graphics/TypefaceCompatApi28Impl.java",
+      "noticeFile": "notices/0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305.txt",
+      "sha256": "0a482956cdefef7b857c207289fcf91b92f4c4003e79fdd0d6e5021d6ec60305",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/os/Profiling.kt",
+      "noticeFile": "notices/85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5.txt",
+      "sha256": "85d89e90bd56722f8d3a5386d12bacfc7eb6c0bb83e87d1f8e29d7f0ea871bf5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/os/TraceCompat.java",
+      "noticeFile": "notices/7d6bc44faadcfc207a6e1e5ba86e8a3d3df5ab796a1fbfa779bdd42ffbb8cc5c.txt",
+      "sha256": "7d6bc44faadcfc207a6e1e5ba86e8a3d3df5ab796a1fbfa779bdd42ffbb8cc5c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/text/method/LinkMovementMethodCompat.java",
+      "noticeFile": "notices/d6cfc574bd8e3ac4a60037317c60b273556b72fa04fa4e32bb8b3581f949c76e.txt",
+      "sha256": "d6cfc574bd8e3ac4a60037317c60b273556b72fa04fa4e32bb8b3581f949c76e",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/text/util/LocalePreferences.java",
+      "noticeFile": "notices/a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4.txt",
+      "sha256": "a34cd7c49b07da7319aadce0fee47da135773758afb314667d92ecc29657deb4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/util/AtomicFile.java",
+      "noticeFile": "notices/623d3727872cbcb7ff339b9a151f6f1a6eeb5bdf9f0afe2d7d51b2804fb6591c.txt",
+      "sha256": "623d3727872cbcb7ff339b9a151f6f1a6eeb5bdf9f0afe2d7d51b2804fb6591c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/view/animation/PathInterpolatorCompat.java",
+      "noticeFile": "notices/916ad05d2ddb5952efa00a8eacd18ecca04b6fab9c55adf238e4847ac255c35f.txt",
+      "sha256": "916ad05d2ddb5952efa00a8eacd18ecca04b6fab9c55adf238e4847ac255c35f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/androidx/core/widget/CheckedTextViewCompat.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core/1.15.0/core-1.15.0-sources.jar!/META-INF/androidx/core/core/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/animation/Animator.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/content/ContentValues.kt",
+      "noticeFile": "notices/dc12336bbf298546ef57c053e433668b61d9e2d5bf142d29b0f017a37a0eb151.txt",
+      "sha256": "dc12336bbf298546ef57c053e433668b61d9e2d5bf142d29b0f017a37a0eb151",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/content/Context.kt",
+      "noticeFile": "notices/7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415.txt",
+      "sha256": "7147d3f75b51ca20ce6e3f5095c0b4ec0193de2804e8daac15749a8ed424f415",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/graphics/Paint.kt",
+      "noticeFile": "notices/f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9.txt",
+      "sha256": "f522a5228a4efd49ff1fba81fa2fba84dd5864ae3a85ed3af016abb700aa49f9",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/graphics/Picture.kt",
+      "noticeFile": "notices/60fdc91f1d77dab4e4d2ef9b97fb850b500698c4514f859602e1fbc692de2974.txt",
+      "sha256": "60fdc91f1d77dab4e4d2ef9b97fb850b500698c4514f859602e1fbc692de2974",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/os/OutcomeReceiver.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/text/Locale.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/androidx/core/util/LruCache.kt",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.core/core-ktx/1.15.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-ktx/1.15.0/core-ktx-1.15.0-sources.jar!/META-INF/androidx/core/core-ktx/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "androidx.core/core-splashscreen/1.0.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/core/core-splashscreen/1.0.1/core-splashscreen-1.0.1-sources.jar!/androidx/core/splashscreen/MaskedDrawable.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.cursoradapter/cursoradapter/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/cursoradapter/cursoradapter/1.0.0/cursoradapter-1.0.0-sources.jar!/androidx/cursoradapter/widget/SimpleCursorAdapter.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.customview/customview/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/customview/customview/1.0.0/customview-1.0.0-sources.jar!/androidx/customview/view/AbsSavedState.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.drawerlayout/drawerlayout/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/drawerlayout/drawerlayout/1.0.0/drawerlayout-1.0.0-sources.jar!/androidx/drawerlayout/widget/DrawerLayout.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0-sources.jar!/androidx/emoji2/text/ConcurrencyHelpers.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2/1.3.0/emoji2-1.3.0-sources.jar!/androidx/emoji2/text/DefaultGlyphChecker.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.emoji2/emoji2-views-helper/1.3.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/emoji2/emoji2-views-helper/1.3.0/emoji2-views-helper-1.3.0-sources.jar!/androidx/emoji2/viewsintegration/EmojiEditTextHelper.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/BackStackRecord.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/BackStackState.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/DefaultSpecialEffectsController.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/FragmentOnAttachListener.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/PredictiveBackControl.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.fragment/fragment/1.8.4",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/fragment/fragment/1.8.4/fragment-1.8.4-sources.jar!/androidx/fragment/app/strictmode/WrongNestedHierarchyViolation.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.interpolator/interpolator/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/interpolator/interpolator/1.0.0/interpolator-1.0.0-sources.jar!/androidx/interpolator/view/animation/FastOutLinearInInterpolator.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/ClassesInfoCache.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/DispatchQueue.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-common/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-common/2.6.2/lifecycle-common-2.6.2-sources.jar!/androidx/lifecycle/LifecycleEventObserver.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-livedata/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata/2.6.2/lifecycle-livedata-2.6.2-sources.jar!/androidx/lifecycle/ComputableLiveData.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-livedata-core/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-livedata-core/2.6.2/lifecycle-livedata-core-2.6.2-sources.jar!/androidx/lifecycle/LiveData.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-process/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.6.2/lifecycle-process-2.6.2-sources.jar!/androidx/lifecycle/EmptyActivityLifecycleCallbacks.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-process/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-process/2.6.2/lifecycle-process-2.6.2-sources.jar!/androidx/lifecycle/ProcessLifecycleInitializer.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2-sources.jar!/androidx/lifecycle/LifecycleRegistry.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-runtime/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-runtime/2.6.2/lifecycle-runtime-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeLifecycleOwner.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/AndroidViewModel.kt",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/HasDefaultViewModelProviderFactory.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewModelLazy.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeViewModel.kt",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/ViewTreeViewModelStoreOwner.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel/2.6.2/lifecycle-viewmodel-2.6.2-sources.jar!/androidx/lifecycle/viewmodel/InitializerViewModelFactory.kt",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/AbstractSavedStateViewModelFactory.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/LegacySavedStateHandleController.kt",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.lifecycle/lifecycle-viewmodel-savedstate/2.6.2",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/lifecycle/lifecycle-viewmodel-savedstate/2.6.2/lifecycle-viewmodel-savedstate-2.6.2-sources.jar!/androidx/lifecycle/SavedStateHandleController.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.loader/loader/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/loader/loader/1.0.0/loader-1.0.0-sources.jar!/androidx/loader/content/Loader.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/BenchmarkOperation.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/DeviceProfileWriter.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.profileinstaller/profileinstaller/1.3.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/profileinstaller/profileinstaller/1.3.1/profileinstaller-1.3.1-sources.jar!/androidx/profileinstaller/package-info.java",
+      "noticeFile": "notices/883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193.txt",
+      "sha256": "883fc7ae513b62f8c406fe00a6dda4a281a059fc674b554c6e24ee0e36347193",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.resourceinspection/resourceinspection-annotation/1.0.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/resourceinspection/resourceinspection-annotation/1.0.1/resourceinspection-annotation-1.0.1-sources.jar!/androidx/resourceinspection/package-info.java",
+      "noticeFile": "notices/b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee.txt",
+      "sha256": "b698582c54bfdc53aace53dba7612f36ddbb0259cfddd6168604e1e0e56212ee",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/Recreator.kt",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/SavedStateRegistryController.kt",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.savedstate/savedstate/1.2.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/savedstate/savedstate/1.2.1/savedstate-1.2.1-sources.jar!/androidx/savedstate/ViewTreeSavedStateRegistryOwner.kt",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.startup/startup-runtime/1.1.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/startup/startup-runtime/1.1.1/startup-runtime-1.1.1-sources.jar!/androidx/startup/AppInitializer.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.tracing/tracing/1.2.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/tracing/tracing/1.2.0/tracing-1.2.0-sources.jar!/androidx/tracing/Trace.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable/1.1.0/vectordrawable-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/AndroidResources.java",
+      "noticeFile": "notices/2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38.txt",
+      "sha256": "2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/Animatable2Compat.java",
+      "noticeFile": "notices/75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6.txt",
+      "sha256": "75dbadc0b3159a276c67a0bf4f5e7fb11b02fec4223eae12aa3a64e195a4fca6",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.vectordrawable/vectordrawable-animated/1.1.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/vectordrawable/vectordrawable-animated/1.1.0/vectordrawable-animated-1.1.0-sources.jar!/androidx/vectordrawable/graphics/drawable/AnimatedVectorDrawableCompat.java",
+      "noticeFile": "notices/2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38.txt",
+      "sha256": "2f8e6c1ad7ee04f0b7ed855515c20fc9243f360248fa4ad5c2005516df785f38",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.versionedparcelable/versionedparcelable/1.1.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/versionedparcelable/versionedparcelable/1.1.1/versionedparcelable-1.1.1-sources.jar!/androidx/versionedparcelable/CustomVersionedParcelable.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.viewpager/viewpager/1.0.0",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/viewpager/viewpager/1.0.0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/PagerTitleStrip.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/CookieManagerCompat.java",
+      "noticeFile": "notices/098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4.txt",
+      "sha256": "098ca21a7be9224c03b2c4966bbec5c1b3c7511f391545373c2b450fae6541e4",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/JavaScriptReplyProxy.java",
+      "noticeFile": "notices/0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c.txt",
+      "sha256": "0fb76639cf65ffb51bcc4bdf5c15623ef6cd1c4ae400c99fcf32187123bbc35c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/Profile.java",
+      "noticeFile": "notices/ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7.txt",
+      "sha256": "ffbf3b8a42860b5eaa8228cca1c1f328305ad749737bef00ef43520d8f5e48b7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/ProxyConfig.java",
+      "noticeFile": "notices/768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0.txt",
+      "sha256": "768f8c7388691bf175d55d8107d3bb9cd7c64ac1f74411309d0b138fa9895cb0",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/ScriptHandler.java",
+      "noticeFile": "notices/575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94.txt",
+      "sha256": "575ee5739171b0a546eb044c10ef188f605a1e8c975a728a6072f61ed2658e94",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/androidx/webkit/internal/package-info.java",
+      "noticeFile": "notices/9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14.txt",
+      "sha256": "9d0f46e29c70c3c5e1bf9827a8b6f89dd4633da52ce437ab334a833487c84e14",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "androidx.webkit/webkit/1.12.1",
+      "source": "https://dl.google.com/dl/android/maven2/androidx/webkit/webkit/1.12.1/webkit-1.12.1-sources.jar!/META-INF/androidx/webkit/webkit/LICENSE.txt",
+      "noticeFile": "notices/809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0.txt",
+      "sha256": "809fa1ed21450f59827d1e9aec720bbc4b687434fa22283c6cb5dd82a47ab9c0",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "com.google.guava/listenablefuture/1.0",
+      "source": "https://repo.maven.apache.org/maven2/com/google/guava/listenablefuture/1.0/listenablefuture-1.0-sources.jar!/com/google/common/util/concurrent/ListenableFuture.java",
+      "noticeFile": "notices/3401916a213ab1d1518c336719bf249bdf4d6554f681f0f8653dc576550c00f8.txt",
+      "sha256": "3401916a213ab1d1518c336719bf249bdf4d6554f681f0f8653dc576550c00f8",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/CordovaPlugin.java",
+      "noticeFile": "notices/29494df6f00d2aaf74d78d32db2ed9fa65ecfc96074dff47ea937a020cbfd81c.txt",
+      "sha256": "29494df6f00d2aaf74d78d32db2ed9fa65ecfc96074dff47ea937a020cbfd81c",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/PluginManager.java",
+      "noticeFile": "notices/43dfaf9ecd2da6f5cb4a032dc45e188921165114435866038651680630a8b4dd.txt",
+      "sha256": "43dfaf9ecd2da6f5cb4a032dc45e188921165114435866038651680630a8b4dd",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.apache.cordova/framework/10.1.1",
+      "source": "https://repo.maven.apache.org/maven2/org/apache/cordova/framework/10.1.1/framework-10.1.1-sources.jar!/org/apache/cordova/CordovaWebView.java",
+      "noticeFile": "notices/a9d09f49fbf2046914657de5d6f4a17eea941f133da0f1fd1122d39dc2e4c86f.txt",
+      "sha256": "a9d09f49fbf2046914657de5d6f4a17eea941f133da0f1fd1122d39dc2e4c86f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/Flow.java",
+      "noticeFile": "notices/cd14ea844553a1b68fe4f38e9985563215191e30ffb8839e1f8884572ab53800.txt",
+      "sha256": "cd14ea844553a1b68fe4f38e9985563215191e30ffb8839e1f8884572ab53800",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/Identifier.java",
+      "noticeFile": "notices/66a7ebb57fb18ce77b56a7dd5e1722160be3a3ff0eedbeb77596e5920116b7b2.txt",
+      "sha256": "66a7ebb57fb18ce77b56a7dd5e1722160be3a3ff0eedbeb77596e5920116b7b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/intellij/lang/annotations/JdkConstants.java",
+      "noticeFile": "notices/cd45fb5a7bc9736f9ca93a4d6559d39448f91ba77460f7d386a8219b16eafcca.txt",
+      "sha256": "cd45fb5a7bc9736f9ca93a4d6559d39448f91ba77460f7d386a8219b16eafcca",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains/annotations/13.0",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0-sources.jar!/org/jetbrains/annotations/Nls.java",
+      "noticeFile": "notices/8f001aa9db4116b5bb12d408d48ecc37e1e6bf76d852d50c9052491a0d60f9aa.txt",
+      "sha256": "8f001aa9db4116b5bb12d408d48ecc37e1e6bf76d852d50c9052491a0d60f9aa",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Annotation.kt",
+      "noticeFile": "notices/f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f.txt",
+      "sha256": "f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Any.kt",
+      "noticeFile": "notices/3af858fc83088f11647ba3e0aa03e03edd30b3d6f3c4e7342764a5b739dceefe.txt",
+      "sha256": "3af858fc83088f11647ba3e0aa03e03edd30b3d6f3c4e7342764a5b739dceefe",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Array.kt",
+      "noticeFile": "notices/417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df.txt",
+      "sha256": "417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Arrays.kt",
+      "noticeFile": "notices/97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5.txt",
+      "sha256": "97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Char.kt",
+      "noticeFile": "notices/d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5.txt",
+      "sha256": "d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Collections.kt",
+      "noticeFile": "notices/b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de.txt",
+      "sha256": "b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/kotlin/Library.kt",
+      "noticeFile": "notices/92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67.txt",
+      "sha256": "92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/jdk7/kotlin/io/path/PathReadWrite.kt",
+      "noticeFile": "notices/b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2.txt",
+      "sha256": "b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/jvmMain/jdk8/kotlin/collections/Collections.kt",
+      "noticeFile": "notices/bf07db813d204a4f09e1738e9d2c4755ca6c6e00dcf8fe6df35166d6d12e02da.txt",
+      "sha256": "bf07db813d204a4f09e1738e9d2c4755ca6c6e00dcf8fe6df35166d6d12e02da",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.9.25/kotlin-stdlib-1.9.25-sources.jar!/commonMain/kotlin/experimental/ExperimentalNativeApi.kt",
+      "noticeFile": "notices/cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea.txt",
+      "sha256": "cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/generated/_Arrays.kt",
+      "noticeFile": "notices/97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5.txt",
+      "sha256": "97dce00ca628c83039b628553ae8f8b4ee886f13b2c2fbbd6e223ff80b2f64a5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/Comparator.kt",
+      "noticeFile": "notices/b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de.txt",
+      "sha256": "b435f6f0d1197e2dbfdc63891b518b09b5149047df84ffa9439831f5638e88de",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/JsAnnotationsH.kt",
+      "noticeFile": "notices/f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f.txt",
+      "sha256": "f50ca6aa79045374440f42aa6233e36d1215bceb0fcf93b09f34e2561563365f",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/JvmAnnotationsH.kt",
+      "noticeFile": "notices/b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2.txt",
+      "sha256": "b78b570c391fe81f8eb5d8c9097adbc76ed6260accdde523e6b4a5572afde0b2",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/MathH.kt",
+      "noticeFile": "notices/d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5.txt",
+      "sha256": "d29b406a88c0419f5816e7aef86703075ff16587d06678f732f61e02b2465dd5",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/collections/ArrayDeque.kt",
+      "noticeFile": "notices/417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df.txt",
+      "sha256": "417bd21c84f6b6cf6fe0845135eab4f26e5db4be62bc9dcaf346e8e6f957f3df",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/kotlin/experimental/ExperimentalNativeApi.kt",
+      "noticeFile": "notices/cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea.txt",
+      "sha256": "cd3cfb7e2ada97740fb20d20c0b251754e8cd763b5ef103860ec1e814cfafeea",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlin/kotlin-stdlib-common/1.9.25",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.9.25/kotlin-stdlib-common-1.9.25-sources.jar!/InternalAnnotations.kt",
+      "noticeFile": "notices/92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67.txt",
+      "sha256": "92fe2dd0e41b0844d2f9b5050342ed5188ca445a95dd8166650278a2d10ecf67",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-android/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-android/1.6.4/kotlinx-coroutines-android-1.6.4-sources.jar!/AndroidExceptionPreHandler.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonMain/AbstractCoroutine.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonMain/channels/Deprecated.kt",
+      "noticeFile": "notices/7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683.txt",
+      "sha256": "7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/LimitedParallelismSharedTest.kt",
+      "noticeFile": "notices/248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041.txt",
+      "sha256": "248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/LaunchLazyTest.kt",
+      "noticeFile": "notices/7f57ded57d15fa107e0009cebb872c92a0666274762f42ffda2183a2358fb1ad.txt",
+      "sha256": "7f57ded57d15fa107e0009cebb872c92a0666274762f42ffda2183a2358fb1ad",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core/1.6.4/kotlinx-coroutines-core-1.6.4-sources.jar!/commonTest/flow/FlowInvariantsTest.kt",
+      "noticeFile": "notices/3c690334796c8331e05278a2a22cc9250a3d69b8c1015b5602977163850c18d3.txt",
+      "sha256": "3c690334796c8331e05278a2a22cc9250a3d69b8c1015b5602977163850c18d3",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/jvmMain/Builders.kt",
+      "noticeFile": "notices/7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740.txt",
+      "sha256": "7c09ff90a7ab273dab7e008debd8714ea754442239b3db3072b558b9e7ee6740",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/jvmMain/internal/ResizableAtomicArray.kt",
+      "noticeFile": "notices/248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041.txt",
+      "sha256": "248cb127169cc9ce2be39cf088d5d7457367832214ce014114a7b8f08a2e0041",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.6.4",
+      "source": "https://repo.maven.apache.org/maven2/org/jetbrains/kotlinx/kotlinx-coroutines-core-jvm/1.6.4/kotlinx-coroutines-core-jvm-1.6.4-sources.jar!/commonMain/channels/Deprecated.kt",
+      "noticeFile": "notices/7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683.txt",
+      "sha256": "7a78f36dcb7856eecb0223083b114c8e446f61ed41ccc90eb5aaedaf4e289683",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/fi/iki/elonen/util/ServerRunner.java",
+      "noticeFile": "notices/e2349dc118835a1379c7068847c2adcdceb04c454e0302a19b4054db8b424dd8.txt",
+      "sha256": "e2349dc118835a1379c7068847c2adcdceb04c454e0302a19b4054db8b424dd8",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/fi/iki/elonen/NanoHTTPD.java",
+      "noticeFile": "notices/dddd04ad4ca27fbc30f10d8561ba4a6f887464050ebfd69d541f77b3b4f593d7.txt",
+      "sha256": "dddd04ad4ca27fbc30f10d8561ba4a6f887464050ebfd69d541f77b3b4f593d7",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1-sources.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-websocket/2.3.1/nanohttpd-websocket-2.3.1-sources.jar!/fi/iki/elonen/samples/echo/DebugWebSocketServer.java",
+      "noticeFile": "notices/13123847f5162747e7cc97d02d4f737b50d4631d54974fa3bd04ca86d406c3da.txt",
+      "sha256": "13123847f5162747e7cc97d02d4f737b50d4631d54974fa3bd04ca86d406c3da",
+      "scope": "Exact upstream source copyright/license header; all mapped files in FINAL_PREPARATION.json"
+    },
+    {
+      "component": "org.nanohttpd/nanohttpd-websocket/2.3.1",
+      "source": "https://repo.maven.apache.org/maven2/org/nanohttpd/nanohttpd-websocket/2.3.1/nanohttpd-websocket-2.3.1-sources.jar!/LICENSE.txt",
+      "noticeFile": "notices/3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765.txt",
+      "sha256": "3825e0f8f684b3b89ecd56ea6b2faa2dda2b7a9c4127b2baf302d6d2b0cea765",
+      "scope": "Exact runtime source archive license/NOTICE"
+    },
+    {
+      "component": "dd-plist adapted portions in bplist-parser@0.3.2",
+      "source": "https://github.com/3breadt/dd-plist/blob/8c7db0168866aaf37b20d57ae083068e3560eb5d/src/main/java/com/dd/plist/BinaryPropertyListParser.java",
+      "noticeFile": "notices/a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8.txt",
+      "sha256": "a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8",
+      "scope": "MIT; Copyright (C) 2011 Daniel Dreibrodt; conservative notice for acknowledged adaptation; exact copied revision unknown"
+    },
+    {
+      "component": "node_modules/fsevents@2.3.3",
+      "source": "https://registry.npmjs.org/fsevents/-/fsevents-2.3.3.tgz!/package/LICENSE",
+      "noticeFile": "notices/2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1.txt",
+      "sha256": "2a8a5d6197bb97a018b8a190dd3ed853d750ca87c8e80c17aad41d6c6ff448e1",
+      "scope": "Exact integrity-verified optional tarball license"
     }
   ],
   "npmGaps": [
@@ -977,7 +2370,8 @@
     },
     {
       "component": "bplist-parser@0.3.2",
-      "reason": "Source says adapted from 3breadt/dd-plist; copied fragment scope and original attribution still require review"
+      "reason": "Acknowledged dd-plist adaptation conservatively credited under historical MIT; exact copied lines/revision not independently established",
+      "status": "Resolved notice source: historical upstream MIT header retained in notices/a8807e914feba676ac0efa92a03127498cd2396e13f76cbf17d25fb0a91ae1b8.txt"
     },
     {
       "component": "@esbuild/linux-x64@0.25.12",
@@ -1325,5 +2719,15 @@
     "APK/web packaging unchanged",
     "Android artwork R-01 unresolved",
     "Archive scans do not replace upstream source/header NOTICE review"
-  ]
+  ],
+  "continuation": {
+    "baseEntries": 137,
+    "baseUniqueTexts": 86,
+    "newEntries": 199,
+    "sourceHeaderOccurrences": 2414,
+    "uniqueSourceHeaders": 63,
+    "optionalArchiveEntries": 79,
+    "optionalIntegrityPassed": 79,
+    "optionalWithEmbeddedLicense": 1
+  }
 }

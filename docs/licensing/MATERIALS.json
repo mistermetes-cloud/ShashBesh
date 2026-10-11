@@ -96,154 +96,154 @@
       "sha256": "065e4a92a240fe11a0ea230491ad9dabef143f5fd5a3e6884ad6f0395666a971",
       "bytes": 1824,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/.gitignore",
       "sha256": "99c54e51ee601a60fbde8016b2cbf717483bc2e92773be86c9247d02a7fa6ea4",
       "bytes": 26,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/build.gradle",
       "sha256": "611b971431c236dcfc36c2ec640f5b0e70463d5baa7a3675180bea642eca02ed",
       "bytes": 2632,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/capacitor.build.gradle",
       "sha256": "7051cadfdbc532197d2cfd4f8a11684d81367f23cf7952e5a208f7b6aa0833e0",
       "bytes": 370,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/proguard-rules.pro",
       "sha256": "1cf8c57e8f79c250b0af9c1a5a4edad71a5c348a79ab70243b6bae086c150ad2",
       "bytes": 751,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/androidTest/java/com/getcapacitor/myapp/ExampleInstrumentedTest.java",
       "sha256": "63b1f70b3ff4574ef014b76b46e3e900549ec0f7f7322eb4bba1ab9f6b58e66f",
       "bytes": 772,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/AndroidManifest.xml",
       "sha256": "c9c031e9452bb85f30a2f56d03590246145c413ecc3c8c4c3688ac1e09a0018d",
       "bytes": 1814,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/java/org/shashbesh/game/LanDiscoveryPlugin.java",
       "sha256": "7c12ab1fdc79def52df1666275755ae471a0d4490b96a03a8ad552f01adc9afe",
       "bytes": 5169,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/java/org/shashbesh/game/LanHostPlugin.java",
       "sha256": "4ceed92eeec58fca8471e4d80be44e44e19700fd19834bf747ddfbc0bf48f94c",
       "bytes": 3875,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/java/org/shashbesh/game/LanHttpServer.java",
       "sha256": "fbd90e6040c0ec4d2d31c4f9b8f5c0a2c1dab3bc9f2556a5b33667ee01632d1e",
       "bytes": 6854,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/java/org/shashbesh/game/MainActivity.java",
       "sha256": "3cf0e16477afc1751d19d5b4d50522b9afd5821f0b263857a3124795bb7231ed",
       "bytes": 356,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/res/drawable-land-hdpi/splash.png",
@@ -698,14 +698,14 @@
       "sha256": "3a1f0ad606b008a30e5408403ff0815b77b65094f32c1e0b9ffd0bc5fd1edd02",
       "bytes": 300,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/app/src/main/res/values/styles.xml",
@@ -740,56 +740,56 @@
       "sha256": "d4045ae8fac1f0807e6b24eb34e68409a9a235df9d1a3f896fb8c9a49424363d",
       "bytes": 402,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/build.gradle",
       "sha256": "2b8ea5d22103d51aeb9aa68343f574f33d4b2bfe79fa94e47bc1fa28a9d22cef",
       "bytes": 632,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/capacitor.settings.gradle",
       "sha256": "b488e162f552d6efb8286793c7871bbc1061c9bf5ca3a6a495fdeb8988a541c7",
       "bytes": 207,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/gradle.properties",
       "sha256": "3bab15c5b8bc4c2f4b6cf525497d15ad4abca53a460e6dd2eb0f0135817d31e6",
       "bytes": 987,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/gradle/wrapper/gradle-wrapper.jar",
@@ -809,14 +809,14 @@
       "sha256": "f7fafb1ddd0a2a1d2ef01ead773d9a88c1f889ef341e4e93c09c0724ade79b32",
       "bytes": 253,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/gradlew",
@@ -849,28 +849,28 @@
       "sha256": "6ce098d15ebd69b44c4ecd786bca1bdc366340d2459b2af4d7bb0ab317aa9669",
       "bytes": 208,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "android/variables.gradle",
       "sha256": "6b4439bc35170fbb602be71f5957102ce2eddcdd1165dedff663182da2f2f8ac",
       "bytes": 497,
       "source": "Capacitor generated template and project-specific changes; generation and current source inspected",
-      "knownRightsholder": "Drifty Co. for template portions; project contributors unconfirmed for changes",
+      "knownRightsholder": "Drifty Co. for template portions; Mister Metes for owner-controlled original changes per OWN-06",
       "currentLicense": "MIT for confirmed template portions; local changes not yet licensed",
       "gplv3Use": "Pending permission for original copyrightable material",
-      "confirmationNeeded": "Distinguish unchanged template portions from project changes; retain third-party notices",
+      "confirmationNeeded": "Preserve third-party template notices; inspect any specific external scope separately under B-04; own changes authorized per OWN-06",
       "issues": [
-        "B-01",
         "B-04"
-      ]
+      ],
+      "ownerDeclarationId": "OWN-06"
     },
     {
       "path": "apps/web/index.html",
@@ -2689,5 +2689,16 @@
     ],
     "evidenceClass": "Owner declaration; not independent verification of every contribution or third-party rights",
     "adoptionStatus": "Pending blockers; no project LICENSE added"
-  }
+  },
+  "currentIssueStatus": {
+    "B-01": "INFO: owner declaration for own contributions",
+    "B-02": "INFO: owner declarations for own materials",
+    "B-03": "BLOCKER: conditional model licensing and modification scope",
+    "B-04": "BLOCKER: distribution notices and artwork/platform scope",
+    "R-01": "REVIEW: artwork scope/attribution",
+    "R-02": "REVIEW: build tools only if redistributed",
+    "R-03": "REVIEW: availability/integrity verified; nested native license scope pending",
+    "R-04": "REVIEW: model preferred modification form"
+  },
+  "finalPreparationEvidence": "FINAL_PREPARATION.json"
 }

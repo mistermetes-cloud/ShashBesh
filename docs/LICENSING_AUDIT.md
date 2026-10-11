@@ -2,7 +2,9 @@
 
 Дата исходного аудита: 2026-10-10. Продолжение: 2026-10-11. Ветка: `feature/gplv3-license`. Проверенная исходная база: `af46155eff2a49780925109895bfa9a4924d4073`; на момент исходного аудита `origin/main` совпадала с ней; remote main повторно не проверялась.
 
-**Статус: переход пока не разрешён — 2 BLOCKER, 4 REVIEW, 6 INFO.** Это число групп вопросов, а не количество ошибочных файлов. `LICENSE` GPLv3 не добавлен, README не объявляет проект GPLv3. Лицензии сторонних компонентов не изменены.
+**Текущий статус final preparation: переход пока не разрешён — 2 BLOCKER, 4 REVIEW, 6 INFO.** Это число групп вопросов, а не количество ошибочных файлов. `LICENSE` GPLv3 не добавлен, README не объявляет проект GPLv3. Лицензии сторонних компонентов не изменены.
+
+Ниже исходные результаты и исторические этапы; итоговый authoritative статус — [LICENSING_ACTION_PLAN.md](LICENSING_ACTION_PLAN.md) и раздел final preparation в конце. Старые требования имени/решения владельца выполнены через OWN-06.
 
 ## Объём и сохранение результатов
 
@@ -145,3 +147,21 @@ B-04: до заявления о compliant GPL distribution оформить п�
 Owner declaration OWN-06: display name **Mister Metes**, copyright year **2026**, выбран **GNU GPL version 3 only / GPL-3.0-only**. Уведомление для собственных материалов: **Copyright (C) 2026 Mister Metes**. Решение охватывает собственные исходники/движок, документацию, оригинальные рисунки/графику, таблицы/данные в пределах прав владельца. Веса включены условно: только после подтверждения их правового статуса и полномочий лицензирования. Сторонние части сохраняют исходные лицензии.
 
 B-01/B-02 закрыты для заявленных собственных, контролируемых владельцем частей на основании owner declaration и OWN-01…04; это не независимое доказательство каждого файла и не разрешение на сторонние включения. Конкретные third-party проблемы учитываются отдельно в B-04/R-01. B-03 остаётся открытым для условия о весах; B-04 — для completeness/distribution notices. Текущий статус: **2 BLOCKER, 4 REVIEW, 6 INFO** (B-01/B-02 переведены в INFO с указанным scope). Ранее описанные статусы — исторические этапы; текущий вывод будет обновлён после технической проверки. LICENSE пока не добавлен.
+
+## Final preparation — технический этап, 2026-10-11
+
+Продолжение от `2e21493`, решение владельца сохранено первым отдельным коммитом `40440bf`. B-01/B-02 переведены в INFO для собственных контролируемых владельцем частей; условный model scope B-03 и notice/distribution scope B-04 остаются BLOCKER. Имя/год/GPL-3.0-only больше не являются открытыми вопросами. Исторические таблицы выше не заменяют текущую таблицу в action plan.
+
+Проверены 79 точных optional/platform lock archives с integrity verification без установки/исполнения: 75 ранее отсутствовавших и 4 установленных entries без license файла. Это 79 lock entries, не обязательно 79 разных компонентов. Только fsevents содержит embedded license; у 78 архивов её нет. Parent esbuild двух версий и rollup LICENSE уже сохранены; их наличие не доказывает completeness вложенных native dependencies. R-03 сужен до scope/сопровождения binary dependencies, а не недоступности архивов.
+
+Для 54 Android runtime coordinates получены 52 versioned source JAR; два оставшихся — kotlin-bom/coroutines-bom POM-only. Собраны 2 414 copyright headers, 63 уникальных текстовых блока; все найденные блоки содержат Apache/MIT/BSD permission markers, для NanoHTTPD сохранены отдельные source copyright 2012–2015 и archive license 2012–2016. Поиск source headers/имен LICENSE/NOTICE не является доказательством отсутствия всех возможных прочих уведомлений. Mapping component→archive→source file→notice сохранён в [FINAL_PREPARATION.json](licensing/FINAL_PREPARATION.json).
+
+bplist-parser source прямо указывает адаптацию dd-plist. Исторический tag dd-plist-1.0 / commit `8c7db0168866aaf37b20d57ae083068e3560eb5d` содержит MIT permission и Copyright (C) 2011 Daniel Dreibrodt в BinaryPropertyListParser.java. Этот точный header сохранён в notice package дополнительно к bplist-parser own README MIT. Закрыта подзадача upstream permission/атрибуции; точная ревизия/строки заимствования независимо не установлены, используется консервативное сохранение upstream notice.
+
+Capacitor 7.6.9 source tree/license и прежние 34 byte matches подтверждают template источник; Drifty Co. MIT notice сохранён. Точная artwork genealogy robot drawable остаётся R-01. [ARTWORK_NOTICES.md](licensing/ARTWORK_NOTICES.md) содержит условную официальную robot attribution/CC BY 3.0 scope, отдельно от GPL и trademark rights; добавление документа не доказывает сопровождение APK.
+
+В `apps/web/dist` (3 files), Android public assets (5 files) и локальном release folder не найден отдельный license/notice комплект. Web JS/все text-like APK entries содержат React copyright, но не MIT permission phrase. APK имеет 446 entries, нет legal filename entries/robot attribution. Это ограниченный поиск, а не судебный вывод о нарушении. Read-only GitHub API подтверждает Release v0.3.1-alpha: единственный asset — APK; release body без notices. APK SHA-256 `f24848f0c8572f3392f6be7be13228ae047a9810cb71a1b4f89ae6c45139b8a2` сохранён.
+
+Исходные 137/86 notices сохранены; расширенный комплект — **336 records / 151 unique texts**. B-04 остаётся существенным: source PR не обеспечивает полное сопровождение существующей бинарной/web поставки. Native/artwork scope также не объявлен закрытым. B-03: owner grant на веса условен, техническое совпадение модели не устанавливает применимость прав и выполнение этого условия. Предпочитаемая форма изменения — R-04.
+
+**Готовность GPLv3: нет.** LICENSE не добавлен, GPL-3.0-only не объявлена принятой лицензией проекта. README исправлен лишь для актуального статуса выбора владельца и pending adoption. Движок/правила/ИИ/веса/APK/Release не менялись; новых сборок нет. Финальные blockers и действия — в action plan. Сетевой DNS sandbox сбой устранён разрешённым доступом; 404 ошибочного dd-plist LICENSE пути исправлен на LICENSE.txt; локальное evidence сохранено.
