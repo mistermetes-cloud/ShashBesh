@@ -10,12 +10,15 @@ import {speedName,frameHint} from '../../../apps/web/src/aiPlayback';
 import {Board} from '../../../apps/web/src/Board';
 import {TableDice} from '../../../apps/web/src/TableDice';
 import {AiControls} from '../../../apps/web/src/AiControls';
+import disputedReport from '../../fixtures/corner-priority-disputed-move.json';
 import '../../../apps/web/src/style.css';
 import '../../../apps/web/src/mobile.css';
 import '../../../apps/web/src/aiPlayback.css';
 const geometry=parseGeometry(csv),engine=new Engine(geometry),scenario=new URLSearchParams(location.search).get('scenario')??'pass';
-function fixture(){let s=engine.initialRoll(engine.create([1,2],`fixture-${scenario}`),{1:6,2:1});const place=(id:string,pos:number)=>{const p=s.pieces.find(p=>p.id===id)!;Object.assign(p,{status:'track',position:`М${String(pos).padStart(2,'0')}`,outerSteps:(pos-geometry.starts[p.owner]+48)%48});};
- if(scenario==='double'){place('P1-4',2);}else if(scenario==='priority'){place('P1-1',40);place('P1-2',20);place('P2-1',21);}else if(scenario==='capture'){place('P1-4',2);place('P2-1',3);}else{place('P1-4',5);place('P2-1',6);}s=engine.roll(s,scenario==='double'?[2,2]:scenario==='priority'?[1,3]:[2,1]);engine.assertInvariants(s);return s;
+function fixture(){if(scenario==='reported')return engine.replay(disputedReport.gameState.eventLog as GameState['eventLog']);let s=engine.initialRoll(engine.create([1,2],`fixture-${scenario}`),{1:6,2:1});const place=(id:string,pos:number)=>{const p=s.pieces.find(p=>p.id===id)!;Object.assign(p,{status:'track',position:`М${String(pos).padStart(2,'0')}`,outerSteps:(pos-geometry.starts[p.owner]+48)%48});};
+ if(scenario.startsWith('corner-')){place('P1-1',43);place('P1-2',20);}else if(scenario==='double'){place('P1-4',2);}else if(scenario==='priority'){place('P1-1',40);place('P1-2',20);place('P2-1',21);}else if(scenario==='capture'){place('P1-4',2);place('P2-1',3);}else{place('P1-4',5);place('P2-1',6);}
+ const dice: [number,number]=scenario.startsWith('corner-')?scenario.slice(7).split('-').map(Number) as [number,number]:scenario==='double'?[2,2]:scenario==='priority'?[1,3]:[2,1];
+ s=engine.roll(s,dice);engine.assertInvariants(s);return s;
 }
 function Harness(){const [state,setState]=useState(fixture),[running,setRunning]=useState(false),[speed,setSpeed]=useState(700),[piece,setPiece]=useState<string|null>(null);const rng=useRef(seeded('fixture-choice')),planner=useRef(new AiRollPlanner(engine,()=>rng.current));const playback=useAiPlayback(setState,running,speed);let actions:Action[];try{actions=engine.legalActions(state);}catch(e){if(!(e instanceof RuleClarificationRequired))throw e;actions=[];}
  const frame=playback.frame,shown=frame?(frame.phase==='end'||frame.phase==='extra'?frame.command.after:frame.command.before):state;

@@ -167,11 +167,16 @@ export class Engine {
     private prioritySequences(s:GameState):Action[][]{
         type Branch={actions:Action[];blocked:RuleClarificationRequired|null};
         const memo=new Map<string,Branch[]>();
-        const filter=(branches:Branch[]):Branch[]=>{
+        const filter=(branches:Branch[],remainingActions:readonly number[]):Branch[]=>{
             const first=(b:Branch,p:(a:Action)=>boolean)=>{const i=b.actions.findIndex(p);return i<0?Infinity:i;};
-            const corner=Math.min(...branches.map(b=>first(b,a=>!!a.jump)));
+            // A corner position alone cannot impose priority. Consult unused actions,
+            // rather than the original dice (a one may already have been spent).
+            const corner=remainingActions.includes(1)?Math.min(...branches.map(b=>first(b,a=>!!a.jump))):Infinity;
             let chosen=Number.isFinite(corner)?branches.filter(b=>first(b,a=>!!a.jump)===corner):branches;
-            if(!Number.isFinite(corner)){const capture=Math.min(...chosen.map(b=>first(b,a=>a.captureIds.length>0)));if(Number.isFinite(capture))chosen=chosen.filter(b=>first(b,a=>a.captureIds.length>0)===capture);}
+            // Capture priority concerns actions available now. Looking ahead to a
+            // later capture would also force its ordinary approach moves (e.g.
+            // four fives from М07), falsely locking out other pieces.
+            if(!Number.isFinite(corner)&&chosen.some(b=>b.actions[0]?.captureIds.length))chosen=chosen.filter(b=>!!b.actions[0]?.captureIds.length);
             // If the jumper has no legal continuation, the owner's clarification permits
             // remaining dice to pass to another piece. A legal jumper continuation stays mandatory.
             const unresolved=chosen.find(b=>b.blocked);if(unresolved){
@@ -191,9 +196,9 @@ export class Engine {
             if(!actions.length)return [{actions:[],blocked:null}];
             const branches:Branch[]=[];
             for(const a of actions){try{for(const child of search(this.execute(state,a)))branches.push({actions:[a,...child.actions],blocked:child.blocked});}catch(e){if(!(e instanceof RuleClarificationRequired))throw e;branches.push({actions:[a,...e.prefix],blocked:e});}}
-            const kept=filter(branches);memo.set(signature,kept);return kept;
+            const kept=filter(branches,state.currentRoll!.remainingActions);memo.set(signature,kept);return kept;
         };
-        return filter(search(s)).map(b=>b.actions);
+        return filter(search(s),s.currentRoll!.remainingActions).map(b=>b.actions);
     }
     private execute(s: GameState, a: Action): GameState {
         const n = copy(s), p = n.pieces.find(p => p.id === a.pieceId)!;
