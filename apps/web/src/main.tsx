@@ -30,7 +30,8 @@ import {saveDisputedReport} from './storage';
 import type {DisputedMoveReport} from './disputedMove';
 import {frameHint,speedName,SPEED_VALUE,type AiCommand} from './aiPlayback';
 const geometry = parseGeometry(csv), engine = new Engine(geometry, { clock: () => new Date().toISOString(), timeSource: 'wall' });
-const names: Record<string, string> = { human: 'Человек', random: 'Случайный', greedy: 'Жадный', tactical: 'Тактический', 'ai-v0.1': neuralScorer.version };
+const publicPreview=import.meta.env.MODE==='cloudflare-preview';
+const names: Record<string, string> = { human: 'Человек', random: 'Случайный', greedy: 'Жадный', tactical: 'Тактический', ...(!publicPreview?{'ai-v0.1':neuralScorer.version}:{}) };
 const primary = new Set(['game_created', 'initial_roll', 'dice_roll', 'action', 'roll_finished', 'undo_action']);
 function boundaries(events: GameEvent[]) {
     const command = (e: GameEvent) => primary.has(e.type) && !(e.type === 'roll_finished' && (e.payload as {
@@ -194,7 +195,7 @@ function App() {
     function newGame() { resetGame(); }
     function observeBots(nextCount=count) {
         if(lanMembership)leaveLan();
-        const next:Controllers={1:'ai-v0.1',2:'tactical',3:'greedy',4:'random'};
+        const next:Controllers={1:publicPreview?'tactical':'ai-v0.1',2:'tactical',3:'greedy',4:'random'};
         setControllers(next);resetGame(next,nextCount);setScreen('game');setMenuOpen(false);setTechnicalOpen(false);setRunning(true);
     }
     function download(text: string, name: string) { const url = URL.createObjectURL(new Blob([text], { type: 'application/x-ndjson' })); const anchor = document.createElement('a'); anchor.href = url; anchor.download = name; anchor.click(); URL.revokeObjectURL(url); }
@@ -313,6 +314,7 @@ function App() {
     const activePlayer=displayed.winner??displayed.activePlayer;
     const hint=legality.blocked|| (displayFrame?frameHint(displayFrame):historyOpen?'Просмотр прошлого хода':replayEvents?'Повтор партии':state.winner?`${playerColors[state.winner]} победил!`:lanMembership&&!lanStatus?.connected?'Восстанавливаем связь…':lanStatus?.busy?'Подтверждаем ход…':lanMembership&&lanMembership.playerId!==state.activePlayer?'Другой игрок делает ход':bot?'Компьютер выбирает ход…':state.phase==='initial_roll'?'Нажмите на кубики — определим первый ход':state.phase==='await_roll'?(dicePresentation(state).extra?'Ещё один бросок — нажмите на кубики':'Нажмите на кубики'):!actions.length?(state.currentRoll?.extraRoll?'Нажмите на кубики, чтобы продолжить':'Нажмите на кубики, чтобы передать ход'):chosenPiece?'Выберите подсвеченную клетку':'Выберите фишку');
     return <main className={`mobile-shell ${screen==='game'?'mobile-game':''} ${historyOpen?'viewing-history':''} ${allBots?'observer-mode':''}`}>
+        {publicPreview&&<aside className="public-preview-note" role="note">Публичная тестовая версия. Нейросетевые веса исключены до завершения проверки прав; доступны тактический, жадный и случайный ИИ. Локальная игра работает в браузере. <a href="/THIRD_PARTY_NOTICES.txt">Лицензии компонентов</a></aside>}
         <header className="mobile-header"><button className="table-brand" onClick={()=>{setScreen('home');setRunning(false);}}>Шашбеш</button>{screen==='game'&&<span className="turn-color" data-active-player={activePlayer}><i className={`p${activePlayer}`}/>{historyOpen?'История':displayed.winner?'Победа':playerColors[activePlayer]}</span>}<button className="menu-button" aria-label="Меню" onClick={()=>{setMenuOpen(true);setRunning(false);}}>☰</button></header>
         {screen==='home'&&restoring&&<p className="home-note" role="status">Возвращаем сохранённую партию…</p>}
         {screen==='home'&&!restoring&&<HomeScreen hasGame={state.eventLog.length>1||!!lanMembership} onResume={()=>setScreen(lanMembership&&!lanStatus?.state?'wifi':'game')} onStart={startMobile} onObserve={observeBots}/>}

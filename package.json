@@ -10,6 +10,7 @@
   "scripts": {
     "dev": "vite apps/web --host 127.0.0.1",
     "build": "tsc --noEmit && vite build apps/web",
+    "build:public-preview": "tsc --noEmit && vite build apps/web --mode cloudflare-preview && node scripts/verify-public-preview.mjs",
     "test": "node --import tsx scripts/test.ts",
     "tournament": "node --import tsx packages/tournament/src/cli.ts",
     "test:browser": "playwright test",
