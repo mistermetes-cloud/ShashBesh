@@ -3,9 +3,11 @@ import { readFileSync } from 'node:fs';
 import { test, expect } from '@playwright/test';
 import { engine } from '../helpers';
 import { simulate } from '../../packages/tournament/src/index';
-import { exportLog } from '../../packages/engine/src/index';
+import { exportLog, stateHash } from '../../packages/engine/src/index';
 test('manual game, mobile board, AI controls, export and imported victory replay', async ({ page }) => {
-    test.setTimeout(180000);
+    // This scenario plays a complete neural-vs-tactical game through every
+    // rendered command, in addition to import/export and manual controls.
+    test.setTimeout(600000);
     const errors: string[] = [];
     page.on('pageerror', e => errors.push(e.message));
     await page.goto('/');
@@ -77,12 +79,27 @@ test('manual game, mobile board, AI controls, export and imported victory replay
     await expect(page.locator('.piece')).not.toHaveCount(0, { timeout: 15000 });
     await page.getByRole('button', { name: 'Пауза', exact: true }).click();
     await expect(page.getByRole('button', { name: 'Запустить ботов' })).toBeVisible();
-    await page.getByRole('button', { name: 'Запустить ботов' }).click();
     await page.clock.install({time:new Date('2026-10-11T13:00:00Z')});
     await page.clock.pauseAt(new Date('2026-10-11T13:01:00Z'));
-    // Execute every real animated command with controlled timers; do not wait several minutes for FAST's deliberate delays.
-    for(let i=0;i<20&&!(await page.locator('h2').innerText()).includes('Победа');i++)await page.clock.runFor(20000);
+    await page.getByRole('button', { name: 'Запустить ботов' }).click();
+    // A completed animation schedules the next command in a React effect, outside
+    // the timer callback. Yield to the browser between clock advances; twenty
+    // advances are not a bound on a complete game of hundreds of commands.
+    const expected=simulate(engine,'browser-v1',['ai-v0.1','tactical']);
+    expect(expected.outcome,expected.diagnostic??'engine simulation').toBe('win');
+    for(let i=0;i<expected.state.eventLog.length*2&&!(await page.locator('h2').innerText()).includes('Победа');i++){
+        // FAST's longest jump plus capture takes 1200 ms. Advancing 20000 ms
+        // spends most of the clock runner's work before React can queue a move.
+        await page.clock.runFor(2000);
+        await expect(page.locator('.error')).toHaveCount(0);
+    }
     await expect(page.locator('h2')).toContainText('Победа');
+    const finishedExport=page.waitForEvent('download');
+    await page.getByRole('button',{name:'Экспорт журнала',exact:true}).click();
+    const finished=readFileSync((await(await finishedExport).path())!,'utf8').trim().split('\n').map(line=>JSON.parse(line));
+    const restored=engine.replay(finished);
+    expect(restored.winner).toBe(expected.winner);
+    expect(stateHash(restored)).toBe(stateHash({...expected.state,gameId:restored.gameId}));
     const neuralExport = page.waitForEvent('download');
     await page.getByRole('button', { name: 'Экспорт данных ИИ' }).click();
     const neuralData = await neuralExport;

@@ -2,6 +2,7 @@ import {test,expect} from '@playwright/test';
 import {readFileSync} from 'node:fs';
 import {openTechnical} from './support';
 import {engine} from '../helpers';
+import {stateHash} from '../../packages/engine/src/index';
 
 test('Mobile computer turns use Tactical, with advanced model choices preserved',async({page})=>{
     await page.goto('/');await openTechnical(page);
@@ -39,5 +40,15 @@ test('Mobile upgrades existing v0.3 IndexedDB saves without losing dice or piece
     await expect(page.locator('.physical-board .piece')).toHaveCount(10);
     expect(await page.locator('.table-die').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('data-value')))).toEqual(['6','3']);
     await expect(page.locator(`[data-cell="${state.pieces.find(p=>p.position)!.position}"] .piece`)).toHaveCount(1);
-    expect(await page.evaluate(()=>new Promise<number>((resolve,reject)=>{const r=indexedDB.open('shashbesh-v03');r.onsuccess=()=>{resolve(r.result.version);r.result.close();};r.onerror=()=>reject(r.error);}))).toBe(2);
+    const migrated=await page.evaluate(()=>new Promise<{version:number;stores:string[];events:typeof save.events}>((resolve,reject)=>{
+        const r=indexedDB.open('shashbesh-v03');r.onerror=()=>reject(r.error);
+        r.onsuccess=()=>{const d=r.result,version=d.version,stores=Array.from(d.objectStoreNames),tx=d.transaction('saves'),request=tx.objectStore('saves').get('current');
+            tx.oncomplete=()=>{d.close();resolve({version,stores,events:request.result.events});};tx.onerror=()=>reject(tx.error);};
+    }));
+    expect(migrated.version).toBe(3);
+    expect(migrated.stores).toEqual(['disputedReports','games','saves']);
+    expect(stateHash(engine.replay(migrated.events))).toBe(stateHash(state));
+    await page.reload();await page.getByRole('button',{name:'Продолжить партию',exact:true}).click();
+    expect(await page.locator('.table-die').evaluateAll(nodes=>nodes.map(n=>n.getAttribute('data-value')))).toEqual(['6','3']);
+    await expect(page.locator(`[data-cell="${state.pieces.find(p=>p.position)!.position}"] .piece`)).toHaveCount(1);
 });

@@ -30,8 +30,8 @@ The regression failed before the correction: only P1-3 was legal. Afterward both
 - `npm run test:neural-python`: **3 passed**.
 - `npm run test:android-transport`: **1 passed**.
 - `npm run build:public-preview`: **PASS**, including TypeScript and preview-content verification.
-- `SHASHBESH_TEST_BROWSER=firefox npm run test:browser`: **17 passed, 2 failed**. All new corner/report regressions and existing corner animation tests passed.
-- Remaining browser failures: `game.spec.ts` expects a complete AI game after only 20 virtual-clock advances; `mobile-restore.spec.ts` expects IndexedDB version 2 although the existing implementation opens version 3. Both were checked separately on unchanged commit `857a904` in a temporary copy. These unrelated checks were not weakened or skipped.
+- Final `SHASHBESH_TEST_BROWSER=firefox npm run test:browser`: **19 passed, 0 failed** (7.4 minutes). The full manual/import/export/AI completion test passed in 4.1 minutes; its exported final state matched the engine simulation.
+- The initial 17/19 browser run exposed two pre-existing test failures, also reproduced on unchanged commit `857a904`. Their investigation and corrections are documented below; no tests were skipped and victory/replay assertions were strengthened.
 - Local LAN and browser tests required execution outside the filesystem/network sandbox to open localhost ports.
 
 ## COMMIT HASH
@@ -40,4 +40,13 @@ The dedicated commit containing this report is on `fix/corner-jump-unused-one`; 
 
 ## READY FOR DEPLOYMENT
 
-The reported engine defect is fixed and its regressions pass. Full browser-suite certification remains blocked by the two existing failures above. No deployment or automatic merge was requested or performed.
+The reported engine defect and both stale browser-test failures are resolved. All 19 browser tests, all 87 primary tests, and the public-preview build pass. No deployment or automatic merge was requested or performed. This verification uses Firefox and a fixed seed for the full browser AI game; it does not certify every browser or every possible AI game. The complete animation scenario requires a longer timeout on slower machines.
+
+## Final PR #4 verification
+
+The two browser failures were investigated without changing engine rules or database implementation:
+
+- The AI seed `browser-v1` completes in the engine: P2 wins after 138 rolls and 277 actions. The browser scheduler intentionally executes one animated command at a time, then queues the next command in a React effect. Twenty advances of the virtual clock did not allow a whole game to finish. Large 20-second clock advances also spent time advancing timers before React could queue the next command. The test now resumes after installing the clock, advances by 2 seconds (the longest FAST jump with capture takes 1.2 seconds), yields between advances, and bounds the number of advances using the simulated game's journal length. Its overall timeout is 600 seconds to cover rendering the full game on slower machines. Victory remains mandatory; the exported browser journal is replayed and its final state hash is compared with the full simulation, normalizing only the independently generated game ID.
+- IndexedDB is already version 3, containing `saves`, `games`, and `disputedReports`. The outdated test's version-2 expectation was corrected. The test also verifies store names, replays the migrated journal to the original state hash, reloads the application and checks the saved dice and piece position again. The working schema was not modified.
+- Existing journal-v1/v2 replay, completed-game replay, undo/reused-dice, saved AI plan restoration, and the preserved pre-fix Disputed Move Report remain in the verification suite. No historical journal was rewritten.
+- Only browser tests and this report changed in the final-verification commit. The engine, corner/capture rules, runtime database schema, and generated public-preview bundle remain unchanged.
