@@ -6,9 +6,59 @@ import {choose,observe,resolveAgentRoll,neuralScorer,type Strategy} from '../pac
 import {selectAction} from '../packages/neural/src/index';
 import {seeded} from '../packages/engine/src/rng';
 import type {GameState,Action} from '../packages/shared/src/index';
+import {AiRollPlanner} from '../apps/web/src/aiDecisions';
+import {choose as choosePublicPreview} from '../apps/web/src/publicPreviewAgents';
 function approach(dice:[number,number]=[3,1],capture=false){let s=track(ready(),'P1-1',40,39);if(capture)s=track(track(s,'P1-2',5,4),'P2-1',6,41);return engine.roll(s,dice);}
 function ready3(){return engine.initialRoll(engine.create([1,2,3]),{1:6,2:1,3:1});}
 function picked(s:GameState,id:string,value:number){const a=engine.legalActions(s).find(a=>a.pieceId===id&&a.value===value);assert.ok(a);return a;}
+test('all 36 dice pairs: a standing corner requires priority exactly when an unused one exists',()=>{
+ for(let x=1;x<=6;x++)for(let y=1;y<=6;y++){
+  const s=engine.roll(track(track(ready(),'P1-1',43,42),'P1-2',20,19),[x,y]);
+  const legal=engine.legalActions(s),sequences=engine.legalSequencesForRoll(s),hasOne=x===1||y===1;
+  assert.ok(legal.length,`${x},${y}`);
+  if(hasOne)assert.ok(legal.every(a=>a.pieceId==='P1-1'&&a.kind==='corner_jump'&&a.value===1));
+  else{
+   assert.ok(legal.some(a=>a.pieceId==='P1-2'),`other piece must remain available for ${x},${y}`);
+   assert.ok(legal.some(a=>a.pieceId==='P1-1'));
+   assert.ok(sequences.every(seq=>seq.every(a=>!a.jump)));
+  }
+  const points=x===y?4*x:x+y;
+  assert.ok(sequences.every(seq=>seq.reduce((sum,a)=>sum+a.value,0)===points));
+  if(x===y)assert.ok(sequences.every(seq=>seq.length===4));
+  for(const strategy of ['random','greedy','tactical','ai-v0.1'] as Strategy[]){
+   const planner=new AiRollPlanner(engine,()=>seeded(`matrix-${x}-${y}`)),a=planner.next(s,strategy).action!;
+   assert.ok(legal.some(l=>canonical(l)===canonical(a)));
+   if(hasOne)assert.equal(a.kind,'corner_jump');
+   if(strategy!=='ai-v0.1')assert.ok(sequences.some(seq=>canonical(seq)===canonical(choosePublicPreview(strategy,observe(s),sequences,seeded('preview'),geometry))));
+  }
+ }
+});
+test('spent one and a later arrival at a corner leave other pieces selectable',()=>{
+ let s=engine.roll(track(track(ready(),'P1-1',39,38),'P1-2',20,19),[1,3]);
+ s=engine.applyAction(s,picked(s,'P1-1',1));
+ assert.deepEqual(s.currentRoll!.remainingActions,[3]);
+ assert.ok(engine.legalActions(s).some(a=>a.pieceId==='P1-2'));
+ s=engine.applyAction(s,picked(s,'P1-1',3));
+ assert.equal(s.pieces[0].position,'М43');
+});
+test('all 36 dice pairs: reaching a corner only takes priority with a separate unused one',()=>{
+ for(let x=1;x<=6;x++)for(let y=1;y<=6;y++){
+  const distance=x===1?y:x;
+  const s=engine.roll(track(track(ready(),'P1-1',43-distance,42-distance),'P1-2',20,19),[x,y]);
+  const legal=engine.legalActions(s);
+  if(x===1||y===1)assert.ok(legal.every(a=>a.pieceId==='P1-1'&&a.value===distance));
+  else assert.ok(legal.some(a=>a.pieceId==='P1-2'),`${x},${y}`);
+ }
+});
+test('no-one doubles retain other-piece choices after reaching a corner',()=>{
+ for(let value=2;value<=6;value++){
+  let s=engine.roll(track(track(ready(),'P1-1',43-value,42-value),'P1-2',20,19),[value,value]);
+  s=engine.applyAction(s,picked(s,'P1-1',value));
+  assert.equal(s.pieces[0].position,'М43');
+  assert.ok(engine.legalActions(s).some(a=>a.pieceId==='P1-2'),`double ${value}`);
+  assert.ok(engine.legalActions(s).every(a=>!a.jump));
+ }
+});
 test('A/F: 40→43 consumes 3, then mandatory 43→7 consumes 1 in either display order',()=>{
  for(const dice of [[3,1],[1,3]] as [number,number][]){const s=approach(dice),legal=engine.legalActions(s);assert.equal(legal.length,1);assert.equal(legal[0].value,3);assert.deepEqual(legal[0].path,['М41','М42','М43']);assert.equal(legal[0].jump,undefined);assert.throws(()=>engine.applyAction(s,engine.candidates(s,1)[0]));const n=engine.applyAction(s,legal[0]);assert.equal(n.pieces[0].position,'М43');assert.equal(n.pieces[0].outerSteps,42);assert.deepEqual(n.currentRoll!.remainingActions,[1]);assert.equal(n.currentRoll!.usedPoints,3);const jump=picked(n,'P1-1',1);assert.equal(jump.kind,'corner_jump');assert.equal(jump.to,'М07');assert.deepEqual(jump.path,['М07']);assert.deepEqual(jump.jump!.path,['М44','М45','М46','М47','М48','М01','М02','М03','М04','М05','М06','М07']);const after=engine.applyAction(n,jump);assert.deepEqual(after.currentRoll!.remainingActions,[]);assert.equal(after.currentRoll!.usedPoints,4);assert.equal(after.pieces[0].position,'М07');assert.deepEqual(engine.legalActions(after),[]);}
 });

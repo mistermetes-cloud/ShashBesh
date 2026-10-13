@@ -3,6 +3,37 @@ import {mkdirSync} from 'node:fs';
 const fixture='/@fs'+process.cwd()+'/tests/browser/fixtures/ai-animation.html';
 async function open(page:Page,scenario:string){await page.goto(fixture+'?scenario='+scenario);await expect(page.getByRole('region',{name:'Режим наблюдения'})).toBeVisible();await page.clock.install({time:new Date('2026-10-11T12:00:00Z')});await page.clock.pauseAt(new Date('2026-10-11T12:01:00Z'));}
 async function state(page:Page){return JSON.parse((await page.getByTestId('state').textContent())!);}
+test('Disputed Move Report: М32 is highlighted and its five can be selected beside М07',async({page})=>{
+ await open(page,'reported');
+ for(const cell of ['М07','М32'])await expect(page.locator(`[data-cell="${cell}"]`)).toHaveClass(/selectable-piece/);
+ await page.locator('[data-cell="М32"]').click();
+ await expect(page.locator('[data-cell="М37"]')).toHaveClass(/target/);
+ await page.locator('[data-cell="М37"]').click();
+ const after=await state(page);
+ expect(after.actions.at(-1)).toMatchObject({pieceId:'P1-5',kind:'move',value:5,from:'М32',to:'М37'});
+ expect(after.remaining).toEqual([5,5,5]);
+});
+for(const dice of ['5-5','3-4','6-2','1-5','1-1'])test(`standing corner ${dice}: highlights, selection and AI follow unused-one priority`,async({page})=>{
+ await open(page,`corner-${dice}`);
+ const mandatory=dice.startsWith('1-'),other=page.locator('[data-cell="М20"]');
+ await expect(page.locator('[data-cell="М43"]')).toHaveClass(/selectable-piece/);
+ if(mandatory)await expect(other).not.toHaveClass(/selectable-piece/);
+ else{
+  await expect(other).toHaveClass(/selectable-piece/);await other.click();
+  await expect(other).toHaveClass(/chosen-piece/);
+  await expect(page.locator('.cell.target')).not.toHaveCount(0);
+  await page.locator('.cell.target').first().click();
+  expect((await state(page)).actions[0].pieceId).toBe('P1-2');
+  await page.getByRole('button',{name:'Перезапустить партию',exact:true}).click();
+ }
+ const before=await state(page);
+ await page.getByRole('button',{name:'Следующий ход',exact:true}).click();
+ await page.clock.runFor(10000);
+ const after=await state(page),action=after.actions[0];
+ expect(before.legal).toContainEqual(action);
+ expect(action.kind==='corner_jump').toBe(mandatory);
+ if(mandatory)expect(action.value).toBe(1);
+});
 test('L: owner 1–3 screenshot, only corner-priority piece and die are selectable',async({page})=>{
  mkdirSync('artifacts/gameplay-priority-animation',{recursive:true});await open(page,'priority');await expect(page.locator('[data-cell="М40"]')).toHaveClass(/selectable-piece/);await expect(page.locator('[data-cell="М05"]')).not.toHaveClass(/selectable-piece/);const before=await state(page);expect(before.legal.map((a:any)=>[a.pieceId,a.value])).toEqual([['P1-1',3]]);await page.locator('[data-cell="М40"]').click();await expect(page.locator('.cell.target')).toHaveCount(1);await expect(page.locator('[data-cell="М43"]')).toHaveClass(/target/);await page.screenshot({path:'artifacts/gameplay-priority-animation/corner-priority-mask.png'});
  await page.getByRole('button',{name:'Следующий ход',exact:true}).click();await expect(page.locator('.selected-die')).toHaveAttribute('data-value','3');await page.clock.runFor(700+3*250+500);await expect(page.locator('[data-animation-cell="М43"]')).toHaveCount(0);await page.getByRole('button',{name:'Следующий ход',exact:true}).click();await expect(page.locator('.selected-die')).toHaveAttribute('data-value','1');await page.clock.runFor(700);await expect(page.locator('[data-animation-cell="М44"]')).toHaveAttribute('data-corner-jump','true');await expect(page.getByRole('status')).toContainText('обязательный прыжок');await page.screenshot({path:'artifacts/gameplay-priority-animation/corner-jump-frame.png'});
