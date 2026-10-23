@@ -258,5 +258,6 @@
   "game.paused": "Pausiert — zum Spielen fortsetzen",
   "game.roomPlayers": "{current} / {total} Spieler",
   "game.rulesBlocked": "Die Zugverfügbarkeit erfordert eine Regelklärung. Vor dem Fortfahren Regeln und offene Fragen prüfen.",
-  "table.view": "Ansicht vom Sitzplatz"
+  "table.view": "Ansicht vom Sitzplatz",
+  "ui.source.and.licenses": "Quellcode und Lizenzen"
 }

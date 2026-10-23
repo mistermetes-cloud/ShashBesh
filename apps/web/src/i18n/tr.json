@@ -258,5 +258,6 @@
   "game.paused": "Duraklatıldı — sürdürmek için devam edin",
   "game.roomPlayers": "{current} / {total} oyuncu",
   "game.rulesBlocked": "Geçerli hamleler için kural açıklaması gerekiyor. Devam etmeden önce kuralları ve açık soruları inceleyin.",
-  "table.view": "Oyuncunun bakış açısı"
+  "table.view": "Oyuncunun bakış açısı",
+  "ui.source.and.licenses": "Kaynak kodu ve lisanslar"
 }

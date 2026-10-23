@@ -1,6 +1,5 @@
 {
-  "profile": "RELEASE-02 model-free offline preview",
-  "baseSourceManifestSha256": "25572674142aa8e622d7d95753ddbe37b38458a2b0c71e5ca8350234532b90a6",
+  "profile": "RELEASE-03.1 model-free offline preview",
   "files": [
     {
       "path": ".node-version",
@@ -28,7 +27,7 @@
     },
     {
       "path": "SOURCE_DISTRIBUTION.md",
-      "sha256": "12116ea1c66030408a11e891bd900642ece09b8ea35b086c8dcc968a437e050b"
+      "sha256": "b22101f7bded645c7db48056d31e10664c3e1b2645d7cfaddb3c5b0c94e9ed68"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -56,7 +55,7 @@
     },
     {
       "path": "apps/web/public/SOURCE_DISTRIBUTION.md",
-      "sha256": "12116ea1c66030408a11e891bd900642ece09b8ea35b086c8dcc968a437e050b"
+      "sha256": "b22101f7bded645c7db48056d31e10664c3e1b2645d7cfaddb3c5b0c94e9ed68"
     },
     {
       "path": "apps/web/public/THIRD_PARTY_NOTICES.txt",
@@ -144,19 +143,19 @@
     },
     {
       "path": "apps/web/src/i18n/de.json",
-      "sha256": "817d07816fba1cfaaa6080f9a22333acfeb5bd3864c82ebfb9b2512354869206"
+      "sha256": "bb3a1187aa5adcd612e77cf53acec767dec9352c9236109aca3b54b3757ac11f"
     },
     {
       "path": "apps/web/src/i18n/en.json",
-      "sha256": "acdd4042016cef60004934cb4004bc5d40cf3812c61936114fb3cd4029daf4e6"
+      "sha256": "e9096702eeaf72c5783489f80cff0b179849a785978a345ad5c93bc7d9c54634"
     },
     {
       "path": "apps/web/src/i18n/es.json",
-      "sha256": "d6eb7b584992765702eae6340c733e5b9f7443d01c79a866a460d46bf23488f4"
+      "sha256": "84d44a7543456a48f53f902975c9cc92e0fdfc76a0cfea6471b068e8a4bf13ac"
     },
     {
       "path": "apps/web/src/i18n/fr.json",
-      "sha256": "04f099b3fd1b7defc5c04eaf330f052952f7fee8c5397876e7eb723d0bd67353"
+      "sha256": "050d83ccf643769aa5aa2b9c683c0f445bf997b33f4be6da363c3137a812163b"
     },
     {
       "path": "apps/web/src/i18n/index.ts",
@@ -164,23 +163,23 @@
     },
     {
       "path": "apps/web/src/i18n/pt-BR.json",
-      "sha256": "aff1a310af8541da413ffa7f704af0aa5e06ee3fb41b257dae3f512099d9b268"
+      "sha256": "c2ba60df3900f51cb9b22f0c5f01ba6c9ad67b6a4274044bdadb9d26a3e4e6d7"
     },
     {
       "path": "apps/web/src/i18n/ru.json",
-      "sha256": "c1e96d31d86fda591e219c69cf444779262925b5fcb4cfee6303740f2999e6c3"
+      "sha256": "7b62cddceda57326fa7316c891930d481643888475ec3358914ba89113a2a5d0"
     },
     {
       "path": "apps/web/src/i18n/tr.json",
-      "sha256": "6b660f79bc12ab504c74311b84955fb80ddbeb506203ae22806e661c37cf25f6"
+      "sha256": "b08702a096e5fe5d851089d2e397552fa1de4b5d81732f0bc2e3840ceb2e8564"
     },
     {
       "path": "apps/web/src/i18n/uk.json",
-      "sha256": "eaaa9e9aaf6c424646d9d08298b561bd4e757442ed7744013c1eff1e4666aa7f"
+      "sha256": "c4196426a01ba83b7efa1d75d9e1413b3e75d6c045fbeb8efc7b4e45d90aec51"
     },
     {
       "path": "apps/web/src/i18n/uz-Latn.json",
-      "sha256": "172eb9b81c9f43402bc0738304f7df5fff85efe74e874dbb9a180f06330238a7"
+      "sha256": "0986522eec68f58f07fb412e54b20574fe7dc537b7a7f8ca838c52d851751e92"
     },
     {
       "path": "apps/web/src/lanDiscovery.ts",
@@ -188,7 +187,7 @@
     },
     {
       "path": "apps/web/src/main.tsx",
-      "sha256": "f60840b510a39d6548da9ad821c7faa4d90737654aa43a91cc1130031a217296"
+      "sha256": "180a261025b0252e8ae129c9e4fe22962103cc62a374d670e4a8446cb92500de"
     },
     {
       "path": "apps/web/src/mobile.css",
@@ -391,6 +390,10 @@
       "sha256": "02a34525dfc31985ff30ad619774b657a8d728ce7aa571be0c2742129f558886"
     },
     {
+      "path": "playwright.source-link.config.ts",
+      "sha256": "926d547f9c529d11a35a519d9f6d380a4249860a6a36e44ecfd2aa58a197599f"
+    },
+    {
       "path": "release/model-exclusion.json",
       "sha256": "66a9532a2f1f41641f9e345a52f49e0ac4f4ebf8e0ae218658a7b2e46ac3fe2b"
     },
@@ -399,12 +402,20 @@
       "sha256": "adc7d869d0eb7d2f541df92b3be50d46cb9ea0d84f9c433a16a03f8612b34daf"
     },
     {
+      "path": "scripts/package-source.py",
+      "sha256": "03ecad2f274962d51eab326c183d80423e6c953e9b25b6acbff70b9c93b51cb8"
+    },
+    {
       "path": "scripts/test-public.ts",
       "sha256": "3f2a3968c381b6d022ef052a6722e79cf4aa62be3c52143d3ce0a43bbf126758"
     },
     {
       "path": "scripts/verify-public-preview.mjs",
       "sha256": "da33f35cac0bc370ecba698c7b2a40288cc14955b31e5e17364d2f222390f9c0"
+    },
+    {
+      "path": "tests/browser/source-link.spec.ts",
+      "sha256": "26c7d2047811c25841ea519c985aff1f47e4950990e9ea9fb37af64a5ff967be"
     },
     {
       "path": "tests/engine.test.ts",
@@ -427,7 +438,9 @@
       "sha256": "9845ce740e112c78b6e167f34214e6a9079eb75411d239e3eae982e9ca08deba"
     }
   ],
-  "selfHashConvention": "SOURCE_FILES.json excludes itself and generated archive/checksums",
+  "selfHashConvention": "Manifest excludes itself, manifest checksum and generated source archive/checksum",
+  "node": "22.16.0",
+  "npm": "10.9.2",
   "excluded": [
     "all model weights",
     "training/neural research implementations and datasets",
@@ -436,7 +449,5 @@
     "historical artwork/screenshots",
     "credentials/private files",
     "Git history"
-  ],
-  "node": "22.16.0",
-  "npm": "10.9.2"
+  ]
 }

@@ -258,5 +258,6 @@
   "game.paused": "En pause — reprenez pour continuer",
   "game.roomPlayers": "{current} / {total} joueurs",
   "game.rulesBlocked": "Les coups disponibles nécessitent une clarification des règles. Consultez les règles et questions ouvertes avant de continuer.",
-  "table.view": "Vue depuis la place"
+  "table.view": "Vue depuis la place",
+  "ui.source.and.licenses": "Code source et licences"
 }

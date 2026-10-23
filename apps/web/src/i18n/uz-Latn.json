@@ -258,5 +258,6 @@
   "game.paused": "Pauza — davom etish tugmasini bosing",
   "game.roomPlayers": "{current} / {total} oʻyinchi",
   "game.rulesBlocked": "Yurishlarni aniqlash uchun qoidaga izoh kerak. Davom etishdan oldin qoidalar va ochiq savollarni koʻrib chiqing.",
-  "table.view": "Oʻyinchi nuqtayi nazari"
+  "table.view": "Oʻyinchi nuqtayi nazari",
+  "ui.source.and.licenses": "Manba kodi va litsenziyalar"
 }

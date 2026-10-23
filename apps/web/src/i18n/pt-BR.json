@@ -258,5 +258,6 @@
   "game.paused": "Em pausa — continue para jogar",
   "game.roomPlayers": "{current} / {total} jogadores",
   "game.rulesBlocked": "As jogadas disponíveis exigem esclarecimento das regras. Confira as regras e questões abertas antes de continuar.",
-  "table.view": "Vista do assento"
+  "table.view": "Vista do assento",
+  "ui.source.and.licenses": "Código-fonte e licenças"
 }

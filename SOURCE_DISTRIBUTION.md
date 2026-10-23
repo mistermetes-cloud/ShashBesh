@@ -14,6 +14,7 @@ Use exactly Node 22.16.0 (pinned in .node-version), npm 10.9.2 and the included 
 npm ci
 ./node_modules/.bin/tsc --noEmit
 npm test
+python3 scripts/package-source.py
 npm run build:public-preview
 ```
 
@@ -21,4 +22,4 @@ Output: apps/web/dist. The source download itself is packaging metadata: to repr
 
 Human versus Tactical and local 2–4 players are available, with nine languages. Online controls, automatic WebSocket and LAN session restore are disabled at build time. Arena is not required. Core rules and geometry are unchanged from the verified candidate. Offline means local gameplay after static assets load; cold offline first load and service-worker caching are not claimed.
 
-RELEASE-02 changes only Node pin and source-delivery packaging documents/downloads. Runtime JavaScript, CSS and index.html must retain the RELEASE-01.5 SHA-256 values.
+RELEASE-03.1 adds localized source download links beside the existing license notices. Runtime changes are limited to these links and nine translated labels. Rebuild source packaging with `python3 scripts/package-source.py` before the web build. The source manifest excludes itself and generated download files to avoid recursive hashes.

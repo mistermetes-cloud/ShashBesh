@@ -258,5 +258,6 @@
   "game.paused": "En pausa — continúa para jugar",
   "game.roomPlayers": "{current} / {total} jugadores",
   "game.rulesBlocked": "La disponibilidad de movimientos requiere aclarar las reglas. Revisa las reglas y cuestiones abiertas antes de continuar.",
-  "table.view": "Vista desde el asiento"
+  "table.view": "Vista desde el asiento",
+  "ui.source.and.licenses": "Código fuente y licencias"
 }

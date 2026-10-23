@@ -258,5 +258,6 @@
   "game.paused": "Paused — resume to continue",
   "game.roomPlayers": "{current} / {total} players",
   "game.rulesBlocked": "Move availability requires a rule clarification. Review the rules and open questions before continuing.",
-  "table.view": "View from seat"
+  "table.view": "View from seat",
+  "ui.source.and.licenses": "Source code and licenses"
 }
