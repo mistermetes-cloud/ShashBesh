@@ -25,6 +25,7 @@ export class RoomClient {
     private stopped = false;
     private attempt = 0;
     private events: GameEvent[] = [];
+    private finishAttemptHead: string | null = null;
     private pending = new Map<string, {
         command: Command;
         resolve: () => void;
@@ -32,7 +33,20 @@ export class RoomClient {
     }>();
     status: ClientStatus = { connected: false, busy: false, room: null, state: null, error: null };
     constructor(readonly engine: Engine, readonly url: string, readonly membership: Membership, readonly update: (s: ClientStatus) => void) { }
-    private emit() { this.status = { ...this.status, busy: this.pending.size > 0 }; this.update(this.status); }
+    private emit() {
+        this.status = { ...this.status, busy: this.pending.size > 0 };
+        this.update(this.status);
+        const state = this.status.state, head = this.events.at(-1)?.hash ?? null;
+        if (!this.status.connected || this.status.busy || this.status.error || !state ||
+            state.winner || state.phase !== 'resolving_roll' ||
+            state.activePlayer !== this.membership.playerId || !head || this.finishAttemptHead === head) return;
+        // Core may require a rule clarification; an empty/error UI is not permission to finish.
+        try { if (this.engine.legalActions(state).length) return; }
+        catch { return; }
+        // Mark before command() emits busy, and never retry a rejected revision in a loop.
+        this.finishAttemptHead = head;
+        void this.command('finish').catch(() => { /* The normal command/error path reports failures. */ });
+    }
     connect() {
         this.stopped = false;
         const endpoint = new URL(baseUrl(this.url));
@@ -42,19 +56,22 @@ export class RoomClient {
         this.socket = socket;
         socket.onopen = () => socket.send(JSON.stringify({ type: 'hello', roomId: this.membership.room.id, token: this.membership.token, lastSeq: this.events.length - 1, lastHash: this.events.at(-1)?.hash ?? null }));
         socket.onmessage = e => {
+            if(this.socket !== socket)return;
             try {
                 const frame = JSON.parse(e.data) as ServerFrame;
                 if ('room' in frame && frame.room.id !== this.membership.room.id)
                     throw Error('Снимок другой комнаты');
                 if (frame.type === 'snapshot') {
+                    if(frame.version!==undefined && (frame.version!==frame.events.length || frame.headHash!==(frame.events.at(-1)?.hash??null)))throw Error('Invalid state version');
                     const state = frame.events.length ? this.engine.replay(frame.events) : null;
                     if (state && state.gameId !== frame.room.gameId)
                         throw Error('Неверный идентификатор партии');
                     this.events = frame.events;
                     this.status = { ...this.status, state, room: frame.room, connected: true, error: null };
                     this.attempt = 0;
+                    const retries = [...this.pending.values()];
                     this.emit();
-                    for (const p of this.pending.values())
+                    for (const p of retries)
                         socket.send(JSON.stringify(p.command));
                     return;
                 }
@@ -64,6 +81,7 @@ export class RoomClient {
                         return;
                     }
                     const events = [...this.events, ...frame.events];
+                    if(frame.version!==undefined && frame.version!==events.length)throw Error('Invalid state version');
                     if (events.at(-1)?.hash !== frame.headHash)
                         throw Error('Неверный хеш состояния узла');
                     const state = this.engine.replay(events);

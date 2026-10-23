@@ -5,9 +5,9 @@ export interface RulePolicy {
     victory: 'atomic';
     homeFreeze: 'contiguous-tail';
     cornerPriority: 'per-unit' | 'absolute';
-    capturePriority?: 'mandatory';
+    capturePriority?: 'mandatory' | 'optional';
     cornerLanding?: 'automatic' | 'ordinary';
-    cornerContinuation?: 'same-piece-if-legal-otherwise-transfer';
+    cornerContinuation?: 'same-piece-if-legal-otherwise-transfer' | 'any-piece';
     cornerObstruction?: 'whole-path';
     cornerJumpConsumes?: 'one-die';
 }

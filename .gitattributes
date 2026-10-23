@@ -1,3 +1,0 @@
-# Preserve the approved CSV byte for byte, including its original CRLF.
-data/igra_64_koordinaty.csv -text whitespace=cr-at-eol
-*.bat text eol=crlf whitespace=cr-at-eol

@@ -1,0 +1,442 @@
+{
+  "profile": "RELEASE-02 model-free offline preview",
+  "baseSourceManifestSha256": "25572674142aa8e622d7d95753ddbe37b38458a2b0c71e5ca8350234532b90a6",
+  "files": [
+    {
+      "path": ".node-version",
+      "sha256": "177d20030d4dcc37eae9ef92865ec54dadce60e8f19e9a34a5d4f37502195a36"
+    },
+    {
+      "path": "ATTRIBUTION.md",
+      "sha256": "b56c82a4e59f7c898c7fe521e02d3e98bcd6d6f5d5649d382777d85e626d317e"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "LICENSE_SCOPE.md",
+      "sha256": "e2046caa947c754cb9556b8d9cb6610ed7515684ee4796060cbbbb952b695d84"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "94541ce2c1892f9e7adf79cecd234681f6856c6fdf15ede9d7f946138105bd45"
+    },
+    {
+      "path": "SOURCE_DISTRIBUTION.md",
+      "sha256": "12116ea1c66030408a11e891bd900642ece09b8ea35b086c8dcc968a437e050b"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "sha256": "cce1a80b19646fd3d38158c4451761e2728b2ed3e6f3aa5fa01ceb8b56647c79"
+    },
+    {
+      "path": "apps/web/index.html",
+      "sha256": "fa21f2884d68728a8c41e89015e23195566f80f50982b9a3fdfcfd4dba1cf770"
+    },
+    {
+      "path": "apps/web/public/ATTRIBUTION.md",
+      "sha256": "b56c82a4e59f7c898c7fe521e02d3e98bcd6d6f5d5649d382777d85e626d317e"
+    },
+    {
+      "path": "apps/web/public/LICENSE.txt",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+      "path": "apps/web/public/LICENSES/CC-BY-4.0.txt",
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411"
+    },
+    {
+      "path": "apps/web/public/LICENSE_SCOPE.md",
+      "sha256": "e2046caa947c754cb9556b8d9cb6610ed7515684ee4796060cbbbb952b695d84"
+    },
+    {
+      "path": "apps/web/public/SOURCE_DISTRIBUTION.md",
+      "sha256": "12116ea1c66030408a11e891bd900642ece09b8ea35b086c8dcc968a437e050b"
+    },
+    {
+      "path": "apps/web/public/THIRD_PARTY_NOTICES.txt",
+      "sha256": "83e5c1ad333f77d48953d3bbba4e1ee4ccd614316d90675ad554413f90514bed"
+    },
+    {
+      "path": "apps/web/src/AiControls.tsx",
+      "sha256": "aa643ee43b5a37eae3f00822e77f41ae7e1b1663655707e535409e31b8775bdb"
+    },
+    {
+      "path": "apps/web/src/Board.tsx",
+      "sha256": "18472851c6b4b9aecc34a8755cc926619fb5eaf11d6ed7f343c29f699cdf5178"
+    },
+    {
+      "path": "apps/web/src/DisputedMovePanel.tsx",
+      "sha256": "249b819010171300b2eb4ba43908bfb0ec98c92615a7a190d60ec4c311a71f5e"
+    },
+    {
+      "path": "apps/web/src/HistoryPanel.tsx",
+      "sha256": "14e8e6216d43e4d621e60050d6296d04644b5cbfa0d5078f847cca7a46738b35"
+    },
+    {
+      "path": "apps/web/src/HomeScreen.tsx",
+      "sha256": "02ff3766c5258fc0e0a991b04cbfe2210dd662666645254b5cc9cb1e3262dd49"
+    },
+    {
+      "path": "apps/web/src/LanPanel.tsx",
+      "sha256": "633b92047cf460b852e2324d1cbb692ac1c79e068e13cce39b96ae7c3f21ca2d"
+    },
+    {
+      "path": "apps/web/src/LanguageSelector.tsx",
+      "sha256": "de91d3f2f14b909b6ee9024a186c0a829f665db2f05396a0343ef207acf429e7"
+    },
+    {
+      "path": "apps/web/src/LegalMoveControls.tsx",
+      "sha256": "db6d9a1fe3b762235f266e64f8805a1758fb5a66236c61409a0df10353470eb7"
+    },
+    {
+      "path": "apps/web/src/PlayerPanel.tsx",
+      "sha256": "d6c43d3d613eedb13f37a463a0a7d8bbcfc6a8e818a7a7daf719e0793290148d"
+    },
+    {
+      "path": "apps/web/src/RulesContent.tsx",
+      "sha256": "d22303f250ed46e295c0d933dee1b8f499ffa25270c33aacc1719b02ac075760"
+    },
+    {
+      "path": "apps/web/src/TableDice.tsx",
+      "sha256": "e9b5c3122f9e1de9f662d3458fbd795a3241074525c9dbe914462222c6d035e4"
+    },
+    {
+      "path": "apps/web/src/WifiScreen.tsx",
+      "sha256": "de6bbb02146c963de2b60d3263aba8782af8ae059fc8ca9a4f5e69b6e3a9f663"
+    },
+    {
+      "path": "apps/web/src/aiDecisions.ts",
+      "sha256": "af3deb5f8ee0e5b5520c2534a989dc3b4791f18b0c97268e5762bba69c71095c"
+    },
+    {
+      "path": "apps/web/src/aiPlayback.css",
+      "sha256": "8e387e9a8d334a9eb0ac9533271bf3157c1d1f3d93ab9ef6534b1cc14a535d81"
+    },
+    {
+      "path": "apps/web/src/aiPlayback.ts",
+      "sha256": "bf2e4f656c3a9d797b9630a5d11cf754606213d85f425638ebd2ad4db298c086"
+    },
+    {
+      "path": "apps/web/src/androidHost.ts",
+      "sha256": "0f2813b2da9c0773824ee5bcef6f1e46cf85516ea7b4583e07112eda37ba3b4c"
+    },
+    {
+      "path": "apps/web/src/boardView.ts",
+      "sha256": "d501677242b0d0a5c29c33916125247b6ae797a67985cd3c14f497244ed38954"
+    },
+    {
+      "path": "apps/web/src/disabledNetwork.tsx",
+      "sha256": "a92d0675f80424711b080509f850339301ac027a06da90e488cb76700ee2dc87"
+    },
+    {
+      "path": "apps/web/src/disputedMove.ts",
+      "sha256": "0c4578e7d9e8a22b1980731248da17cd1deb649d7153ef6e2582a91642b92ffb"
+    },
+    {
+      "path": "apps/web/src/gameText.ts",
+      "sha256": "e75dafbde9e9f39bd9bb845f17d7e0bb553e01ba7675b6b5c046a4e1dce61fd9"
+    },
+    {
+      "path": "apps/web/src/i18n/de.json",
+      "sha256": "817d07816fba1cfaaa6080f9a22333acfeb5bd3864c82ebfb9b2512354869206"
+    },
+    {
+      "path": "apps/web/src/i18n/en.json",
+      "sha256": "acdd4042016cef60004934cb4004bc5d40cf3812c61936114fb3cd4029daf4e6"
+    },
+    {
+      "path": "apps/web/src/i18n/es.json",
+      "sha256": "d6eb7b584992765702eae6340c733e5b9f7443d01c79a866a460d46bf23488f4"
+    },
+    {
+      "path": "apps/web/src/i18n/fr.json",
+      "sha256": "04f099b3fd1b7defc5c04eaf330f052952f7fee8c5397876e7eb723d0bd67353"
+    },
+    {
+      "path": "apps/web/src/i18n/index.ts",
+      "sha256": "4ffd80c43dacf870c1a6cce1b2ae03403550ab5db51aa9b4ac85061aa897c185"
+    },
+    {
+      "path": "apps/web/src/i18n/pt-BR.json",
+      "sha256": "aff1a310af8541da413ffa7f704af0aa5e06ee3fb41b257dae3f512099d9b268"
+    },
+    {
+      "path": "apps/web/src/i18n/ru.json",
+      "sha256": "c1e96d31d86fda591e219c69cf444779262925b5fcb4cfee6303740f2999e6c3"
+    },
+    {
+      "path": "apps/web/src/i18n/tr.json",
+      "sha256": "6b660f79bc12ab504c74311b84955fb80ddbeb506203ae22806e661c37cf25f6"
+    },
+    {
+      "path": "apps/web/src/i18n/uk.json",
+      "sha256": "eaaa9e9aaf6c424646d9d08298b561bd4e757442ed7744013c1eff1e4666aa7f"
+    },
+    {
+      "path": "apps/web/src/i18n/uz-Latn.json",
+      "sha256": "172eb9b81c9f43402bc0738304f7df5fff85efe74e874dbb9a180f06330238a7"
+    },
+    {
+      "path": "apps/web/src/lanDiscovery.ts",
+      "sha256": "12e3d69d30ca7a07150ca3ae010194efede8bba2b98e3a69befc94e46caefe54"
+    },
+    {
+      "path": "apps/web/src/main.tsx",
+      "sha256": "f60840b510a39d6548da9ad821c7faa4d90737654aa43a91cc1130031a217296"
+    },
+    {
+      "path": "apps/web/src/mobile.css",
+      "sha256": "f427d5a480ce9157362bc30ac644ff6e7f6e7b4f1044c821ef3f97ace0e6982d"
+    },
+    {
+      "path": "apps/web/src/mobile.ts",
+      "sha256": "eac0f673d7738fa65590ca022c60b889e7f4569114f3a2fb3d28d6d2b714996f"
+    },
+    {
+      "path": "apps/web/src/networkFeature.ts",
+      "sha256": "63791a8706b66331310d1099cd643ca43b2d6d2b64197a0cbfd8500284a845bd"
+    },
+    {
+      "path": "apps/web/src/platform/index.ts",
+      "sha256": "f1593a22919c2ddb9d37303841e9571a2763f3eac31c5e393c09f9c6994cf6e1"
+    },
+    {
+      "path": "apps/web/src/platform/usePlatform.ts",
+      "sha256": "35b3d5c5da83e80222112125c509c5c730a238c197e8385a2799766b7b23b4bb"
+    },
+    {
+      "path": "apps/web/src/player-colors.css",
+      "sha256": "91bca0b5e6e08f8abdad44293c530bbe7dfe46ab22a3cf83aa0a036351a8dfb5"
+    },
+    {
+      "path": "apps/web/src/presentation.ts",
+      "sha256": "6974a8bd51a6dbfcef0054573f4881af32456035e4b9f78259812b2505a9ded7"
+    },
+    {
+      "path": "apps/web/src/publicPreviewAgents.ts",
+      "sha256": "760045cd28de69160b019c87c0dcf9ee8a92c98c6e55e1ac569b182029368f93"
+    },
+    {
+      "path": "apps/web/src/publicPreviewNeural.ts",
+      "sha256": "18812976c4c465a1575b4bc0f5ca903b6705c6ddd09843dbdeb778b0b47879d6"
+    },
+    {
+      "path": "apps/web/src/random.ts",
+      "sha256": "121f3e8f534169c399dc5ac7cde384b26677550700226a8d02f93e74ebe571f4"
+    },
+    {
+      "path": "apps/web/src/session.ts",
+      "sha256": "118ec046948f7a908a4a50c2facac8246b1b9c5554be31566ed3bedeacee41ac"
+    },
+    {
+      "path": "apps/web/src/storage.ts",
+      "sha256": "4034f12815dad98dc685dcb040627f4f9fcf3458f7dade8ad4d8ae1efb41cc7d"
+    },
+    {
+      "path": "apps/web/src/style.css",
+      "sha256": "e979372078f58b980f97a9ff44e4a2fa497f55b7e3bd72b41abe46d0fdd76209"
+    },
+    {
+      "path": "apps/web/src/useAiPlayback.ts",
+      "sha256": "17c5253b6285eee497675d18a2baa57b041a2d0be684200b183465b2573d5df0"
+    },
+    {
+      "path": "apps/web/src/useDialogFocus.ts",
+      "sha256": "18a6af1839ad34af08588e4a7b5120a93697e143de172bcebe85943022fcf673"
+    },
+    {
+      "path": "apps/web/vite.config.ts",
+      "sha256": "05e9964eeed78aec35a01d943ab8d5f4b5bb2ca5402ce83b79997406fb984569"
+    },
+    {
+      "path": "data/igra_64_koordinaty.csv",
+      "sha256": "53e2cfed32bc02f1782592da7b902bd8eceef4a2b38c0a3bb65186ada266d7ff"
+    },
+    {
+      "path": "docs/i18n/rules/de.md",
+      "sha256": "f447fd13e8d4970aaffee35e6703f9aaad6cd4478476cf7e014fcbd712c2e749"
+    },
+    {
+      "path": "docs/i18n/rules/en.md",
+      "sha256": "618bd2cb211672d57e284585105a2cd8b7a8f0186162df18b202dfdb42574075"
+    },
+    {
+      "path": "docs/i18n/rules/es.md",
+      "sha256": "e8d8c4e6fb5be97507b64a5c79f175254b87ebcac737c1312f4f1ba9d47257ed"
+    },
+    {
+      "path": "docs/i18n/rules/fr.md",
+      "sha256": "f0183a24c448d95f5663a534da3efabd1dccbbae869761fd97ace7bba0bdf9b0"
+    },
+    {
+      "path": "docs/i18n/rules/pt-BR.md",
+      "sha256": "a2628b5e554f8f3d9098a8d416b050dcd1a86f32eb1830e8f16344ec6d114626"
+    },
+    {
+      "path": "docs/i18n/rules/ru.md",
+      "sha256": "bb3963e0d185313f41a99aec61f36714493f870bd8aa6677eec018469dce9219"
+    },
+    {
+      "path": "docs/i18n/rules/tr.md",
+      "sha256": "ef5c0f80867eeceb1b2160aa9f6f2d8f04f1a2d3ecd9d87ba3e357fa38e6b725"
+    },
+    {
+      "path": "docs/i18n/rules/uk.md",
+      "sha256": "8bf298a0563cb7b9ee847ae32bd12f8a19bc9ed1c3bfda0f3fe838bb200340b1"
+    },
+    {
+      "path": "docs/i18n/rules/uz-Latn.md",
+      "sha256": "584d1038dc1be56c66975fd8fae7bce127f2d0f3c38734c46f291700e3984b9f"
+    },
+    {
+      "path": "docs/release/OWNER_AUTHORIZATION_2026_10_23.md",
+      "sha256": "21e0d1437661f66185f3bc6e9653344a775b0dc2802c497203c640ca3e57257f"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "366a0046e893a8081308e4cdd007b2c22b202d1da3cb85680b53778c1d20c9cd"
+    },
+    {
+      "path": "package.json",
+      "sha256": "4abdd0ad07657ec55afff7af6f4a775472ede2e3321d9b54addb86ce6b902f98"
+    },
+    {
+      "path": "packages/agents/src/index.ts",
+      "sha256": "760045cd28de69160b019c87c0dcf9ee8a92c98c6e55e1ac569b182029368f93"
+    },
+    {
+      "path": "packages/engine/src/audit-cli.ts",
+      "sha256": "06932af3f7d1a03a2015dc723a864dd04304d9d6d936312697b3ae451cbb3354"
+    },
+    {
+      "path": "packages/engine/src/audit.ts",
+      "sha256": "8be1b846a2ac10baa5bc385916839cded07dcf199bcc68872f183e8f77dc5d8d"
+    },
+    {
+      "path": "packages/engine/src/geometry.ts",
+      "sha256": "dacb4b018a63947f3b35aa0cec6f5475d5537d76790a9c078fc3cdf4e3a86bc5"
+    },
+    {
+      "path": "packages/engine/src/history.ts",
+      "sha256": "9942ef7c6668b2356e522c824099de50bd39a888b7e2d4ed04e011d8cca3e494"
+    },
+    {
+      "path": "packages/engine/src/index.ts",
+      "sha256": "9a48d8d9eb147ede23687cdcf51c5d4337e10151e152aac01aecfcf78421793e"
+    },
+    {
+      "path": "packages/engine/src/rng.ts",
+      "sha256": "53db992deec09714f2583c788991fa40ef0064837804139cf4337d5f0069dfd2"
+    },
+    {
+      "path": "packages/engine/src/rule-policy.ts",
+      "sha256": "2308ee5b258b7fe7478116cf6868350fee2cd39046d8f7b4fd01e6a6b1e305b7"
+    },
+    {
+      "path": "packages/lan/src/arena-binding.ts",
+      "sha256": "17cfb711937e26d1db53074669592b8ae000af00ca47eafdd3ff2c1eb4c3d34b"
+    },
+    {
+      "path": "packages/lan/src/arena-cli.ts",
+      "sha256": "becf372daa00fc95bb112c0c1204db041ec215e09dbfb8c3a09249bec1d085eb"
+    },
+    {
+      "path": "packages/lan/src/arena-store.ts",
+      "sha256": "1a48243d962a011db9e98e901a8bac6cffcaa5839a75f79f5c739fec350deab3"
+    },
+    {
+      "path": "packages/lan/src/arena.ts",
+      "sha256": "f040c960f22582faf435873e59a03285f5b3f4dc56b7ab680f062ba86384402d"
+    },
+    {
+      "path": "packages/lan/src/authority.ts",
+      "sha256": "2476a4c62fe50c4eccec5ab10b13fe217fe929cae8597994cce57c958f701807"
+    },
+    {
+      "path": "packages/lan/src/cli.ts",
+      "sha256": "3aef60e1c3fd2922201b4609bbbe0cb30c970e23bce70fb209b8929c2b75b106"
+    },
+    {
+      "path": "packages/lan/src/client.ts",
+      "sha256": "5d44e93951d2b283c79f5b391e287207ba54d5ee66b93a694e6b3ad371efaaca"
+    },
+    {
+      "path": "packages/lan/src/host.ts",
+      "sha256": "b778a7c60b4791f2f8866c451ba99e37b7b8de47a0d3d0df762ab93f2e0b6360"
+    },
+    {
+      "path": "packages/lan/src/protocol.ts",
+      "sha256": "2cc08a5f15ff601057ce8b0e34c00c0c70f021a696ca13a1c907b5caa8ced723"
+    },
+    {
+      "path": "packages/lan/src/server.ts",
+      "sha256": "4fb9c86ed146f6af362aa40f4d90e406c24286e783b3cdd5d68ba8e92f6c50d9"
+    },
+    {
+      "path": "packages/neural/src/index.ts",
+      "sha256": "8f92c973fbde9780c934ee7cf44759b86901dbddb8ec6321f9eeb1d9803d4afa"
+    },
+    {
+      "path": "packages/shared/src/index.ts",
+      "sha256": "28132b2535a607b94cdf965f9aa9346ea458d93e96c06cb9a720c68a8f702dfb"
+    },
+    {
+      "path": "packages/training/src/index.ts",
+      "sha256": "02a34525dfc31985ff30ad619774b657a8d728ce7aa571be0c2742129f558886"
+    },
+    {
+      "path": "release/model-exclusion.json",
+      "sha256": "66a9532a2f1f41641f9e345a52f49e0ac4f4ebf8e0ae218658a7b2e46ac3fe2b"
+    },
+    {
+      "path": "scripts/model-exclusion.mjs",
+      "sha256": "adc7d869d0eb7d2f541df92b3be50d46cb9ea0d84f9c433a16a03f8612b34daf"
+    },
+    {
+      "path": "scripts/test-public.ts",
+      "sha256": "3f2a3968c381b6d022ef052a6722e79cf4aa62be3c52143d3ce0a43bbf126758"
+    },
+    {
+      "path": "scripts/verify-public-preview.mjs",
+      "sha256": "da33f35cac0bc370ecba698c7b2a40288cc14955b31e5e17364d2f222390f9c0"
+    },
+    {
+      "path": "tests/engine.test.ts",
+      "sha256": "ecba491f82bc3aacd3094ea2bf4b789dd594e45ab38307f6ae6502abf674b1a4"
+    },
+    {
+      "path": "tests/game-update-06-1.test.ts",
+      "sha256": "cc2f33aa26ac3fdb7a5d6c2d30b35c2d475e31bdbdccc8c3ea255f562529c240"
+    },
+    {
+      "path": "tests/geometry.test.ts",
+      "sha256": "787c9b355a02a948a25b7843aef9a0d80ed3a2778edfa6eefce28bb891e4d792"
+    },
+    {
+      "path": "tests/helpers.ts",
+      "sha256": "40d24e1f6f2e65390dd031f13eb7ed2392cbb9e1cdd19c2786a869386f0c76de"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "9845ce740e112c78b6e167f34214e6a9079eb75411d239e3eae982e9ca08deba"
+    }
+  ],
+  "selfHashConvention": "SOURCE_FILES.json excludes itself and generated archive/checksums",
+  "excluded": [
+    "all model weights",
+    "training/neural research implementations and datasets",
+    "benchmarks/databases/logs",
+    "Android/APK/native payloads",
+    "historical artwork/screenshots",
+    "credentials/private files",
+    "Git history"
+  ],
+  "node": "22.16.0",
+  "npm": "10.9.2"
+}

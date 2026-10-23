@@ -4,7 +4,9 @@ import { Engine, canonical, hash, POLICY } from '../../engine/src/index';
 import { secure, type Rng } from '../../engine/src/rng';
 import type { ControllerIdentity, GameState, Player } from '../../shared/src/index';
 import type { RoomView, Membership, Command } from './protocol';
+export const credentialHash = (secret: string) => `sha256:${hash(secret)}`;
 export interface SavedRoom {
+    updatedAt?: number;
     id: string;
     name: string;
     capacity: number;
@@ -22,33 +24,59 @@ export interface SavedRoom {
 }
 export class Authority {
     readonly rooms = new Map<string, SavedRoom>();
-    constructor(readonly engine: Engine, readonly rng: Rng = secure, readonly persist: (room: SavedRoom) => void = () => { }) { }
+    constructor(readonly engine: Engine, readonly rng: Rng = secure, readonly persist: (room: SavedRoom) => void = () => { }, readonly options: {maxRooms?:number; capacity?:number; receiptLimit?:number; now?:()=>number} = {}) { }
+    private commit(target: SavedRoom, draft: SavedRoom) {
+        draft.updatedAt = (this.options.now ?? Date.now)();
+        this.persist(draft); // No visible mutation or ACK until durable persistence succeeds.
+        Object.assign(target, draft);
+    }
     view(r: SavedRoom): RoomView { return { id: r.id, name: r.name, capacity: r.capacity, hostPlayer: 1, players: r.members.map(({ id, name, online }) => ({ id, name, online })), gameId: r.game?.gameId ?? null, status: r.game?.winner ? 'finished' : r.game ? 'playing' : 'lobby' }; }
     list() { return [...this.rooms.values()].map(r => this.view(r)); }
     room(id: string) { const r = this.rooms.get(id); if (!r)
         throw Error('Комната не найдена'); return r; }
-    member(r: SavedRoom, token: string) { const m = r.members.find(m => m.token === token); if (!m)
+    member(r: SavedRoom, token: string) { const m = typeof token === 'string' && /^[a-f0-9]{48}$/.test(token) ? r.members.find(m => m.token === credentialHash(token)) : undefined; if (!m)
         throw Error('Неверный ключ игрока'); return m; }
     create(name: string, capacity: number, playerName: string): Membership {
+        if (this.rooms.size >= (this.options.maxRooms ?? Infinity)) throw Error('Room limit reached');
+        if (this.options.capacity !== undefined && capacity !== this.options.capacity) throw Error('Arena requires two players');
         if (!Number.isInteger(capacity) || capacity < 2 || capacity > 4)
             throw Error('В комнате должно быть 2–4 места');
-        const room: SavedRoom = { id: randomUUID(), name: this.name(name), capacity, members: [{ id: 1, name: this.name(playerName), token: token(), online: false }], game: null, receipts: [] };
+        const secret = token();
+        const room: SavedRoom = { id: randomUUID(), name: this.name(name), capacity, members: [{ id: 1, name: this.name(playerName), token: credentialHash(secret), online: false }], game: null, receipts: [] };
+        this.commit(room, structuredClone(room));
         this.rooms.set(room.id, room);
-        this.persist(room);
-        return { room: this.view(room), playerId: 1, token: room.members[0].token };
+        return { room: this.view(room), playerId: 1, token: secret };
     }
     private name(name: string) { if (typeof name !== 'string' || !name.trim() || name.length > 48)
         throw Error('Имя должно содержать 1–48 символов'); return name.trim(); }
-    join(id: string, name: string): Membership { const r = this.room(id); if (r.game)
-        throw Error('Партия уже началась; используйте свой ключ для восстановления'); if (r.members.length >= r.capacity)
-        throw Error('Комната заполнена'); const m = { id: (r.members.length + 1) as Player, name: this.name(name), token: token(), online: false }; r.members.push(m); this.persist(r); return { room: this.view(r), playerId: m.id, token: m.token }; }
-    connect(id: string, token: string, online = true) { const r = this.room(id), m = this.member(r, token); m.online = online; this.persist(r); return this.view(r); }
-    restore(saved: SavedRoom) { if (saved.game)
-        saved.game = this.engine.replay(saved.game.eventLog); if (saved.members.length < 1 || saved.members.length > 4 || saved.members.some((m, i) => m.id !== i + 1 || !m.token))
-        throw Error('Invalid saved room'); saved.members.forEach(m => m.online = false); this.rooms.set(saved.id, saved); }
+    join(id: string, name: string): Membership {
+        const target = this.room(id), r = structuredClone(target);
+        if (r.game) throw Error('Партия уже началась; используйте свой ключ для восстановления');
+        if (r.members.length >= r.capacity) throw Error('Комната заполнена');
+        const secret = token(), m = {id: (r.members.length + 1) as Player, name: this.name(name), token: credentialHash(secret), online:false};
+        r.members.push(m); this.commit(target,r);
+        return {room:this.view(target),playerId:m.id,token:secret};
+    }
+    connect(id: string, token: string, online = true) {
+        const target=this.room(id), r=structuredClone(target), m=this.member(r,token);
+        m.online=online; this.commit(target,r); return this.view(target);
+    }
+    restore(input: SavedRoom) {
+        const saved=structuredClone(input);
+        if (!saved || typeof saved.id !== 'string' || !Array.isArray(saved.members) || saved.members.length < 1 || saved.members.length > 4 ||
+            !Number.isInteger(saved.capacity) || saved.capacity < saved.members.length || saved.capacity > 4 || saved.capacity < 2 ||
+            (this.options.capacity !== undefined && saved.capacity !== this.options.capacity) ||
+            saved.members.some((m,i)=>m.id!==i+1 || typeof m.token!=='string' || !/^(?:sha256:)?[a-f0-9]{48,64}$/.test(m.token)) ||
+            !Array.isArray(saved.receipts) || saved.receipts.some(x=>typeof x.key!=='string'||typeof x.fingerprint!=='string')) throw Error('Invalid saved room');
+        // Legacy LAN saves are read without changing the original file; future commits use verifiers.
+        saved.members.forEach(m=>{if(!m.token.startsWith('sha256:'))m.token=credentialHash(m.token);m.online=false;});
+        if(saved.game) saved.game=this.engine.replay(saved.game.eventLog);
+        if(this.rooms.has(saved.id))throw Error('Duplicate room');
+        this.rooms.set(saved.id,saved);
+    }
     identity(r: SavedRoom, p: Player): ControllerIdentity { return { kind: 'human', id: `lan:${r.id}:P${p}`, version: null }; }
     command(id: string, token: string, input: unknown) {
-        const r = this.room(id), m = this.member(r, token);
+        const target = this.room(id), r = structuredClone(target), m = this.member(r, token);
         if (!input || typeof input !== 'object' || Array.isArray(input))
             throw Error('Invalid command');
         const c = input as Command;
@@ -58,7 +86,7 @@ export class Authority {
         if (receipt) {
             if (receipt.fingerprint !== fingerprint)
                 throw Error('Request ID reused for another command');
-            return { duplicate: true, fromSeq: r.game?.eventLog.length ?? 0, room: r };
+            return { duplicate: true, fromSeq: target.game?.eventLog.length ?? 0, room: target };
         }
         if (!m.online)
             throw Error('Игрок не подключён');
@@ -101,9 +129,9 @@ export class Authority {
             this.engine.assertInvariants(r.game!);
         }
         r.receipts.push({ key, fingerprint });
-        if (r.receipts.length > 1000)
+        if (r.receipts.length > (this.options.receiptLimit ?? 1000))
             r.receipts.shift();
-        this.persist(r);
-        return { duplicate: false, fromSeq, room: r };
+        this.commit(target,r);
+        return { duplicate: false, fromSeq, room: target };
     }
 }

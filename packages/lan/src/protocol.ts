@@ -26,10 +26,15 @@ export interface Command {
 }
 export type ServerFrame = {
     type: 'snapshot';
+    version?:number;
+    headHash?:string|null;
+    legalActions?:Action[];
     room: RoomView;
     events: GameEvent[];
 } | {
     type: 'events';
+    version?:number;
+    legalActions?:Action[];
     room: RoomView;
     fromSeq: number;
     events: GameEvent[];

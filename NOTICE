@@ -1,0 +1,40 @@
+ShashBesh — final owner license update, 2026-10-23 (RELEASE-01.5)
+
+Mister Metes approved GPL-3.0-only for owner-controlled original code,
+and CC BY 4.0 for owner-controlled original graphics, texts and translations.
+See LICENSE_SCOPE.md, ATTRIBUTION.md and LICENSES/CC-BY-4.0.txt.
+Third-party terms remain unchanged. This supersedes the earlier
+inclusion-only content status below, without removing historical notices.
+
+ShashBesh — licensing update, 2026-10-23
+
+Owner-controlled original source code is authorized under GPL-3.0-only.
+See LICENSE, LICENSE_SCOPE.md and ATTRIBUTION.md. The owner also approved
+inclusion of the owner's own texts and graphics; their specific license
+was not separately specified. Third-party terms and existing notices remain.
+No ownership of third-party materials or public release readiness is claimed.
+
+Historical preparation notice below (its absence-of-root-LICENSE statement
+is superseded by this dated update; retained without removing notices):
+
+ShashBesh — standalone release preparation
+
+The owner has selected GPL-3.0-only for code within the owner's actual rights.
+This preparation does not activate a blanket project license. The complete
+proposed text and scope are in docs/release/LICENSE.GPL-3.0-only.proposed and
+docs/release/LICENSE_SCOPE.proposed.md. A root LICENSE is deliberately not
+installed while the rights/scope audit remains open.
+
+Third-party code, templates, artwork, licenses and notices retain their own
+terms. See THIRD_PARTY_NOTICES.txt, docs/licensing and docs/release/LICENSE_MATRIX.md.
+No license to neural weights is inferred from tool licenses, Git history,
+technical training provenance, unsigned declarations or the owner's code
+license choice. Existing weights/data are preserved; new public build
+candidates exclude them.
+
+The original v0.3.1-alpha APK and existing Releases are not replaced. Its
+versioned notice companion is prepared in docs/licensing/bundles; preparation
+does not prove actual delivery to prior recipients. New candidate artwork is
+documented separately from the historical Google/Ionic template attribution.
+
+No trademark or endorsement rights are granted by this notice.

@@ -1,0 +1,7 @@
+{
+  "schema": "shashbesh-model-exclusion-v1",
+  "modelFileSha256": "0cdca20fa7485e79c81996b9ac8cc53543065396007a090f739eb6a6cec75cfc",
+  "prefixLength": 12,
+  "prefixSha256": "b238861c68c9b501c2dcccc724bda1aa06006d156f7cefbdb5e93fc6e42d47b4",
+  "status": "exclusion digest only; not weights or a permission grant"
+}

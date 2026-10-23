@@ -3,8 +3,8 @@ import { trackId } from './geometry';
 import { append as appendEvent, canonical, verifyChain, logicalTime, activeEvents, stateHash, type AuditOptions } from './audit';
 export * from './geometry';
 export * from './audit';
-import {POLICY,LEGACY_POLICY,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
-export {POLICY,LEGACY_POLICY,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
+import {POLICY,LEGACY_POLICY,PREVIOUS_POLICY,isHistoricalPolicy,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
+export {POLICY,LEGACY_POLICY,PREVIOUS_POLICY,isHistoricalPolicy,RuleClarificationRequired,LegacyRulePolicyReadOnly,isCurrentPolicy} from './rule-policy';
 const die = (n: number) => {
     if (!Number.isInteger(n) || n < 1 || n > 6)
         throw Error('Кубик должен быть 1..6');
@@ -27,7 +27,7 @@ export class Engine {
     create(players: Player[] = [1, 2, 3, 4], gameId = 'local', seedMetadata: string | null = null, rulePolicy = POLICY, participants?: Partial<Record<Player, ControllerIdentity>>): GameState {
         if (players.length < 2 || players.length > 4 || new Set(players).size !== players.length || players.some(p => ![1, 2, 3, 4].includes(p)))
             throw Error('Нужно 2–4 разных игрока');
-        if (canonical(rulePolicy) !== canonical(POLICY) && !(this.legacyReplay&&canonical(rulePolicy)===canonical(LEGACY_POLICY)))
+        if (canonical(rulePolicy) !== canonical(POLICY) && !(this.legacyReplay&&isHistoricalPolicy(rulePolicy)))
             throw Error('Неизвестная RulePolicy');
         if (participants && (Object.keys(participants).length !== players.length || players.some(p => {
             const c = participants[p];
@@ -162,7 +162,7 @@ export class Engine {
         const active=activeEvents(s.eventLog);let begin=-1;for(let i=active.length-1;i>=0;i--)if(active[i].type==='dice_roll'&&active[i].rollId===s.currentRoll.id){begin=i;break;}
         const actions=active.slice(begin+1).filter(e=>e.type==='action'),lastJump=actions.map((e,i)=>({e,i})).filter(x=>!!(x.e.payload as Action).jump).at(-1);
         const jumper=lastJump?(lastJump.e.payload as Action).pieceId:undefined,transferred=lastJump?actions.slice(lastJump.i+1).some(e=>(e.payload as Action).pieceId!==jumper):false;
-        if(s.currentRoll.forcedPieceId!==(jumper&&!transferred?jumper:undefined))throw Error('Corner continuation state does not match the active journal');
+        if(s.currentRoll.forcedPieceId!==((s.rulePolicy.cornerContinuation!=='any-piece'&&jumper&&!transferred)?jumper:undefined))throw Error('Corner continuation state does not match the active journal');
     }
     private prioritySequences(s:GameState):Action[][]{
         type Branch={actions:Action[];blocked:RuleClarificationRequired|null};
@@ -176,7 +176,7 @@ export class Engine {
             // Capture priority concerns actions available now. Looking ahead to a
             // later capture would also force its ordinary approach moves (e.g.
             // four fives from М07), falsely locking out other pieces.
-            if(!Number.isFinite(corner)&&chosen.some(b=>b.actions[0]?.captureIds.length))chosen=chosen.filter(b=>!!b.actions[0]?.captureIds.length);
+            if(s.rulePolicy.capturePriority==='mandatory'&&!Number.isFinite(corner)&&chosen.some(b=>b.actions[0]?.captureIds.length))chosen=chosen.filter(b=>!!b.actions[0]?.captureIds.length);
             // If the jumper has no legal continuation, the owner's clarification permits
             // remaining dice to pass to another piece. A legal jumper continuation stays mandatory.
             const unresolved=chosen.find(b=>b.blocked);if(unresolved){
@@ -214,7 +214,7 @@ export class Engine {
         }
         else if (a.jump && s.rulePolicy.cornerPriority==='absolute') {
             p.outerSteps+=12;p.homeIndex=null;p.status='track';
-            n.currentRoll!.forcedPieceId=p.id;
+            if(s.rulePolicy.cornerContinuation!=='any-piece')n.currentRoll!.forcedPieceId=p.id;
         }
         else if (a.kind === 'corner_jump') {
             p.outerSteps += 12;
@@ -455,7 +455,7 @@ export class Engine {
             timeSource: events[0].timeSource ?? 'logical',
             clock: (gameId, seq) => events[seq]?.timestamp ?? logicalTime(gameId, seq)
         });
-        replayEngine.legacyReplay=canonical(init.rulePolicy)===canonical(LEGACY_POLICY);
+        replayEngine.legacyReplay=isHistoricalPolicy(init.rulePolicy);
         let s = replayEngine.create(init.players, init.gameId, init.seedMetadata, init.rulePolicy, init.participants);
         while (s.eventLog.length < events.length) {
             const event = events[s.eventLog.length], before=s;

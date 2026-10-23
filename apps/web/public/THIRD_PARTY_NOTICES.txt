@@ -106,3 +106,17 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
+
+--- ShashBesh owner-controlled portions (2026-10-23) ---
+Copyright (c) 2026 Mister Metes, within owner-controlled original portions.
+Code: GPL-3.0-only; full text: /LICENSE.txt .
+Original graphics, texts and translations: CC BY 4.0.
+https://creativecommons.org/licenses/by/4.0/ ; full text: /LICENSES/CC-BY-4.0.txt .
+See /ATTRIBUTION.md and /LICENSE_SCOPE.md for credits, changes and exclusions.
+Retain supplied notices and indicate modifications to CC BY material; no endorsement is implied.
+No warranty is provided under the applicable licenses.
+This owner notice does not replace any third-party terms above.
+Matching source and rebuild instructions: /SOURCE_DISTRIBUTION.md .
+Complete model-free source download: /shashbesh-source.tar.gz .
+SHA-256: /shashbesh-source.tar.gz.sha256 .

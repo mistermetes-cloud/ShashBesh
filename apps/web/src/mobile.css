@@ -9,7 +9,7 @@ body:has(.mobile-shell){background:#e9e0cf}
 .turn-color{display:flex;gap:6px;align-items:center;font-size:13px}.turn-color i,.wifi-seats i{width:12px;height:12px;display:inline-block;border-radius:50%;box-shadow:inset 0 0 0 1px #0002}
 .home-screen{max-width:470px;margin:22px auto;padding:0 12px;display:flex;flex-direction:column;gap:24px}.home-brand{text-align:center;margin:12px 0 10px}.home-brand h1{font-family:Georgia,serif;letter-spacing:-1px;font-size:45px;color:#65492c}.home-brand p{color:#8b7961;font-size:14px;margin:9px 0 0}.home-tokens{display:flex;justify-content:center;gap:8px;margin-bottom:13px}.home-tokens i{width:23px;height:23px;border-radius:50%;border:1px solid #0002;box-shadow:0 3px 2px #8b6b3630,inset 0 0 0 3px #fff5}
 .home-screen fieldset{border:0;margin:0;padding:0}.home-screen legend{font-size:11px;letter-spacing:2px;font-weight:700;color:#897354;margin-bottom:12px}.choice-pair{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mobile-shell .choice-pair button{min-height:60px;font-size:14px;line-height:1.5;padding:12px 8px}.mobile-shell button[aria-pressed=true]{background:#715132;color:#fff4e3;border-color:#715132;box-shadow:0 3px 5px #80674322}.player-count{display:flex;align-items:center;gap:8px;margin-top:14px}.player-count>span{flex:1;font-size:13px;color:#8a7559}.player-count button{width:48px}.mobile-shell .start-playing{width:100%;min-height:54px;background:#705032;color:#fff2dd;border-color:#705032;font-weight:650;font-size:16px;box-shadow:0 4px 8px #7c63352a}.mobile-shell .quiet-button{background:transparent;border:0;color:#7b6246;box-shadow:none}.home-note{font-size:13px;line-height:1.6;color:#897559;margin:10px 0 0}
-.mobile-game{height:100vh;height:100dvh;min-height:0;display:grid;grid-template-rows:44px minmax(0,1fr) auto;gap:4px}.table-area{min-width:0;min-height:0;display:grid;place-items:center}.physical-board{width:min(100%,calc(100vh - 128px - var(--safe-top) - var(--safe-bottom)));width:min(100%,calc(100dvh - 128px - var(--safe-top) - var(--safe-bottom)));max-width:760px;margin:0;gap:2px;padding:9px;border:6px solid #a9875e;border-radius:22px;background:repeating-linear-gradient(100deg,#cbae82 0px,#cbae82 2px,#d1b78d 3px,#d1b78d 8px);box-shadow:0 10px 20px #79613825,inset 0 0 0 1px #efdbb4;isolation:isolate}
+.mobile-game{height:100vh;height:100dvh;min-height:0;display:grid;grid-template-rows:44px minmax(0,1fr) auto;gap:4px}.table-area{min-width:0;min-height:0;display:grid;place-items:center}.physical-board{width:min(100%,calc(100vh - 128px - var(--safe-top) - var(--safe-bottom)));width:min(100%,calc(100dvh - 128px - var(--safe-top) - var(--safe-bottom)));max-width:760px;margin:0;gap:2px;padding:9px;border:6px solid #a9875e;border-radius:22px;background:#cdb58e;box-shadow:0 10px 20px #79613825,inset 0 0 0 1px #efdbb4;isolation:isolate}
 .physical-board .cell{min-height:0;padding:0;border:1px solid #b09b7b;border-radius:4px;background:#f0e6d3;box-shadow:inset 0 -2px 2px #9c7e4417;cursor:pointer}
 .physical-board .cell-label{display:none}.physical-board .cell.corner{box-shadow:inset 0 0 0 2px #c0a16a}.physical-board .cell[style*="--home: var"]{background:color-mix(in srgb,var(--home) 48%,#f2eadb)}.physical-board .cell.active-home{background:color-mix(in srgb,var(--home) 85%,#f2eadb);border-color:color-mix(in srgb,var(--home) 55%,#685137);box-shadow:inset 0 0 0 1px #fff8,0 0 5px #fff7}
 .physical-board .piece{font-size:0;width:82%;height:auto;border:1px solid #0003;box-shadow:0 2px 2px #49331b70,inset 0 0 0 2px #fff6;background-image:radial-gradient(circle at 35% 25%,#fff6,transparent 65%)}.physical-board .piece small{display:none}.physical-board .piece.fixed{border:3px double #55402f;box-shadow:inset 0 0 0 1px #fff8}
@@ -21,3 +21,88 @@ body:has(.mobile-shell){background:#e9e0cf}
 .wifi-screen{max-width:470px;margin:24px auto;padding:12px;overflow-wrap:anywhere}.wifi-screen h1{font:30px Georgia,serif;letter-spacing:0;margin-bottom:28px}.wifi-screen h2{font-size:20px;margin-bottom:14px}.wifi-screen p{font-size:13px;line-height:1.6}.wifi-main-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px}.mobile-shell .wifi-main-actions button{min-height:66px;font-weight:600}.mobile-shell input{background:#fffaf1;color:#4b3a29;border-color:#c6b397;max-width:210px;font-size:14px;min-height:44px}.wifi-seats{padding:0;list-style:none;margin:22px 0}.wifi-seats li{display:flex;align-items:center;gap:8px;margin:12px 0}.wifi-seats li span{margin-left:auto;font-size:12px;color:#877050}.found-game{display:flex;justify-content:space-between;align-items:center;gap:8px;border-bottom:1px solid #d2c3ad;padding:14px 0;font-size:14px}.wifi-advanced{margin-top:28px}.wifi-advanced code{font-size:12px}.back-to-table{margin-bottom:12px}
 @keyframes destination-glow{50%{box-shadow:inset 0 0 0 2px #d2b570,0 0 7px #fff0c4}}@media(prefers-reduced-motion:reduce){.physical-board .cell.target{animation:none}.table-dice:active:not(:disabled){transform:none}}
 @media(orientation:landscape) and (max-height:600px){.mobile-game{grid-template-columns:minmax(0,1fr) minmax(160px,190px);grid-template-rows:44px minmax(0,1fr);gap:8px}.mobile-game .mobile-header{grid-column:2;grid-row:1;flex-wrap:wrap;height:auto;align-self:start}.mobile-game .table-area{grid-row:1/3;grid-column:1}.mobile-game .table-controls{grid-column:2;grid-row:2;align-content:center;flex-direction:column;padding:5px}.mobile-game .physical-board{width:min(100%,calc(100vh - 16px - var(--safe-top) - var(--safe-bottom)));width:min(100%,calc(100dvh - 16px - var(--safe-top) - var(--safe-bottom)))}.mobile-game .table-brand{font-size:19px}.mobile-game .turn-color{order:3;width:100%;font-size:12px}.mobile-game .table-hint{flex:0;min-width:0}.home-screen{max-width:680px;display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 auto}.home-brand{grid-column:1/3;margin:0;display:flex;gap:16px;align-items:center;justify-content:center}.home-brand h1{font-size:30px}.home-brand p,.home-tokens{display:none}.home-screen .start-playing{grid-column:1/3}.mobile-modal{align-items:center}.mobile-modal>section{border-radius:18px;max-height:94dvh}}
+/* WEB-TG-02: shared host insets and touch alternatives, preserving CSV geometry. */
+:root{--safe-top:max(env(safe-area-inset-top,0px),var(--host-safe-top,0px));--safe-bottom:max(env(safe-area-inset-bottom,0px),var(--host-safe-bottom,0px));--safe-left:max(env(safe-area-inset-left,0px),var(--host-safe-left,0px));--safe-right:max(env(safe-area-inset-right,0px),var(--host-safe-right,0px))}
+.mobile-shell{overflow-wrap:anywhere;min-width:0}
+.mobile-game{height:var(--platform-height,100dvh);grid-template-rows:44px minmax(0,1fr) auto}
+.mobile-header{gap:4px}.mobile-shell .table-brand{font-size:clamp(17px,4.6vw,22px)}
+.language-selector{margin:0;flex-shrink:0}.language-selector>span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.language-selector select{min-height:44px;max-width:86px;font-size:12px;background:#fff9ed;color:#483b2d;border-color:#a28b69}
+.turn-color{min-width:0;line-height:1.2}.turn-color i{flex-shrink:0}
+.table-area{container-type:size}.mobile-game .physical-board{width:min(100cqw,100cqh,760px);max-width:100%;max-height:none}
+.table-controls{max-height:38dvh;overflow:auto;min-width:0;align-content:start;scrollbar-width:thin}
+.table-hint{color:#674c2b;max-width:none}.turn-progress{width:100%;text-align:center;font-size:11px;color:#674c2b;font-variant-numeric:tabular-nums}
+.touch-moves{width:100%;max-width:760px;min-width:0;margin:0!important}.touch-moves summary{min-height:44px;text-align:center}
+.touch-piece-list,.touch-action-list{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0}.touch-action-list{flex-direction:column}
+.mobile-shell .touch-moves button{min-height:44px;white-space:normal;text-align:left;overflow-wrap:anywhere}
+.touch-piece-list button{flex:1 1 86px}.touch-action-list button{width:100%}
+.physical-board .cell[aria-pressed=true]{outline:2px solid #6c4117;outline-offset:-2px}
+.mobile-shell .table-dice{min-width:44px;min-height:44px}
+.mobile-shell input,.mobile-shell select,.mobile-shell textarea{font-size:16px;min-height:44px;max-width:100%}
+.mobile-shell .language-selector select{font-size:12px;max-width:86px}
+.mobile-shell button,.mobile-shell summary{overflow-wrap:anywhere}.home-screen,.wifi-screen{min-width:0}
+.mobile-modal>section{overscroll-behavior:contain}.mobile-modal .language-selector{align-self:start}
+.rules-review{font-size:12px;padding:8px;border-left:3px solid #947039}
+.mobile-game.has-preview-note{grid-template-rows:auto 44px minmax(0,1fr) auto}
+.mobile-game.has-preview-note>.public-preview-note{grid-row:1;grid-column:1/-1;margin:0;max-height:64px;overflow:auto;padding:6px 8px;font-size:11px}
+.mobile-game.has-preview-note>.mobile-header{grid-row:2}.mobile-game.has-preview-note>.table-area{grid-row:3}.mobile-game.has-preview-note>.table-controls{grid-row:4}
+:root[data-platform=telegram] .mobile-header{background:var(--host-background,transparent);color:var(--host-text,#483b2d);border-radius:8px}
+:root[data-platform=telegram] .mobile-header .table-brand,:root[data-platform=telegram] .mobile-header .menu-button{color:inherit}
+@media(orientation:landscape) and (max-height:600px){
+ .mobile-game{grid-template-columns:minmax(0,1fr) minmax(170px,210px);grid-template-rows:80px minmax(0,1fr)}
+ .mobile-game .mobile-header{grid-column:2;grid-row:1;justify-content:center;flex-wrap:wrap}
+ .mobile-game .turn-color{order:3;width:100%;justify-content:center}.mobile-game .table-controls{max-height:100%;display:flex;flex-direction:row;align-content:start}
+ .mobile-game .table-area{grid-column:1;grid-row:1/3}
+ .mobile-game.has-preview-note{grid-template-rows:auto 80px minmax(0,1fr)}
+ .mobile-game.has-preview-note>.mobile-header{grid-column:2;grid-row:2}.mobile-game.has-preview-note>.table-controls{grid-column:2;grid-row:3}.mobile-game.has-preview-note>.table-area{grid-column:1;grid-row:2/4}
+}
+@media(max-width:360px){.mobile-header{gap:2px}.mobile-shell .table-brand{font-size:17px}.turn-color{font-size:11px}.language-selector select{padding:6px 2px;max-width:78px!important}}
+@media(prefers-reduced-motion:reduce){.physical-board *{animation:none!important;transition:none!important}.table-dice:active{transform:none}}
+.rules-text{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.7;font-size:13px}.full-rules{max-width:100%}
+@media(orientation:landscape) and (max-height:600px){
+ .mobile-game .mobile-header .table-brand{flex:1;min-width:0;padding:0;font-size:16px}
+ .mobile-game .mobile-header{align-content:start}
+}
+@media(orientation:landscape) and (max-height:600px){
+ .mobile-game .mobile-header .table-brand{font-size:14px;white-space:nowrap}
+ .mobile-game .table-hint{flex:1 0 100%;width:100%;min-width:0;max-width:100%}
+}
+/* WEB-TG-03: full-size controls complement the compact board hit areas. */
+.mobile-shell button:not(.cell):not(.reserve-chip){min-width:44px}
+.mobile-shell summary{min-height:44px}
+/* WEB-TG-05: fixed tabletop geometry; secondary controls live in the dialog. */
+
+.mobile-game,.mobile-game.has-preview-note{grid-template-columns:minmax(0,1fr);grid-template-rows:44px minmax(0,1fr);gap:0;padding:var(--safe-top) var(--safe-right) var(--safe-bottom) var(--safe-left);overflow:hidden}
+.mobile-game>.mobile-header,.mobile-game.has-preview-note>.mobile-header{grid-column:1;grid-row:1;justify-content:center;gap:16px;height:44px;flex-wrap:nowrap}
+.mobile-game>.table-area,.mobile-game.has-preview-note>.table-area{grid-column:1;grid-row:2}
+.mobile-game>.public-preview-note{display:none}
+.mobile-game .physical-board{grid-template-columns:repeat(15,minmax(0,1fr));grid-template-rows:repeat(15,minmax(0,1fr));width:min(100cqw,100cqh,850px);padding:2px;border:2px solid #a9875e;gap:1px;border-radius:10px;touch-action:manipulation}
+.physical-board .board-center{grid-area:7/7/10/10}
+.physical-board .reserve-pool{padding:0;gap:1px;display:flex;align-items:center;justify-content:center;min-width:0;min-height:0}
+.physical-board .reserve-top{grid-area:1/6/2/11;flex-direction:row}
+.physical-board .reserve-bottom{grid-area:15/6/16/11;flex-direction:row}
+.physical-board .reserve-left{grid-area:6/1/11/2;flex-direction:column}
+.physical-board .reserve-right{grid-area:6/15/11/16;flex-direction:column}
+.physical-board .reserve-chip{flex:0 0 calc((100% - 4px)/5);width:100%;max-width:100%;max-height:100%;aspect-ratio:1}
+.physical-board .reserve-top .reserve-chip,.physical-board .reserve-bottom .reserve-chip{width:calc((100% - 4px)/5)}
+.physical-board .reserve-chip .piece{width:86%}
+.mobile-shell .table-dice{box-shadow:0 0 0 3px var(--dice-color),0 0 0 5px #fff8;transform:none}
+.table-status{position:fixed;bottom:calc(8px + var(--safe-bottom));left:10%;right:10%;text-align:center;pointer-events:none;background:#fff3dc;border-radius:10px;font-size:13px;z-index:3}
+.table-status:empty{display:none}
+.game-menu .table-hint{flex:none;min-width:0}.game-menu .turn-progress{display:block}.game-menu .table-undo{display:block}
+/* Keep reserve hit regions one cell wide even when fewer chips remain. */
+.physical-board .reserve-left .reserve-chip,.physical-board .reserve-right .reserve-chip{height:calc((100% - 4px)/5)}
+.mobile-game .physical-board{gap:0;touch-action:none}
+.physical-board .cell>.piece{width:88%}
+@keyframes tabletop-cell-step{from{transform:translate(calc(var(--dx) * 100%),calc(var(--dy) * 100%))}to{transform:translate(0,0)}}
+.physical-board .ai-animation-slot.is-moving{animation-name:tabletop-cell-step}
+/* Keep the dice outline clear of home cells, including fractional grid edges. */
+.mobile-shell .physical-board .table-dice{width:calc(100% - 12px);height:calc(100% - 12px)}
+/* Host insets supplement the table's ordinary eight-pixel edge clearance. */
+.mobile-game,.mobile-game.has-preview-note{padding:calc(8px + var(--safe-top)) calc(8px + var(--safe-right)) calc(8px + var(--safe-bottom)) calc(8px + var(--safe-left))}
+/* The existing side header leaves the full available height for a landscape table. */
+@media(orientation:landscape) and (max-height:600px){
+ .mobile-game,.mobile-game.has-preview-note{grid-template-columns:minmax(0,1fr) 160px;grid-template-rows:44px minmax(0,1fr);column-gap:8px}
+ .mobile-game>.mobile-header,.mobile-game.has-preview-note>.mobile-header{grid-column:2;grid-row:1;gap:8px}
+ .mobile-game>.table-area,.mobile-game.has-preview-note>.table-area{grid-column:1;grid-row:1/3}
+}
