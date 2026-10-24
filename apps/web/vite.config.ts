@@ -8,6 +8,7 @@ export default defineConfig(({mode,command})=>{
  // LAN requires an explicit development-only mode; production always disables it.
  const lan=command==='serve'&&mode==='lan-development';
  return {
+  build:{rollupOptions:{input:{web:resolve(appRoot,'index.html'),telegram:resolve(appRoot,'telegram/index.html')}}},
   define:{__SHASHBESH_DEV_LAN__:JSON.stringify(lan)},
   resolve:{alias:[
    ...(!lan?[

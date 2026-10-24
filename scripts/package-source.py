@@ -4,12 +4,12 @@ from pathlib import Path
 import json,hashlib,tarfile,gzip,io
 root=Path(__file__).resolve().parent.parent
 previous=json.loads((root/'SOURCE_FILES.json').read_text())
-paths=sorted(set(x['path'] for x in previous['files'])|{'scripts/package-source.py','tests/browser/source-link.spec.ts','playwright.source-link.config.ts'})
+paths=sorted(set(x['path'] for x in previous['files'])|{'scripts/package-source.py','tests/browser/source-link.spec.ts','playwright.source-link.config.ts','apps/web/telegram/index.html','tests/browser/sdk-free-telegram.spec.ts','playwright.sdk-free.config.ts','tests/sdk-free-output.test.ts'})
 for name in paths:
  p=Path(name)
  assert not p.is_absolute() and '..' not in p.parts and (root/p).is_file() and not (root/p).is_symlink()
 rows=[{'path':p,'sha256':hashlib.sha256((root/p).read_bytes()).hexdigest()} for p in paths]
-m={'profile':'RELEASE-03.1 model-free offline preview','files':rows,'selfHashConvention':'Manifest excludes itself, manifest checksum and generated source archive/checksum','node':'22.16.0','npm':'10.9.2','excluded':previous['excluded']}
+m={'profile':'TG-02.2 SDK-free model-free offline Telegram preview','files':rows,'selfHashConvention':'Manifest excludes itself, manifest checksum and generated source archive/checksum','node':'22.16.0','npm':'10.9.2','excluded':previous['excluded']}
 (root/'SOURCE_FILES.json').write_text(json.dumps(m,indent=2)+'\n')
 (root/'SOURCE_FILES.sha256').write_text(hashlib.sha256((root/'SOURCE_FILES.json').read_bytes()).hexdigest()+'  SOURCE_FILES.json\n')
 a=root/'apps/web/public/shashbesh-source.tar.gz'

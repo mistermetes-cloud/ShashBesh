@@ -1,5 +1,5 @@
 {
-  "profile": "RELEASE-03.1 model-free offline preview",
+  "profile": "TG-02.2 SDK-free model-free offline Telegram preview",
   "files": [
     {
       "path": ".node-version",
@@ -27,7 +27,7 @@
     },
     {
       "path": "SOURCE_DISTRIBUTION.md",
-      "sha256": "b22101f7bded645c7db48056d31e10664c3e1b2645d7cfaddb3c5b0c94e9ed68"
+      "sha256": "8df679ac489c006962794659ee769bcc68e5237758a8c1837ef565aca70b1724"
     },
     {
       "path": "THIRD_PARTY_NOTICES.txt",
@@ -55,7 +55,7 @@
     },
     {
       "path": "apps/web/public/SOURCE_DISTRIBUTION.md",
-      "sha256": "b22101f7bded645c7db48056d31e10664c3e1b2645d7cfaddb3c5b0c94e9ed68"
+      "sha256": "8df679ac489c006962794659ee769bcc68e5237758a8c1837ef565aca70b1724"
     },
     {
       "path": "apps/web/public/THIRD_PARTY_NOTICES.txt",
@@ -203,7 +203,7 @@
     },
     {
       "path": "apps/web/src/platform/index.ts",
-      "sha256": "f1593a22919c2ddb9d37303841e9571a2763f3eac31c5e393c09f9c6994cf6e1"
+      "sha256": "a2e7f34829da279360ab4196e07644011202184a72e7d77a6acc00e9f5b0c8f5"
     },
     {
       "path": "apps/web/src/platform/usePlatform.ts",
@@ -250,8 +250,12 @@
       "sha256": "18a6af1839ad34af08588e4a7b5120a93697e143de172bcebe85943022fcf673"
     },
     {
+      "path": "apps/web/telegram/index.html",
+      "sha256": "fa21f2884d68728a8c41e89015e23195566f80f50982b9a3fdfcfd4dba1cf770"
+    },
+    {
       "path": "apps/web/vite.config.ts",
-      "sha256": "05e9964eeed78aec35a01d943ab8d5f4b5bb2ca5402ce83b79997406fb984569"
+      "sha256": "de6a9464edb73a2946d345faba5e4b939c66cb959e67aa6d93dbd9acc576ece1"
     },
     {
       "path": "data/igra_64_koordinaty.csv",
@@ -303,7 +307,7 @@
     },
     {
       "path": "package.json",
-      "sha256": "4abdd0ad07657ec55afff7af6f4a775472ede2e3321d9b54addb86ce6b902f98"
+      "sha256": "554f4916f99d268d69d142f7c6df3c2b10b1d362caf18c32d6454e90a93f7448"
     },
     {
       "path": "packages/agents/src/index.ts",
@@ -390,6 +394,10 @@
       "sha256": "02a34525dfc31985ff30ad619774b657a8d728ce7aa571be0c2742129f558886"
     },
     {
+      "path": "playwright.sdk-free.config.ts",
+      "sha256": "55030e8534ee8d77c6b260bf5482a1df54864f278018558428526f8af7dfe871"
+    },
+    {
       "path": "playwright.source-link.config.ts",
       "sha256": "926d547f9c529d11a35a519d9f6d380a4249860a6a36e44ecfd2aa58a197599f"
     },
@@ -403,7 +411,7 @@
     },
     {
       "path": "scripts/package-source.py",
-      "sha256": "03ecad2f274962d51eab326c183d80423e6c953e9b25b6acbff70b9c93b51cb8"
+      "sha256": "d80b42689913f7208dcf86a5ef11970937bb74848385458d949d853468c8fb08"
     },
     {
       "path": "scripts/test-public.ts",
@@ -411,7 +419,11 @@
     },
     {
       "path": "scripts/verify-public-preview.mjs",
-      "sha256": "da33f35cac0bc370ecba698c7b2a40288cc14955b31e5e17364d2f222390f9c0"
+      "sha256": "2f80f8151802192356d31d7335d678f3a1b22a6ce9bf822fbc0d6a6d2da425c3"
+    },
+    {
+      "path": "tests/browser/sdk-free-telegram.spec.ts",
+      "sha256": "f879847737ed23d252d33928a7868be1e6628a0e64f79bd15c3527e6106bfece"
     },
     {
       "path": "tests/browser/source-link.spec.ts",
@@ -432,6 +444,10 @@
     {
       "path": "tests/helpers.ts",
       "sha256": "40d24e1f6f2e65390dd031f13eb7ed2392cbb9e1cdd19c2786a869386f0c76de"
+    },
+    {
+      "path": "tests/sdk-free-output.test.ts",
+      "sha256": "0445dbf867c456ac385e5de9f45b16edb862249c76d7b5a2e66307e48769a354"
     },
     {
       "path": "tsconfig.json",

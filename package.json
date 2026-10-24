@@ -10,7 +10,9 @@
   "scripts": {
     "build": "npm run build:public-preview",
     "build:public-preview": "tsc --noEmit && vite build apps/web --mode cloudflare-preview && node scripts/verify-public-preview.mjs",
-    "test": "node --import tsx scripts/test-public.ts"
+    "test": "node --import tsx scripts/test-public.ts",
+    "test:browser:telegram": "playwright test --config playwright.sdk-free.config.ts",
+    "test:sdk-free:output": "node --import tsx tests/sdk-free-output.test.ts"
   },
   "dependencies": {
     "@capacitor/android": "7.6.9",

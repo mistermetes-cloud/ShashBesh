@@ -23,3 +23,7 @@ Output: apps/web/dist. The source download itself is packaging metadata: to repr
 Human versus Tactical and local 2–4 players are available, with nine languages. Online controls, automatic WebSocket and LAN session restore are disabled at build time. Arena is not required. Core rules and geometry are unchanged from the verified candidate. Offline means local gameplay after static assets load; cold offline first load and service-worker caching are not claimed.
 
 RELEASE-03.1 adds localized source download links beside the existing license notices. Runtime changes are limited to these links and nine translated labels. Rebuild source packaging with `python3 scripts/package-source.py` before the web build. The source manifest excludes itself and generated download files to avoid recursive hashes.
+
+## TG-02.2 SDK-free Telegram preview
+
+The `/telegram/` route uses the same `apps/web/src/main.tsx` entry as `/` and the same shared game payload. This release neither bundles nor loads the current Telegram CDN SDK. It does not use Telegram identity, authentication, API calls, bot tokens, or a backend. The SDK-dependent TG-01 adapter and loader are preserved separately in the development archive and are not part of this release source snapshot. The game is ordinary static web content inside Telegram; real Telegram client behavior still requires owner testing.

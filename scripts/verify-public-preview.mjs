@@ -7,6 +7,7 @@ const root='apps/web/dist';
 function files(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(entry=>entry.isDirectory()?files(join(dir,entry.name)):[join(dir,entry.name)]);}
 const output=files(root),javascript=output.filter(path=>path.endsWith('.js')).map(path=>readFileSync(path,'utf8')).join('\n');
 assert(output.some(path=>path===join(root,'index.html')),'missing static root entry');
+assert(output.some(path=>path===join(root,'telegram','index.html')),'missing SDK-free Telegram entry');
 assert(output.some(path=>path===join(root,'THIRD_PARTY_NOTICES.txt')),'missing runtime third-party notices');
 assert(javascript.includes('Публичная тестовая версия'),'missing public-preview disclosure');
 assert(javascript.includes('Нейросетевые веса исключены'),'missing neural-weight disclosure');
@@ -23,3 +24,5 @@ for(const name of ['react','react-dom','scheduler','@noble/hashes']){
 console.log(JSON.stringify({status:'PASS',files:output.map(path=>path.slice(root.length+1)),javascriptBytes:Buffer.byteLength(javascript),modelFingerprintAbsent:true,runtimeLicenses:4},null,2));
 
 for(const marker of ['new WebSocket','/api/rooms','shashbesh-lan-session','127.0.0.1','localhost']) assert(!javascript.includes(marker),`production network marker: ${marker}`);
+assert(!javascript.includes('telegram.org/js/telegram-web-app.js'),'Telegram SDK must not be bundled in the SDK-free preview');
+assert(!javascript.includes('Telegram.WebApp'),'Telegram WebApp API must not be referenced by the SDK-free preview');
